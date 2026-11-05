@@ -1,0 +1,303 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 453660bf5d982bd49b54981e2bf65c6d, type: 3}
+  m_Name: StyleGuideReadme
+  m_EditorClassIdentifier: Assembly-CSharp::UnityGameJam.Core.Editor.MarkdownReadme
+  _markdownContent: "# Unity C# Style Guide\r\n\r\n**Keywords used in this guide**\r\n\r\n*
+    **MUST / MUST NOT**: no exceptions. Code reviews block on these.\r\n* **SHOULD**:
+    the default. Deviate only with a good reason.\r\n* **MAY**: optional, use your
+    judgment.\r\n\r\n---\r\n\r\n## 1. Project Structure and Files\r\n\r\n### Folders\r\n\r\nOrganize
+    by feature. Everything that belongs to one feature (scripts, prefabs, models,
+    audio, UI) lives in that feature's folder. Anything used by several features
+    lives in `Core`.\r\n\r\n```\r\nAssets/\r\n\u251C\u2500\u2500 _Project/\r\n\u2502  
+    \u251C\u2500\u2500 Core/                     <-- Shared systems used by everyone\r\n\u2502  
+    \u2502   \u251C\u2500\u2500 Audio/                <-- Global UI clicks, ambient
+    tracks\r\n\u2502   \u2502   \u251C\u2500\u2500 Scripts/              <-- Base
+    classes, Extensions, Managers\r\n\u2502   \u2502   \u2502   \u2514\u2500\u2500
+    Editor/           <-- General editor tools\r\n\u2502   \u2502   \u2514\u2500\u2500
+    Shaders/              <-- Shared global shaders\r\n\u2502   \u251C\u2500\u2500
+    Player/\r\n\u2502   \u2502   \u251C\u2500\u2500 Models/\r\n\u2502   \u2502  
+    \u251C\u2500\u2500 Prefabs/              <-- Player prefab goes here\r\n\u2502  
+    \u2502   \u251C\u2500\u2500 Scripts/              <-- PlayerController, PlayerHealth\r\n\u2502  
+    \u2502   \u2514\u2500\u2500 PlayerSFX.wav\r\n\u2502   \u251C\u2500\u2500 Combat/\r\n\u2502  
+    \u2502   \u251C\u2500\u2500 Animations/\r\n\u2502   \u2502   \u251C\u2500\u2500
+    Prefabs/              <-- Projectiles, FX prefabs\r\n\u2502   \u2502   \u2514\u2500\u2500
+    Scripts/              <-- Weapon, DamageDealer\r\n\u2502   \u2502       \u2514\u2500\u2500
+    Editor/           <-- Editor scripts used only by Combat\r\n\u2502   \u251C\u2500\u2500
+    Inventory/\r\n\u2502   \u2502   \u251C\u2500\u2500 UI/                   <--
+    Inventory canvas and item slots\r\n\u2502   \u2502   \u251C\u2500\u2500 Scripts/             
+    <-- InventoryManager, ItemData (ScriptableObject)\r\n\u2502   \u2502   \u2514\u2500\u2500
+    Inventory_Click.wav\r\n\u2502   \u2514\u2500\u2500 Scenes/                  
+    <-- Main Menu, Level1, Level2\r\n\u2514\u2500\u2500 ThirdParty/                  
+    <-- Kept clean and isolated\r\n```\r\n\r\n* **(MUST)** Assets used by one feature
+    stay in that feature's folder. Assets shared by several features go in `Core`.\r\n*
+    **(MUST)** Third-party packages and plugins live only in `Assets/ThirdParty/`.
+    Do not edit them.\r\n* **(SHOULD)** Editor scripts that belong to one feature
+    go in `<Feature>/Scripts/Editor/`. General editor tools go in `Core/Scripts/Editor/`.\r\n\r\n###
+    Namespaces\r\n\r\n* **(MUST)** Every script is wrapped in `CompanyName.ProjectName.Feature`,
+    where `Feature` is the name of the feature folder directly under `_Project`.\r\n 
+    * `_Project/Combat/Scripts/Weapon.cs` uses `namespace KajoGames.MyGame.Combat`.\r\n 
+    * `_Project/Core/Scripts/Extensions/VectorExtensions.cs` uses `namespace KajoGames.MyGame.Core`.\r\n*
+    `_Project`, `Scripts` and any subfolders do **not** add namespace segments.\r\n*
+    Editor scripts use the same namespace as their feature. Do **not** add a `.Editor`
+    segment, because it clashes with `UnityEditor.Editor`.\r\n* **(MUST NOT)** A
+    namespace has the same name as a type inside it. A `Player` namespace collides
+    with a `Player` class. If a feature folder would cause this, name the folder
+    differently (for example `PlayerSystems`).\r\n\r\n### Files\r\n\r\n* **(MUST)**
+    The file name matches the primary type exactly (`PlayerHealth.cs`). For a generic
+    class, use the name without type parameters (`Pool.cs` for `Pool<T>`).\r\n* **(MUST)**
+    One main type per file.\r\n  * A small enum, struct or EventArgs used by only
+    one class SHOULD be nested inside that class.\r\n  * Types shared between classes
+    get their own file.\r\n  * Interfaces always get their own file.\r\n* **(MAY)**
+    We do not use assembly definitions for now.\r\n\r\n---\r\n\r\n## 2. Naming Conventions\r\n\r\nThis
+    table covers names only. Behavior rules are in the sections that follow.\r\n\r\n|
+    Category | Convention | Example |\r\n| --- | --- | --- |\r\n| Namespaces | PascalCase
+    | `KajoGames.MyGame.Combat` |\r\n| Classes, structs, enums | PascalCase | `PlayerController`,
+    `WeaponType` |\r\n| Interfaces | `I` + PascalCase | `IDamageable` |\r\n| ScriptableObject
+    classes | PascalCase + `SO` suffix | `VoidEventChannelSO`, `BoolEventChannelSO`
+    |\r\n| Event channel fields | `_camelCase` + event name in event tense + `Channel`
+    suffix | `_playerDiedChannel`, `_levelLoadingChannel` |\r\n| Public methods and
+    properties | PascalCase | `Initialize()`, `IsAlive` |\r\n| Private and protected
+    methods | PascalCase, starting with a verb | `CalculateDamage()`, `ApplyKnockback()`
+    |\r\n| Private and protected fields | `_camelCase` | `_currentHealth` |\r\n|
+    Serialized fields | `[SerializeField] private` + `_camelCase` | `[SerializeField]
+    private float _jumpForce;` |\r\n| Constants and `static readonly` values | SCREAMING_SNAKE_CASE
+    | `MAX_HEALTH`, `DAMAGE_FLASH_COLOR` |\r\n| Parameters and local variables |
+    camelCase | `damageAmount`, `targetPosition` |\r\n| Events | PascalCase, **no**
+    `On` prefix. Present participle (`-ing`) if raised *before* the change, past
+    tense (`-ed`) if raised *after* | `HealthChanging`, `HealthChanged`, `Died` |\r\n|
+    Event handler methods | `On` + event name | `OnHealthChanging`, `OnHealthChanged`
+    |\r\n\r\n**Booleans (MUST):** name them as a question or predicate.\r\n\r\n|
+    Kind | Form | Example |\r\n| --- | --- | --- |\r\n| Local or parameter | `camelCase`
+    | `isAlive`, `hasKey` |\r\n| Private field | `_camelCase` | `_isAlive` |\r\n|
+    Property | `PascalCase` | `IsAlive`, `HasKey` |\r\n| Method returning bool |
+    Starts with a check verb | `HasValidTarget()`, `IsInRange()` |\r\n\r\n**Try pattern
+    (MAY):** Methods that follow the .NET `Try` pattern are the only exception to
+    the boolean-method rule: `bool TryGetTarget(out Enemy target)`.\r\n\r\n**Why
+    the event and handler names differ:** A class can publish `HealthChanged` and
+    also contain `OnHealthChanged` without a name collision. The `On` prefix also
+    tells readers \"this is a handler\".\r\n\r\n---\r\n\r\n## 3. Class Member Ordering\r\n\r\nMembers
+    MUST appear in this order:\r\n\r\n1. Class-scoped enums and structs\r\n2. Constants
+    and `static readonly` values\r\n3. Static fields\r\n4. Serialized fields (`[SerializeField]`)\r\n5.
+    Private and protected fields (protected before private)\r\n6. Public properties
+    and events\r\n7. Constructors (only in non-MonoBehaviour classes)\r\n8. Unity
+    lifecycle methods, in this order:\r\n   `Awake`, `OnEnable`, `Start`, `FixedUpdate`,
+    `Update`, `LateUpdate`, `OnDisable`, `OnDestroy`\r\n9. Other Unity messages:
+    physics callbacks (`OnTriggerEnter`, `OnCollisionEnter`, ...), then `OnGUI`\r\n10.
+    Public methods (interface implementations belong here)\r\n11. Protected methods\r\n12.
+    Private methods (event handlers and coroutines are private methods)\r\n13. **Editor
+    Callbacks region**, in this order: `Reset`, `OnValidate`, `OnDrawGizmos`, `OnDrawGizmosSelected`\r\n14.
+    Nested classes (for example serializable group classes)\r\n\r\nNotes:\r\n\r\n*
+    The Editor Callbacks region is the only place `#region` is allowed in finished
+    code (see Section 4).\r\n* Wrap the region's contents in `#if UNITY_EDITOR` so
+    they are stripped from builds.\r\n* Public fields are **not allowed** (see Section
+    5).\r\n\r\n---\r\n\r\n## 4. Formatting\r\n\r\n* **Brace style (MUST):** Allman.
+    Every opening brace goes on its own line.\r\n* **Braces are always required (MUST):**
+    One-line `if`, `else`, `for`, `foreach` and `while` without braces are not allowed.\r\n\r\n```csharp\r\n//
+    Bad\r\nif (damageAmount <= 0) return;\r\n\r\n// Good\r\nif (damageAmount <= 0)\r\n{\r\n   
+    return;\r\n}\r\n```\r\n\r\n* **Indentation (MUST):** 4 spaces. No tabs.\r\n*
+    **Spacing (MUST):**\r\n  * One space after control-flow keywords: `if (`, `while
+    (`, `for (`, `foreach (`.\r\n  * One space around binary operators: `a + b`,
+    `x == y`.\r\n  * One space after commas: `Foo(a, b)`.\r\n  * No space before
+    the parentheses of a method call: `Foo(a)`.\r\n  * No space inside parentheses:
+    `(a + b)`, not `( a + b )`.\r\n  * No space after a cast: `(float)value`.\r\n 
+    * No spaces inside generics: `List<int>`, `Dictionary<string, int>`.\r\n  * No
+    space around unary operators or `++`/`--`: `-x`, `!isAlive`, `i++`.\r\n\r\n###
+    Blank lines\r\n\r\nA **member** is a field, property, method or nested type.\r\n\r\n*
+    **(MUST)** Put exactly **one** blank line between members that have a body: methods,
+    multi-line properties, nested types.\r\n* **(MAY)** Simple fields, or one-line
+    properties of the same kind, can be stacked with no blank lines between them.
+    Use a blank line to separate one group from the next.\r\n* **(MUST NOT)** Use
+    two or more blank lines in a row.\r\n* **(MUST NOT)** Leave a blank line right
+    after an opening `{` or right before a closing `}`.\r\n\r\n```csharp\r\n// Good\r\nprivate
+    int _currentHealth;\r\nprivate bool _isInitialized;\r\n\r\npublic bool IsAlive
+    => _currentHealth > 0;\r\npublic float HealthPercentage => (float)_currentHealth
+    / _maxHealth;\r\n\r\npublic void Heal(int healAmount)\r\n{\r\n    _currentHealth
+    += healAmount;\r\n}\r\n\r\npublic void Hurt(int damageAmount)\r\n{\r\n    _currentHealth
+    -= damageAmount;\r\n}\r\n\r\n// Bad: no blank line between methods, and two blank
+    lines elsewhere\r\npublic void Heal(int healAmount)\r\n{\r\n    _currentHealth
+    += healAmount;\r\n}\r\npublic void Hurt(int damageAmount)\r\n{\r\n\r\n    _currentHealth
+    -= damageAmount;\r\n}\r\n\r\n\r\nprivate void Die()\r\n{\r\n}\r\n```\r\n\r\n###
+    Other formatting rules\r\n\r\n* **Line length (SHOULD):** 120 characters at most.\r\n*
+    **File encoding (MUST):** UTF-8, LF line endings, one newline at the end of the
+    file.\r\n* **`#region` (MUST NOT):** Only one region is allowed in finished code:
+    `Editor Callbacks` (Section 3). Anywhere else, `#region` is tolerated only in
+    unrefactored or unfinished scripts and MUST be removed once the script is cleaned
+    up.\r\n* **Preprocessor directives:** `#if` / `#endif` start at column 0, and
+    the code inside is indented normally. `#region` / `#endregion` are indented with
+    the code around them.\r\n\r\n---\r\n\r\n## 5. Fields, Properties and the Inspector\r\n\r\n###
+    Fields and properties\r\n\r\n* **No public fields (MUST NOT):** Use a property,
+    or a `[SerializeField] private` field when the Inspector needs it. To read a
+    serialized field from outside, add a property:\r\n\r\n```csharp\r\n[SerializeField]
+    private float _jumpForce;\r\n\r\npublic float JumpForce => _jumpForce;\r\n```\r\n\r\n*
+    **Expression-bodied properties (SHOULD):** For single-line read-only properties.\r\n*
+    **Standard properties:** Use `{ get; set; }` or `{ get; private set; }` when
+    you need a setter or custom logic.\r\n* **Field initializers (SHOULD):** Encouraged,
+    but do not write redundant default values (`= 0`, `= null`, `= false`).\r\n\r\n###
+    Inspector attributes\r\n\r\n* **Placement (MUST):**\r\n  * `[SerializeField]`
+    stays on the same line as the field.\r\n  * `[Header]`, `[Space]`, `[Tooltip]`
+    and `[Range]` each go on their **own line above** the field, in that order.\r\n\r\n```csharp\r\n[Header(\"Movement\")]\r\n[Tooltip(\"Upward
+    force applied when the player jumps.\")]\r\n[Range(1f, 20f)]\r\n[SerializeField]
+    private float _jumpForce = 8f;\r\n```\r\n\r\n* **Tooltips (SHOULD):** If a serialized
+    field needs explaining, use `[Tooltip(\"...\")]` instead of a code comment. Self-explanatory
+    fields (`_rigidbody`, `_speed`) do not need one.\r\n* **Grouping:**\r\n  * Use
+    `[Header]` to label sections of fields.\r\n  * Use a **serializable group class**
+    when 3 or more related fields belong together, or when the same group repeats
+    in several components.\r\n  * Group types are `[Serializable] class` (not struct)
+    with private serialized fields and public read-only properties. They are nested
+    classes, so they go at the end of the file (Section 3).\r\n\r\n```csharp\r\n[Serializable]\r\npublic
+    class CombatConfig\r\n{\r\n    [SerializeField] private float _attackRange =
+    2f;\r\n    [SerializeField] private float _attackCooldown = 0.5f;\r\n\r\n   
+    public float AttackRange => _attackRange;\r\n    public float AttackCooldown
+    => _attackCooldown;\r\n}\r\n```\r\n\r\n**Why a class and not a struct:** Structs
+    cannot have field initializers in Unity's C# version, so you could not give fields
+    default values like `= 2f`. Structs are also copied every time they are read
+    or passed.\r\n\r\n---\r\n\r\n## 6. Structs vs. Classes\r\n\r\n* **Default to
+    classes (SHOULD):** Gameplay components, managers and data containers are classes.\r\n*
+    **Use a struct only** when the type behaves like a primitive value: small, short-lived,
+    or embedded in other objects (lightweight math types, small data bags).\r\n*
+    **Exception:** Inspector grouping types are classes (see Section 5), not structs.\r\n*
+    **Structs are copied when passed or returned.** Changing a copy does not change
+    the original:\r\n\r\n```csharp\r\n// Does not compile (error CS1612): position
+    returns a copy, so you cannot change x directly.\r\ntransform.position.x = 10f;\r\n\r\n//
+    Compiles but does nothing: you changed the local copy and never assigned it back.\r\nVector3
+    position = transform.position;\r\nposition.x = 10f;\r\n\r\n// Correct: change
+    the copy, then assign it back.\r\nVector3 position = transform.position;\r\nposition.x
+    = 10f;\r\ntransform.position = position;\r\n```\r\n\r\n---\r\n\r\n## 7. Methods,
+    Lambdas, `ref`/`out` and Collections\r\n\r\n* **Lambdas (SHOULD):** Keep a lambda
+    to one expression or at most 2 statements. Anything longer, or anything used
+    in more than one place, becomes a named private method.\r\n* **`out` parameters
+    (MUST):** Use `out` only for extra return values that are not also inputs, and
+    place them **after** all other parameters.\r\n* **`ref` parameters (SHOULD NOT):**
+    Use `ref` rarely, only when changing an existing input is truly required. Do
+    not use `ref` as a performance trick for large structs.\r\n* **Arrays vs. lists:**\r\n 
+    * Prefer `List<T>` for public members, return types, and anything whose size
+    can change.\r\n  * Use `T[]` only when the size is fixed at creation, or for
+    multi-dimensional grids where performance requires it.\r\n\r\n---\r\n\r\n## 8.
+    Events\r\n\r\n* **Naming:**\r\n  * An event raised **before** the change uses
+    the present participle: `HealthChanging`.\r\n  * An event raised **after** the
+    change uses the past tense: `HealthChanged`.\r\n  * Handlers add `On` in front:
+    `OnHealthChanging`, `OnHealthChanged` (see Section 2).\r\n* **Subscribe in `OnEnable`,
+    unsubscribe in `OnDisable` (MUST).** This prevents leaks and calls on disabled
+    objects.\r\n* **Use named methods for subscriptions (MUST):** A lambda cannot
+    be unsubscribed later, so it leaks.\r\n\r\n```csharp\r\nprivate void OnEnable()\r\n{\r\n   
+    _health.HealthChanged += OnHealthChanged;\r\n}\r\n\r\nprivate void OnDisable()\r\n{\r\n   
+    _health.HealthChanged -= OnHealthChanged;\r\n}\r\n\r\nprivate void OnHealthChanged(int
+    newHealth)\r\n{\r\n    _healthBar.SetValue(newHealth);\r\n}\r\n```\r\n\r\n###
+    Event Channels (ScriptableObject)\r\n\r\nAn event channel is a ScriptableObject
+    asset that carries an event between objects that do not reference each other
+    (`VoidEventChannelSO`, `BoolEventChannelSO`).\r\n\r\n* **Class names (MUST):**
+    End with the `SO` suffix: `VoidEventChannelSO`.\r\n* **Field names (MUST):**
+    A normal serialized field (`_camelCase`) named after the event in event tense,
+    with a `Channel` suffix. Use `-ed` if the channel is raised after the change,
+    and `-ing` if it is raised before it.\r\n* **No `On` prefix on the field (MUST
+    NOT):** `On` is reserved for handler methods, so `_onPlayerDied` is wrong.\r\n*
+    **Inside the channel class (MUST):** The event is named `EventRaised` (no `On`
+    prefix) and the raising method is `RaiseEvent()`.\r\n* **Subscribing:** Follow
+    the same rules as above: subscribe in `OnEnable`, unsubscribe in `OnDisable`,
+    and use a named handler.\r\n\r\n```csharp\r\n// The channel\r\npublic class VoidEventChannelSO
+    : ScriptableObject\r\n{\r\n    public event Action EventRaised;\r\n\r\n    public
+    void RaiseEvent()\r\n    {\r\n        EventRaised?.Invoke();\r\n    }\r\n}\r\n\r\n//
+    A listener\r\n[SerializeField] private VoidEventChannelSO _playerDiedChannel;\r\n\r\nprivate
+    void OnEnable()\r\n{\r\n    _playerDiedChannel.EventRaised += OnPlayerDied;\r\n}\r\n\r\nprivate
+    void OnDisable()\r\n{\r\n    _playerDiedChannel.EventRaised -= OnPlayerDied;\r\n}\r\n\r\nprivate
+    void OnPlayerDied()\r\n{\r\n    ShowGameOverScreen();\r\n}\r\n```\r\n\r\n---\r\n\r\n##
+    9. Comments and Documentation\r\n\r\n* **Self-documenting code (SHOULD):** Good
+    names beat comments. Use inline comments only to explain *why* something non-obvious
+    was done, not *what* the code does.\r\n* **No commented-out code (MUST NOT):**
+    Delete it. Git keeps the history.\r\n* **Language (MUST):** Comments are written
+    in English.\r\n\r\n### XML documentation (`///`)\r\n\r\n**(MAY)** Use it on:\r\n\r\n*
+    interfaces,\r\n* systems that other features call,\r\n* methods whose units,
+    side effects or failure behavior are not clear from the name.\r\n\r\nSkip it
+    on self-explanatory code, simple getters and Unity lifecycle methods. Keep it
+    short: a `<summary>`, and `<param>` / `<returns>` only when they add information.\r\n\r\n```csharp\r\n//
+    Good: explains units, limits and the return value, which the name alone does
+    not.\r\n/// <summary>\r\n/// Applies damage to the target after armor is taken
+    into account.\r\n/// </summary>\r\n/// <param name=\"damageAmount\">Raw damage
+    in health points. Values of 0 or less are ignored.</param>\r\n/// <param name=\"damageType\">Decides
+    which resistance applies.</param>\r\n/// <returns>The damage actually dealt after
+    armor, in health points.</returns>\r\nint TakeDamage(int damageAmount, DamageType
+    damageType);\r\n\r\n// Bad: only repeats the name.\r\n/// <summary>\r\n/// Gets
+    the health.\r\n/// </summary>\r\npublic int Health => _health;\r\n```\r\n\r\n###
+    Comment tags\r\n\r\n**(MUST)** Include the author. Format: `// TAG(AuthorName):
+    message`.\r\n\r\n| Tag | Use for | Example |\r\n| --- | --- | --- |\r\n| `TODO`
+    | Work deferred to later | `// TODO(Sara): Implement object pooling for projectiles.`
+    |\r\n| `HACK` | An inelegant workaround for a blocker or engine quirk | `// HACK(Omar):
+    Force layout rebuild to bypass Unity's one-frame delay.` |\r\n| `FIXME` | A known
+    bug or broken logic | `// FIXME(Sara): Negative health can underflow the armor
+    calculation.` |\r\n| `NOTE` | A non-obvious decision or constraint | `// NOTE(Omar):
+    Must survive scene loads, hence DontDestroyOnLoad.` |\r\n\r\n---\r\n\r\n## 10.
+    Unity Pitfalls\r\n\r\n* **Unity null checks (MUST):** For anything that inherits
+    from `UnityEngine.Object` (components, GameObjects, ScriptableObjects), use `==
+    null`, `!= null`, or `if (obj)`. Do **not** use `?.`, `??` or `is null`, because
+    they skip Unity's \"destroyed object\" check and can touch objects that were
+    already destroyed. Plain C# events are not Unity objects, so `HealthChanged?.Invoke(...)`
+    is fine.\r\n\r\n```csharp\r\n// Bad\r\n_target?.TakeDamage(10);\r\n\r\n// Good\r\nif
+    (_target != null)\r\n{\r\n    _target.TakeDamage(10);\r\n}\r\n```\r\n\r\n* **Renaming
+    serialized fields (MUST):** Unity stores values by field name. Renaming a serialized
+    field resets its saved value everywhere, so add `[FormerlySerializedAs]` with
+    the old name in the same commit:\r\n\r\n```csharp\r\n[FormerlySerializedAs(\"jumpForce\")]\r\n[SerializeField]
+    private float _jumpForce;\r\n```\r\n\r\n* **Initializers on serialized fields
+    (NOTE):** The value in `= 5f` only applies to **newly added** components. Existing
+    prefabs and scene objects keep their saved value. To change values on existing
+    objects, change them in the Inspector.\r\n\r\n---\r\n\r\n## 11. Reference Example\r\n\r\nOne
+    complete script that follows every rule above. When a rule is unclear, copy this
+    layout.\r\n\r\n```csharp\r\nusing System;\r\nusing UnityEngine;\r\n\r\nnamespace
+    KajoGames.MyGame.Combat\r\n{\r\n    public class PlayerHealth : MonoBehaviour,
+    IDamageable\r\n    {\r\n        public enum HealthState\r\n        {\r\n           
+    Healthy,\r\n            Critical\r\n        }\r\n\r\n        private const int
+    DEFAULT_MAX_HEALTH = 100;\r\n        private const float CRITICAL_THRESHOLD =
+    0.25f;\r\n        private static readonly Color DAMAGE_FLASH_COLOR = Color.red;\r\n\r\n       
+    private static int _totalDeaths;\r\n\r\n        [Header(\"Health\")]\r\n       
+    [Tooltip(\"Maximum health before any bonuses are applied.\")]\r\n        [SerializeField]
+    private int _maxHealth = DEFAULT_MAX_HEALTH;\r\n        [SerializeField] private
+    DamageSettings _damageSettings;\r\n\r\n        [Header(\"References\")]\r\n       
+    [SerializeField] private PlayerShield _shield;\r\n\r\n        private int _currentHealth;\r\n\r\n       
+    public bool IsAlive => _currentHealth > 0;\r\n        public float HealthPercentage
+    => (float)_currentHealth / _maxHealth;\r\n        public bool IsCritical => HealthPercentage
+    <= CRITICAL_THRESHOLD;\r\n        public HealthState State => IsCritical ? HealthState.Critical
+    : HealthState.Healthy;\r\n\r\n        public event Action<int> HealthChanging;\r\n       
+    public event Action<int> HealthChanged;\r\n        public event Action Died;\r\n\r\n       
+    private void Awake()\r\n        {\r\n            _currentHealth = _maxHealth;\r\n       
+    }\r\n\r\n        private void OnEnable()\r\n        {\r\n            _shield.ShieldBroken
+    += OnShieldBroken;\r\n        }\r\n\r\n        private void OnDisable()\r\n       
+    {\r\n            _shield.ShieldBroken -= OnShieldBroken;\r\n        }\r\n\r\n       
+    public void TakeDamage(int damageAmount)\r\n        {\r\n            if (!IsAlive
+    || damageAmount <= 0)\r\n            {\r\n                return;\r\n           
+    }\r\n\r\n            HealthChanging?.Invoke(damageAmount);\r\n\r\n           
+    _currentHealth = Mathf.Max(0, _currentHealth - damageAmount);\r\n           
+    HealthChanged?.Invoke(_currentHealth);\r\n\r\n            if (!IsAlive)\r\n           
+    {\r\n                Die();\r\n            }\r\n        }\r\n\r\n        ///
+    <summary>\r\n        /// Heals the player up to the maximum health. Does nothing
+    if the player is dead.\r\n        /// </summary>\r\n        /// <param name=\"healAmount\">Health
+    points to restore. Must be greater than 0.</param>\r\n        /// <param name=\"newHealth\">The
+    health after healing. Unchanged if no healing was applied.</param>\r\n       
+    /// <returns><c>true</c> if any healing was applied; otherwise <c>false</c>.</returns>\r\n       
+    public bool TryHeal(int healAmount, out int newHealth)\r\n        {\r\n           
+    newHealth = _currentHealth;\r\n\r\n            if (!IsAlive || healAmount <=
+    0)\r\n            {\r\n                return false;\r\n            }\r\n\r\n           
+    HealthChanging?.Invoke(-healAmount);\r\n\r\n            _currentHealth = Mathf.Min(_maxHealth,
+    _currentHealth + healAmount);\r\n            newHealth = _currentHealth;\r\n           
+    HealthChanged?.Invoke(_currentHealth);\r\n\r\n            return true;\r\n       
+    }\r\n\r\n        private void Die()\r\n        {\r\n            _totalDeaths++;\r\n           
+    Died?.Invoke();\r\n        }\r\n\r\n        private void OnShieldBroken()\r\n       
+    {\r\n            TakeDamage(1);\r\n        }\r\n\r\n        #region Editor Callbacks\r\n#if
+    UNITY_EDITOR\r\n        private void OnValidate()\r\n        {\r\n           
+    _maxHealth = Mathf.Max(1, _maxHealth);\r\n        }\r\n\r\n        private void
+    OnDrawGizmosSelected()\r\n        {\r\n            Gizmos.color = DAMAGE_FLASH_COLOR;\r\n           
+    Gizmos.DrawWireSphere(transform.position, 1f);\r\n        }\r\n#endif\r\n       
+    #endregion\r\n\r\n        [Serializable]\r\n        public class DamageSettings\r\n       
+    {\r\n            [SerializeField] private float _invulnerabilitySeconds = 0.5f;\r\n           
+    [SerializeField] private float _armorMultiplier = 1f;\r\n            [SerializeField]
+    private float _knockbackForce = 5f;\r\n\r\n            public float InvulnerabilitySeconds
+    => _invulnerabilitySeconds;\r\n            public float ArmorMultiplier => _armorMultiplier;\r\n           
+    public float KnockbackForce => _knockbackForce;\r\n        }\r\n    }\r\n}\r\n```"
