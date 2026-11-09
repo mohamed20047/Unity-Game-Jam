@@ -413,14 +413,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 4322341868143905544, guid: e40c708fcd2d7d54484016d48cfc9b3e, type: 3}
-      propertyPath: m_BodyType
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4322341868143905544, guid: e40c708fcd2d7d54484016d48cfc9b3e, type: 3}
-      propertyPath: m_Constraints
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 7949237148418482005, guid: e40c708fcd2d7d54484016d48cfc9b3e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.98655
@@ -540,10 +532,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemySpawnManager
       objectReference: {fileID: 0}
-    - target: {fileID: 114600823094997456, guid: 097407a93cca9e7478d037be6ed5f051, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2380248822180801799, guid: 097407a93cca9e7478d037be6ed5f051, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.10159
@@ -588,10 +576,6 @@ PrefabInstance:
       propertyPath: _enemy1
       value: 
       objectReference: {fileID: 898210589}
-    - target: {fileID: 7757954107738960764, guid: 097407a93cca9e7478d037be6ed5f051, type: 3}
-      propertyPath: _spawnedEnemiesAtStart
-      value: 500
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

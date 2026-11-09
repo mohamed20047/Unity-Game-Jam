@@ -45,8 +45,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemySpawnManager
   _enemy1: {fileID: 0}
-  _spawnedEnemiesAtStart: 500
+  _spawnedEnemiesAtStart: 10
   _StartSpawnInterval: 0.2
   _minSpawnPadding: 2
   _maxSpawnPadding: 6
-  _isSpawning: 0
+  _isSpawning: 1
