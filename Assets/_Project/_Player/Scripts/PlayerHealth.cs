@@ -15,7 +15,9 @@ public class PlayerHealth : MonoBehaviour
         _health -= DamageAmount;
         if (_health <= 0)
         {
-            Destroy(gameObject); //TODO: Use the pooler
+            // Game Over
+            GameFlow.I.Go(Phase.GameOver);
+            Destroy(gameObject);
         }
     }
 }
