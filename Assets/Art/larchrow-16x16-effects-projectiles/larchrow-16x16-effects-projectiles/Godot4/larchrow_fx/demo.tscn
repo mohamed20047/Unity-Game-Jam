@@ -1,0 +1,269 @@
+[gd_scene load_steps=33 format=3]
+
+[ext_resource type="Script" path="res://larchrow_fx/demo_fx.gd" id="1_demo"]
+[ext_resource type="SpriteFrames" path="res://larchrow_fx/spriteframes/arrow.tres" id="2_arrow"]
+[ext_resource type="SpriteFrames" path="res://larchrow_fx/spriteframes/fireball.tres" id="3_fireball"]
+[ext_resource type="SpriteFrames" path="res://larchrow_fx/spriteframes/ice_shard.tres" id="4_ice_shard"]
+[ext_resource type="SpriteFrames" path="res://larchrow_fx/spriteframes/magic_bolt.tres" id="5_magic_bolt"]
+[ext_resource type="SpriteFrames" path="res://larchrow_fx/spriteframes/rock.tres" id="6_rock"]
+[ext_resource type="SpriteFrames" path="res://larchrow_fx/spriteframes/energy_orb.tres" id="7_energy_orb"]
+[ext_resource type="SpriteFrames" path="res://larchrow_fx/spriteframes/throwing_knife.tres" id="8_throwing_knife"]
+[ext_resource type="SpriteFrames" path="res://larchrow_fx/spriteframes/hit_spark.tres" id="9_hit_spark"]
+[ext_resource type="SpriteFrames" path="res://larchrow_fx/spriteframes/fire_burst.tres" id="10_fire_burst"]
+[ext_resource type="SpriteFrames" path="res://larchrow_fx/spriteframes/ice_shatter.tres" id="11_ice_shatter"]
+[ext_resource type="SpriteFrames" path="res://larchrow_fx/spriteframes/magic_burst.tres" id="12_magic_burst"]
+[ext_resource type="SpriteFrames" path="res://larchrow_fx/spriteframes/explosion_small.tres" id="13_explosion_small"]
+[ext_resource type="SpriteFrames" path="res://larchrow_fx/spriteframes/explosion_medium.tres" id="14_explosion_medium"]
+[ext_resource type="SpriteFrames" path="res://larchrow_fx/spriteframes/explosion_large.tres" id="15_explosion_large"]
+[ext_resource type="SpriteFrames" path="res://larchrow_fx/spriteframes/lightning_strike.tres" id="16_lightning_strike"]
+[ext_resource type="SpriteFrames" path="res://larchrow_fx/spriteframes/slash.tres" id="17_slash"]
+[ext_resource type="SpriteFrames" path="res://larchrow_fx/spriteframes/claw_swipe.tres" id="18_claw_swipe"]
+[ext_resource type="SpriteFrames" path="res://larchrow_fx/spriteframes/heal_sparkle.tres" id="19_heal_sparkle"]
+[ext_resource type="SpriteFrames" path="res://larchrow_fx/spriteframes/magic_aura.tres" id="20_magic_aura"]
+[ext_resource type="SpriteFrames" path="res://larchrow_fx/spriteframes/shield_bubble.tres" id="21_shield_bubble"]
+[ext_resource type="SpriteFrames" path="res://larchrow_fx/spriteframes/teleport.tres" id="22_teleport"]
+[ext_resource type="SpriteFrames" path="res://larchrow_fx/spriteframes/level_up.tres" id="23_level_up"]
+[ext_resource type="SpriteFrames" path="res://larchrow_fx/spriteframes/status_poison.tres" id="24_status_poison"]
+[ext_resource type="SpriteFrames" path="res://larchrow_fx/spriteframes/status_burn.tres" id="25_status_burn"]
+[ext_resource type="SpriteFrames" path="res://larchrow_fx/spriteframes/status_freeze.tres" id="26_status_freeze"]
+[ext_resource type="SpriteFrames" path="res://larchrow_fx/spriteframes/status_stun.tres" id="27_status_stun"]
+[ext_resource type="SpriteFrames" path="res://larchrow_fx/spriteframes/smoke_puff.tres" id="28_smoke_puff"]
+[ext_resource type="SpriteFrames" path="res://larchrow_fx/spriteframes/dust_step.tres" id="29_dust_step"]
+[ext_resource type="SpriteFrames" path="res://larchrow_fx/spriteframes/water_splash.tres" id="30_water_splash"]
+[ext_resource type="SpriteFrames" path="res://larchrow_fx/spriteframes/pickup_sparkle.tres" id="31_pickup_sparkle"]
+[ext_resource type="SpriteFrames" path="res://larchrow_fx/spriteframes/coin_glint.tres" id="32_coin_glint"]
+
+[node name="Demo" type="Node2D"]
+scale = Vector2(3, 3)
+script = ExtResource("1_demo")
+
+[node name="Arrow" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(24, 24)
+sprite_frames = ExtResource("2_arrow")
+animation = &"fly_right"
+autoplay = "fly_right"
+
+[node name="Fireball" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(60, 24)
+sprite_frames = ExtResource("3_fireball")
+animation = &"fly_right"
+autoplay = "fly_right"
+
+[node name="IceShard" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(96, 24)
+sprite_frames = ExtResource("4_ice_shard")
+animation = &"fly_right"
+autoplay = "fly_right"
+
+[node name="MagicBolt" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(132, 24)
+sprite_frames = ExtResource("5_magic_bolt")
+animation = &"fly_right"
+autoplay = "fly_right"
+
+[node name="Rock" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(168, 24)
+sprite_frames = ExtResource("6_rock")
+animation = &"fly"
+autoplay = "fly"
+
+[node name="EnergyOrb" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(204, 24)
+sprite_frames = ExtResource("7_energy_orb")
+animation = &"fly"
+autoplay = "fly"
+
+[node name="ThrowingKnife" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(240, 24)
+sprite_frames = ExtResource("8_throwing_knife")
+animation = &"fly"
+autoplay = "fly"
+
+[node name="HitSpark" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(276, 24)
+sprite_frames = ExtResource("9_hit_spark")
+animation = &"burst"
+autoplay = "burst"
+
+[node name="FireBurst" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(24, 64)
+sprite_frames = ExtResource("10_fire_burst")
+animation = &"burst"
+autoplay = "burst"
+
+[node name="IceShatter" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(60, 64)
+sprite_frames = ExtResource("11_ice_shatter")
+animation = &"burst"
+autoplay = "burst"
+
+[node name="MagicBurst" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(96, 64)
+sprite_frames = ExtResource("12_magic_burst")
+animation = &"burst"
+autoplay = "burst"
+
+[node name="ExplosionSmall" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(132, 64)
+sprite_frames = ExtResource("13_explosion_small")
+animation = &"explode"
+autoplay = "explode"
+
+[node name="ExplosionMedium" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(168, 64)
+sprite_frames = ExtResource("14_explosion_medium")
+animation = &"explode"
+autoplay = "explode"
+
+[node name="ExplosionLarge" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(204, 64)
+sprite_frames = ExtResource("15_explosion_large")
+animation = &"explode"
+autoplay = "explode"
+
+[node name="LightningStrike" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(240, 64)
+sprite_frames = ExtResource("16_lightning_strike")
+animation = &"strike"
+autoplay = "strike"
+
+[node name="Slash" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(276, 64)
+sprite_frames = ExtResource("17_slash")
+animation = &"slash_right"
+autoplay = "slash_right"
+
+[node name="ClawSwipe" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(24, 104)
+sprite_frames = ExtResource("18_claw_swipe")
+animation = &"swipe"
+autoplay = "swipe"
+
+[node name="HealSparkle" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(60, 104)
+sprite_frames = ExtResource("19_heal_sparkle")
+animation = &"loop"
+autoplay = "loop"
+
+[node name="MagicAura" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(96, 104)
+sprite_frames = ExtResource("20_magic_aura")
+animation = &"loop"
+autoplay = "loop"
+
+[node name="ShieldBubble" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(132, 104)
+sprite_frames = ExtResource("21_shield_bubble")
+animation = &"loop"
+autoplay = "loop"
+
+[node name="Teleport" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(168, 104)
+sprite_frames = ExtResource("22_teleport")
+animation = &"out"
+autoplay = "out"
+
+[node name="LevelUp" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(204, 104)
+sprite_frames = ExtResource("23_level_up")
+animation = &"burst"
+autoplay = "burst"
+
+[node name="StatusPoison" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(240, 104)
+sprite_frames = ExtResource("24_status_poison")
+animation = &"loop"
+autoplay = "loop"
+
+[node name="StatusBurn" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(276, 104)
+sprite_frames = ExtResource("25_status_burn")
+animation = &"loop"
+autoplay = "loop"
+
+[node name="StatusFreeze" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(24, 144)
+sprite_frames = ExtResource("26_status_freeze")
+animation = &"loop"
+autoplay = "loop"
+
+[node name="StatusStun" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(60, 144)
+sprite_frames = ExtResource("27_status_stun")
+animation = &"loop"
+autoplay = "loop"
+
+[node name="SmokePuff" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(96, 144)
+sprite_frames = ExtResource("28_smoke_puff")
+animation = &"puff"
+autoplay = "puff"
+
+[node name="DustStep" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(132, 144)
+sprite_frames = ExtResource("29_dust_step")
+animation = &"puff"
+autoplay = "puff"
+
+[node name="WaterSplash" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(168, 144)
+sprite_frames = ExtResource("30_water_splash")
+animation = &"splash"
+autoplay = "splash"
+
+[node name="PickupSparkle" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(204, 144)
+sprite_frames = ExtResource("31_pickup_sparkle")
+animation = &"loop"
+autoplay = "loop"
+
+[node name="CoinGlint" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(240, 144)
+sprite_frames = ExtResource("32_coin_glint")
+animation = &"loop"
+autoplay = "loop"
+
+[node name="Shot" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(20, 186)
+sprite_frames = ExtResource("3_fireball")
+animation = &"fly_right"
+autoplay = "fly_right"
+
+[node name="Boom" type="AnimatedSprite2D" parent="."]
+visible = false
+texture_filter = 1
+position = Vector2(270, 186)
+sprite_frames = ExtResource("15_explosion_large")
+animation = &"explode"

@@ -1,0 +1,151 @@
+{
+ "summary": {
+  "all_passed": true,
+  "effects": 31,
+  "by_category": {
+   "projectiles": 7,
+   "impacts": 8,
+   "melee": 2,
+   "magic": 5,
+   "status": 4,
+   "ambient": 5
+  },
+  "animations": 63,
+  "frames": 270,
+  "checks": 21
+ },
+ "palette_identical_to_pack6_7_8_9": {
+  "passed": true,
+  "palette_size": 32
+ },
+ "effect_counts": {
+  "passed": true,
+  "by_category": {
+   "projectiles": 7,
+   "impacts": 8,
+   "melee": 2,
+   "magic": 5,
+   "status": 4,
+   "ambient": 5
+  },
+  "effects": 31
+ },
+ "palette_respected_all_pngs": {
+  "passed": true,
+  "files": 160,
+  "foreign_colours": 0
+ },
+ "no_semi_transparency_alpha_binary": {
+  "passed": true,
+  "alpha_values": [
+   0,
+   255
+  ]
+ },
+ "transparent_pixels_rgb_zero": {
+  "passed": true
+ },
+ "frame_size_16x16_except_documented_32x32": {
+  "passed": true,
+  "bad": [],
+  "size_32x32": [
+   "explosion_large",
+   "level_up"
+  ]
+ },
+ "sheet_grid_one_row_per_animation_8_columns": {
+  "passed": true,
+  "bad": []
+ },
+ "scaled_3x_is_exact_nearest_neighbour": {
+  "passed": true,
+  "bad": []
+ },
+ "frame_counts_consistent": {
+  "passed": true,
+  "bad": [],
+  "rule": "arrow 8 dirs x 2; fireball/ice_shard/magic_bolt 8 dirs x 4; slash 4 dirs x 4; teleport out/in x 6; others fixed per effect (see README)"
+ },
+ "closed_1px_outer_outline_on_every_frame": {
+  "passed": true,
+  "frames_checked": 270,
+  "bad": [],
+  "rule": "every opaque pixel touching the outside transparency is the outline colour #120e1a (rings such as shield_bubble may keep an open centre)"
+ },
+ "frame_border_only_outline_or_transparent": {
+  "passed": true,
+  "bad": []
+ },
+ "no_empty_frames": {
+  "passed": true,
+  "bad": []
+ },
+ "animations_not_static": {
+  "passed": true,
+  "bad": []
+ },
+ "directions_are_exact_rotations_or_mirrors": {
+  "passed": true,
+  "bad": [],
+  "teleport_in_is_reversed_out": true
+ },
+ "png_strips_match_sheets": {
+  "passed": true,
+  "strips": 63,
+  "bad": []
+ },
+ "combined_sheets_match_per_effect_sheets": {
+  "passed": true,
+  "bad": []
+ },
+ "index_csv_matches_json": {
+  "passed": true,
+  "animations": 63,
+  "frames": 270
+ },
+ "effects_distinct": {
+  "passed": true
+ },
+ "godot_files_present": {
+  "passed": true,
+  "tres": 31
+ },
+ "godot_4_3_loads_all_spriteframes_and_demo_scene": {
+  "passed": true,
+  "result": "CHECK spriteframes_ok=31 bad=0 frames=270 demo_sprites=33 script=true",
+  "errors": [],
+  "godot": "4.3-stable headless"
+ },
+ "release_files_present": {
+  "passed": true,
+  "missing": [],
+  "screenshots": 4,
+  "effect_gifs": 31,
+  "sizes": {
+   "cover_630x500.png": [
+    630,
+    500
+   ],
+   "cover_1280x720.png": [
+    1280,
+    720
+   ],
+   "01_battle_1280x720.png": [
+    1280,
+    720
+   ],
+   "02_projectiles_8_directions_1280x720.png": [
+    1280,
+    720
+   ],
+   "03_all_effects_1280x720.png": [
+    1280,
+    720
+   ],
+   "04_whats_inside_1280x720.png": [
+    1280,
+    720
+   ]
+  }
+ }
+}

@@ -1,0 +1,4488 @@
+{
+ "frame_sizes": [
+  16,
+  32
+ ],
+ "columns_per_sheet": 8,
+ "combined_sheets": {
+  "16x16": {
+   "file": "Spritesheet/larchrow_fx_combined_16x16.png",
+   "size": [
+    128,
+    976
+   ]
+  },
+  "32x32": {
+   "file": "Spritesheet/larchrow_fx_combined_32x32.png",
+   "size": [
+    256,
+    64
+   ]
+  }
+ },
+ "note": "x,y,w,h rects in pixels. frame_rects = per-effect sheet, combined_rects = combined sheet of the same frame size. Most effects are 16x16; explosion_large and level_up are 32x32. Projectile directions: up/left/down (and the other diagonals) are exact 90 degree turns of right / up_right. teleport \"in\" = \"out\" reversed. loop=false effects play once.",
+ "effects": [
+  {
+   "name": "arrow",
+   "category": "projectiles",
+   "description": "wooden arrow with red fletching",
+   "frame_size": [
+    16,
+    16
+   ],
+   "sheet": "Spritesheet/per_effect/arrow_16x16.png",
+   "combined_sheet": "Spritesheet/larchrow_fx_combined_16x16.png",
+   "animations": [
+    {
+     "name": "fly_right",
+     "direction": "right",
+     "frames": 2,
+     "fps": 8,
+     "loop": true,
+     "row": 0,
+     "frame_rects": [
+      [
+       0,
+       0,
+       16,
+       16
+      ],
+      [
+       16,
+       0,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       0,
+       16,
+       16
+      ],
+      [
+       16,
+       0,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/projectiles/arrow/arrow_fly_right.png"
+    },
+    {
+     "name": "fly_down_right",
+     "direction": "down_right",
+     "frames": 2,
+     "fps": 8,
+     "loop": true,
+     "row": 1,
+     "frame_rects": [
+      [
+       0,
+       16,
+       16,
+       16
+      ],
+      [
+       16,
+       16,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       16,
+       16,
+       16
+      ],
+      [
+       16,
+       16,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/projectiles/arrow/arrow_fly_down_right.png"
+    },
+    {
+     "name": "fly_down",
+     "direction": "down",
+     "frames": 2,
+     "fps": 8,
+     "loop": true,
+     "row": 2,
+     "frame_rects": [
+      [
+       0,
+       32,
+       16,
+       16
+      ],
+      [
+       16,
+       32,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       32,
+       16,
+       16
+      ],
+      [
+       16,
+       32,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/projectiles/arrow/arrow_fly_down.png"
+    },
+    {
+     "name": "fly_down_left",
+     "direction": "down_left",
+     "frames": 2,
+     "fps": 8,
+     "loop": true,
+     "row": 3,
+     "frame_rects": [
+      [
+       0,
+       48,
+       16,
+       16
+      ],
+      [
+       16,
+       48,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       48,
+       16,
+       16
+      ],
+      [
+       16,
+       48,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/projectiles/arrow/arrow_fly_down_left.png"
+    },
+    {
+     "name": "fly_left",
+     "direction": "left",
+     "frames": 2,
+     "fps": 8,
+     "loop": true,
+     "row": 4,
+     "frame_rects": [
+      [
+       0,
+       64,
+       16,
+       16
+      ],
+      [
+       16,
+       64,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       64,
+       16,
+       16
+      ],
+      [
+       16,
+       64,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/projectiles/arrow/arrow_fly_left.png"
+    },
+    {
+     "name": "fly_up_left",
+     "direction": "up_left",
+     "frames": 2,
+     "fps": 8,
+     "loop": true,
+     "row": 5,
+     "frame_rects": [
+      [
+       0,
+       80,
+       16,
+       16
+      ],
+      [
+       16,
+       80,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       80,
+       16,
+       16
+      ],
+      [
+       16,
+       80,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/projectiles/arrow/arrow_fly_up_left.png"
+    },
+    {
+     "name": "fly_up",
+     "direction": "up",
+     "frames": 2,
+     "fps": 8,
+     "loop": true,
+     "row": 6,
+     "frame_rects": [
+      [
+       0,
+       96,
+       16,
+       16
+      ],
+      [
+       16,
+       96,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       96,
+       16,
+       16
+      ],
+      [
+       16,
+       96,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/projectiles/arrow/arrow_fly_up.png"
+    },
+    {
+     "name": "fly_up_right",
+     "direction": "up_right",
+     "frames": 2,
+     "fps": 8,
+     "loop": true,
+     "row": 7,
+     "frame_rects": [
+      [
+       0,
+       112,
+       16,
+       16
+      ],
+      [
+       16,
+       112,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       112,
+       16,
+       16
+      ],
+      [
+       16,
+       112,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/projectiles/arrow/arrow_fly_up_right.png"
+    }
+   ]
+  },
+  {
+   "name": "fireball",
+   "category": "projectiles",
+   "description": "fireball with flickering tail",
+   "frame_size": [
+    16,
+    16
+   ],
+   "sheet": "Spritesheet/per_effect/fireball_16x16.png",
+   "combined_sheet": "Spritesheet/larchrow_fx_combined_16x16.png",
+   "animations": [
+    {
+     "name": "fly_right",
+     "direction": "right",
+     "frames": 4,
+     "fps": 12,
+     "loop": true,
+     "row": 0,
+     "frame_rects": [
+      [
+       0,
+       0,
+       16,
+       16
+      ],
+      [
+       16,
+       0,
+       16,
+       16
+      ],
+      [
+       32,
+       0,
+       16,
+       16
+      ],
+      [
+       48,
+       0,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       128,
+       16,
+       16
+      ],
+      [
+       16,
+       128,
+       16,
+       16
+      ],
+      [
+       32,
+       128,
+       16,
+       16
+      ],
+      [
+       48,
+       128,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/projectiles/fireball/fireball_fly_right.png"
+    },
+    {
+     "name": "fly_down_right",
+     "direction": "down_right",
+     "frames": 4,
+     "fps": 12,
+     "loop": true,
+     "row": 1,
+     "frame_rects": [
+      [
+       0,
+       16,
+       16,
+       16
+      ],
+      [
+       16,
+       16,
+       16,
+       16
+      ],
+      [
+       32,
+       16,
+       16,
+       16
+      ],
+      [
+       48,
+       16,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       144,
+       16,
+       16
+      ],
+      [
+       16,
+       144,
+       16,
+       16
+      ],
+      [
+       32,
+       144,
+       16,
+       16
+      ],
+      [
+       48,
+       144,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/projectiles/fireball/fireball_fly_down_right.png"
+    },
+    {
+     "name": "fly_down",
+     "direction": "down",
+     "frames": 4,
+     "fps": 12,
+     "loop": true,
+     "row": 2,
+     "frame_rects": [
+      [
+       0,
+       32,
+       16,
+       16
+      ],
+      [
+       16,
+       32,
+       16,
+       16
+      ],
+      [
+       32,
+       32,
+       16,
+       16
+      ],
+      [
+       48,
+       32,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       160,
+       16,
+       16
+      ],
+      [
+       16,
+       160,
+       16,
+       16
+      ],
+      [
+       32,
+       160,
+       16,
+       16
+      ],
+      [
+       48,
+       160,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/projectiles/fireball/fireball_fly_down.png"
+    },
+    {
+     "name": "fly_down_left",
+     "direction": "down_left",
+     "frames": 4,
+     "fps": 12,
+     "loop": true,
+     "row": 3,
+     "frame_rects": [
+      [
+       0,
+       48,
+       16,
+       16
+      ],
+      [
+       16,
+       48,
+       16,
+       16
+      ],
+      [
+       32,
+       48,
+       16,
+       16
+      ],
+      [
+       48,
+       48,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       176,
+       16,
+       16
+      ],
+      [
+       16,
+       176,
+       16,
+       16
+      ],
+      [
+       32,
+       176,
+       16,
+       16
+      ],
+      [
+       48,
+       176,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/projectiles/fireball/fireball_fly_down_left.png"
+    },
+    {
+     "name": "fly_left",
+     "direction": "left",
+     "frames": 4,
+     "fps": 12,
+     "loop": true,
+     "row": 4,
+     "frame_rects": [
+      [
+       0,
+       64,
+       16,
+       16
+      ],
+      [
+       16,
+       64,
+       16,
+       16
+      ],
+      [
+       32,
+       64,
+       16,
+       16
+      ],
+      [
+       48,
+       64,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       192,
+       16,
+       16
+      ],
+      [
+       16,
+       192,
+       16,
+       16
+      ],
+      [
+       32,
+       192,
+       16,
+       16
+      ],
+      [
+       48,
+       192,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/projectiles/fireball/fireball_fly_left.png"
+    },
+    {
+     "name": "fly_up_left",
+     "direction": "up_left",
+     "frames": 4,
+     "fps": 12,
+     "loop": true,
+     "row": 5,
+     "frame_rects": [
+      [
+       0,
+       80,
+       16,
+       16
+      ],
+      [
+       16,
+       80,
+       16,
+       16
+      ],
+      [
+       32,
+       80,
+       16,
+       16
+      ],
+      [
+       48,
+       80,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       208,
+       16,
+       16
+      ],
+      [
+       16,
+       208,
+       16,
+       16
+      ],
+      [
+       32,
+       208,
+       16,
+       16
+      ],
+      [
+       48,
+       208,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/projectiles/fireball/fireball_fly_up_left.png"
+    },
+    {
+     "name": "fly_up",
+     "direction": "up",
+     "frames": 4,
+     "fps": 12,
+     "loop": true,
+     "row": 6,
+     "frame_rects": [
+      [
+       0,
+       96,
+       16,
+       16
+      ],
+      [
+       16,
+       96,
+       16,
+       16
+      ],
+      [
+       32,
+       96,
+       16,
+       16
+      ],
+      [
+       48,
+       96,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       224,
+       16,
+       16
+      ],
+      [
+       16,
+       224,
+       16,
+       16
+      ],
+      [
+       32,
+       224,
+       16,
+       16
+      ],
+      [
+       48,
+       224,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/projectiles/fireball/fireball_fly_up.png"
+    },
+    {
+     "name": "fly_up_right",
+     "direction": "up_right",
+     "frames": 4,
+     "fps": 12,
+     "loop": true,
+     "row": 7,
+     "frame_rects": [
+      [
+       0,
+       112,
+       16,
+       16
+      ],
+      [
+       16,
+       112,
+       16,
+       16
+      ],
+      [
+       32,
+       112,
+       16,
+       16
+      ],
+      [
+       48,
+       112,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       240,
+       16,
+       16
+      ],
+      [
+       16,
+       240,
+       16,
+       16
+      ],
+      [
+       32,
+       240,
+       16,
+       16
+      ],
+      [
+       48,
+       240,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/projectiles/fireball/fireball_fly_up_right.png"
+    }
+   ]
+  },
+  {
+   "name": "ice_shard",
+   "category": "projectiles",
+   "description": "ice shard with travelling glint and frost trail",
+   "frame_size": [
+    16,
+    16
+   ],
+   "sheet": "Spritesheet/per_effect/ice_shard_16x16.png",
+   "combined_sheet": "Spritesheet/larchrow_fx_combined_16x16.png",
+   "animations": [
+    {
+     "name": "fly_right",
+     "direction": "right",
+     "frames": 4,
+     "fps": 10,
+     "loop": true,
+     "row": 0,
+     "frame_rects": [
+      [
+       0,
+       0,
+       16,
+       16
+      ],
+      [
+       16,
+       0,
+       16,
+       16
+      ],
+      [
+       32,
+       0,
+       16,
+       16
+      ],
+      [
+       48,
+       0,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       256,
+       16,
+       16
+      ],
+      [
+       16,
+       256,
+       16,
+       16
+      ],
+      [
+       32,
+       256,
+       16,
+       16
+      ],
+      [
+       48,
+       256,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/projectiles/ice_shard/ice_shard_fly_right.png"
+    },
+    {
+     "name": "fly_down_right",
+     "direction": "down_right",
+     "frames": 4,
+     "fps": 10,
+     "loop": true,
+     "row": 1,
+     "frame_rects": [
+      [
+       0,
+       16,
+       16,
+       16
+      ],
+      [
+       16,
+       16,
+       16,
+       16
+      ],
+      [
+       32,
+       16,
+       16,
+       16
+      ],
+      [
+       48,
+       16,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       272,
+       16,
+       16
+      ],
+      [
+       16,
+       272,
+       16,
+       16
+      ],
+      [
+       32,
+       272,
+       16,
+       16
+      ],
+      [
+       48,
+       272,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/projectiles/ice_shard/ice_shard_fly_down_right.png"
+    },
+    {
+     "name": "fly_down",
+     "direction": "down",
+     "frames": 4,
+     "fps": 10,
+     "loop": true,
+     "row": 2,
+     "frame_rects": [
+      [
+       0,
+       32,
+       16,
+       16
+      ],
+      [
+       16,
+       32,
+       16,
+       16
+      ],
+      [
+       32,
+       32,
+       16,
+       16
+      ],
+      [
+       48,
+       32,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       288,
+       16,
+       16
+      ],
+      [
+       16,
+       288,
+       16,
+       16
+      ],
+      [
+       32,
+       288,
+       16,
+       16
+      ],
+      [
+       48,
+       288,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/projectiles/ice_shard/ice_shard_fly_down.png"
+    },
+    {
+     "name": "fly_down_left",
+     "direction": "down_left",
+     "frames": 4,
+     "fps": 10,
+     "loop": true,
+     "row": 3,
+     "frame_rects": [
+      [
+       0,
+       48,
+       16,
+       16
+      ],
+      [
+       16,
+       48,
+       16,
+       16
+      ],
+      [
+       32,
+       48,
+       16,
+       16
+      ],
+      [
+       48,
+       48,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       304,
+       16,
+       16
+      ],
+      [
+       16,
+       304,
+       16,
+       16
+      ],
+      [
+       32,
+       304,
+       16,
+       16
+      ],
+      [
+       48,
+       304,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/projectiles/ice_shard/ice_shard_fly_down_left.png"
+    },
+    {
+     "name": "fly_left",
+     "direction": "left",
+     "frames": 4,
+     "fps": 10,
+     "loop": true,
+     "row": 4,
+     "frame_rects": [
+      [
+       0,
+       64,
+       16,
+       16
+      ],
+      [
+       16,
+       64,
+       16,
+       16
+      ],
+      [
+       32,
+       64,
+       16,
+       16
+      ],
+      [
+       48,
+       64,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       320,
+       16,
+       16
+      ],
+      [
+       16,
+       320,
+       16,
+       16
+      ],
+      [
+       32,
+       320,
+       16,
+       16
+      ],
+      [
+       48,
+       320,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/projectiles/ice_shard/ice_shard_fly_left.png"
+    },
+    {
+     "name": "fly_up_left",
+     "direction": "up_left",
+     "frames": 4,
+     "fps": 10,
+     "loop": true,
+     "row": 5,
+     "frame_rects": [
+      [
+       0,
+       80,
+       16,
+       16
+      ],
+      [
+       16,
+       80,
+       16,
+       16
+      ],
+      [
+       32,
+       80,
+       16,
+       16
+      ],
+      [
+       48,
+       80,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       336,
+       16,
+       16
+      ],
+      [
+       16,
+       336,
+       16,
+       16
+      ],
+      [
+       32,
+       336,
+       16,
+       16
+      ],
+      [
+       48,
+       336,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/projectiles/ice_shard/ice_shard_fly_up_left.png"
+    },
+    {
+     "name": "fly_up",
+     "direction": "up",
+     "frames": 4,
+     "fps": 10,
+     "loop": true,
+     "row": 6,
+     "frame_rects": [
+      [
+       0,
+       96,
+       16,
+       16
+      ],
+      [
+       16,
+       96,
+       16,
+       16
+      ],
+      [
+       32,
+       96,
+       16,
+       16
+      ],
+      [
+       48,
+       96,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       352,
+       16,
+       16
+      ],
+      [
+       16,
+       352,
+       16,
+       16
+      ],
+      [
+       32,
+       352,
+       16,
+       16
+      ],
+      [
+       48,
+       352,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/projectiles/ice_shard/ice_shard_fly_up.png"
+    },
+    {
+     "name": "fly_up_right",
+     "direction": "up_right",
+     "frames": 4,
+     "fps": 10,
+     "loop": true,
+     "row": 7,
+     "frame_rects": [
+      [
+       0,
+       112,
+       16,
+       16
+      ],
+      [
+       16,
+       112,
+       16,
+       16
+      ],
+      [
+       32,
+       112,
+       16,
+       16
+      ],
+      [
+       48,
+       112,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       368,
+       16,
+       16
+      ],
+      [
+       16,
+       368,
+       16,
+       16
+      ],
+      [
+       32,
+       368,
+       16,
+       16
+      ],
+      [
+       48,
+       368,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/projectiles/ice_shard/ice_shard_fly_up_right.png"
+    }
+   ]
+  },
+  {
+   "name": "magic_bolt",
+   "category": "projectiles",
+   "description": "magic bolt with twisting double trail",
+   "frame_size": [
+    16,
+    16
+   ],
+   "sheet": "Spritesheet/per_effect/magic_bolt_16x16.png",
+   "combined_sheet": "Spritesheet/larchrow_fx_combined_16x16.png",
+   "animations": [
+    {
+     "name": "fly_right",
+     "direction": "right",
+     "frames": 4,
+     "fps": 12,
+     "loop": true,
+     "row": 0,
+     "frame_rects": [
+      [
+       0,
+       0,
+       16,
+       16
+      ],
+      [
+       16,
+       0,
+       16,
+       16
+      ],
+      [
+       32,
+       0,
+       16,
+       16
+      ],
+      [
+       48,
+       0,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       384,
+       16,
+       16
+      ],
+      [
+       16,
+       384,
+       16,
+       16
+      ],
+      [
+       32,
+       384,
+       16,
+       16
+      ],
+      [
+       48,
+       384,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/projectiles/magic_bolt/magic_bolt_fly_right.png"
+    },
+    {
+     "name": "fly_down_right",
+     "direction": "down_right",
+     "frames": 4,
+     "fps": 12,
+     "loop": true,
+     "row": 1,
+     "frame_rects": [
+      [
+       0,
+       16,
+       16,
+       16
+      ],
+      [
+       16,
+       16,
+       16,
+       16
+      ],
+      [
+       32,
+       16,
+       16,
+       16
+      ],
+      [
+       48,
+       16,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       400,
+       16,
+       16
+      ],
+      [
+       16,
+       400,
+       16,
+       16
+      ],
+      [
+       32,
+       400,
+       16,
+       16
+      ],
+      [
+       48,
+       400,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/projectiles/magic_bolt/magic_bolt_fly_down_right.png"
+    },
+    {
+     "name": "fly_down",
+     "direction": "down",
+     "frames": 4,
+     "fps": 12,
+     "loop": true,
+     "row": 2,
+     "frame_rects": [
+      [
+       0,
+       32,
+       16,
+       16
+      ],
+      [
+       16,
+       32,
+       16,
+       16
+      ],
+      [
+       32,
+       32,
+       16,
+       16
+      ],
+      [
+       48,
+       32,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       416,
+       16,
+       16
+      ],
+      [
+       16,
+       416,
+       16,
+       16
+      ],
+      [
+       32,
+       416,
+       16,
+       16
+      ],
+      [
+       48,
+       416,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/projectiles/magic_bolt/magic_bolt_fly_down.png"
+    },
+    {
+     "name": "fly_down_left",
+     "direction": "down_left",
+     "frames": 4,
+     "fps": 12,
+     "loop": true,
+     "row": 3,
+     "frame_rects": [
+      [
+       0,
+       48,
+       16,
+       16
+      ],
+      [
+       16,
+       48,
+       16,
+       16
+      ],
+      [
+       32,
+       48,
+       16,
+       16
+      ],
+      [
+       48,
+       48,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       432,
+       16,
+       16
+      ],
+      [
+       16,
+       432,
+       16,
+       16
+      ],
+      [
+       32,
+       432,
+       16,
+       16
+      ],
+      [
+       48,
+       432,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/projectiles/magic_bolt/magic_bolt_fly_down_left.png"
+    },
+    {
+     "name": "fly_left",
+     "direction": "left",
+     "frames": 4,
+     "fps": 12,
+     "loop": true,
+     "row": 4,
+     "frame_rects": [
+      [
+       0,
+       64,
+       16,
+       16
+      ],
+      [
+       16,
+       64,
+       16,
+       16
+      ],
+      [
+       32,
+       64,
+       16,
+       16
+      ],
+      [
+       48,
+       64,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       448,
+       16,
+       16
+      ],
+      [
+       16,
+       448,
+       16,
+       16
+      ],
+      [
+       32,
+       448,
+       16,
+       16
+      ],
+      [
+       48,
+       448,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/projectiles/magic_bolt/magic_bolt_fly_left.png"
+    },
+    {
+     "name": "fly_up_left",
+     "direction": "up_left",
+     "frames": 4,
+     "fps": 12,
+     "loop": true,
+     "row": 5,
+     "frame_rects": [
+      [
+       0,
+       80,
+       16,
+       16
+      ],
+      [
+       16,
+       80,
+       16,
+       16
+      ],
+      [
+       32,
+       80,
+       16,
+       16
+      ],
+      [
+       48,
+       80,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       464,
+       16,
+       16
+      ],
+      [
+       16,
+       464,
+       16,
+       16
+      ],
+      [
+       32,
+       464,
+       16,
+       16
+      ],
+      [
+       48,
+       464,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/projectiles/magic_bolt/magic_bolt_fly_up_left.png"
+    },
+    {
+     "name": "fly_up",
+     "direction": "up",
+     "frames": 4,
+     "fps": 12,
+     "loop": true,
+     "row": 6,
+     "frame_rects": [
+      [
+       0,
+       96,
+       16,
+       16
+      ],
+      [
+       16,
+       96,
+       16,
+       16
+      ],
+      [
+       32,
+       96,
+       16,
+       16
+      ],
+      [
+       48,
+       96,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       480,
+       16,
+       16
+      ],
+      [
+       16,
+       480,
+       16,
+       16
+      ],
+      [
+       32,
+       480,
+       16,
+       16
+      ],
+      [
+       48,
+       480,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/projectiles/magic_bolt/magic_bolt_fly_up.png"
+    },
+    {
+     "name": "fly_up_right",
+     "direction": "up_right",
+     "frames": 4,
+     "fps": 12,
+     "loop": true,
+     "row": 7,
+     "frame_rects": [
+      [
+       0,
+       112,
+       16,
+       16
+      ],
+      [
+       16,
+       112,
+       16,
+       16
+      ],
+      [
+       32,
+       112,
+       16,
+       16
+      ],
+      [
+       48,
+       112,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       496,
+       16,
+       16
+      ],
+      [
+       16,
+       496,
+       16,
+       16
+      ],
+      [
+       32,
+       496,
+       16,
+       16
+      ],
+      [
+       48,
+       496,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/projectiles/magic_bolt/magic_bolt_fly_up_right.png"
+    }
+   ]
+  },
+  {
+   "name": "rock",
+   "category": "projectiles",
+   "description": "thrown rock, spinning",
+   "frame_size": [
+    16,
+    16
+   ],
+   "sheet": "Spritesheet/per_effect/rock_16x16.png",
+   "combined_sheet": "Spritesheet/larchrow_fx_combined_16x16.png",
+   "animations": [
+    {
+     "name": "fly",
+     "direction": "none",
+     "frames": 4,
+     "fps": 12,
+     "loop": true,
+     "row": 0,
+     "frame_rects": [
+      [
+       0,
+       0,
+       16,
+       16
+      ],
+      [
+       16,
+       0,
+       16,
+       16
+      ],
+      [
+       32,
+       0,
+       16,
+       16
+      ],
+      [
+       48,
+       0,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       512,
+       16,
+       16
+      ],
+      [
+       16,
+       512,
+       16,
+       16
+      ],
+      [
+       32,
+       512,
+       16,
+       16
+      ],
+      [
+       48,
+       512,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/projectiles/rock/rock_fly.png"
+    }
+   ]
+  },
+  {
+   "name": "energy_orb",
+   "category": "projectiles",
+   "description": "pulsing energy orb (bullet)",
+   "frame_size": [
+    16,
+    16
+   ],
+   "sheet": "Spritesheet/per_effect/energy_orb_16x16.png",
+   "combined_sheet": "Spritesheet/larchrow_fx_combined_16x16.png",
+   "animations": [
+    {
+     "name": "fly",
+     "direction": "none",
+     "frames": 4,
+     "fps": 10,
+     "loop": true,
+     "row": 0,
+     "frame_rects": [
+      [
+       0,
+       0,
+       16,
+       16
+      ],
+      [
+       16,
+       0,
+       16,
+       16
+      ],
+      [
+       32,
+       0,
+       16,
+       16
+      ],
+      [
+       48,
+       0,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       528,
+       16,
+       16
+      ],
+      [
+       16,
+       528,
+       16,
+       16
+      ],
+      [
+       32,
+       528,
+       16,
+       16
+      ],
+      [
+       48,
+       528,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/projectiles/energy_orb/energy_orb_fly.png"
+    }
+   ]
+  },
+  {
+   "name": "throwing_knife",
+   "category": "projectiles",
+   "description": "throwing knife, spinning clockwise",
+   "frame_size": [
+    16,
+    16
+   ],
+   "sheet": "Spritesheet/per_effect/throwing_knife_16x16.png",
+   "combined_sheet": "Spritesheet/larchrow_fx_combined_16x16.png",
+   "animations": [
+    {
+     "name": "fly",
+     "direction": "none",
+     "frames": 8,
+     "fps": 16,
+     "loop": true,
+     "row": 0,
+     "frame_rects": [
+      [
+       0,
+       0,
+       16,
+       16
+      ],
+      [
+       16,
+       0,
+       16,
+       16
+      ],
+      [
+       32,
+       0,
+       16,
+       16
+      ],
+      [
+       48,
+       0,
+       16,
+       16
+      ],
+      [
+       64,
+       0,
+       16,
+       16
+      ],
+      [
+       80,
+       0,
+       16,
+       16
+      ],
+      [
+       96,
+       0,
+       16,
+       16
+      ],
+      [
+       112,
+       0,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       544,
+       16,
+       16
+      ],
+      [
+       16,
+       544,
+       16,
+       16
+      ],
+      [
+       32,
+       544,
+       16,
+       16
+      ],
+      [
+       48,
+       544,
+       16,
+       16
+      ],
+      [
+       64,
+       544,
+       16,
+       16
+      ],
+      [
+       80,
+       544,
+       16,
+       16
+      ],
+      [
+       96,
+       544,
+       16,
+       16
+      ],
+      [
+       112,
+       544,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/projectiles/throwing_knife/throwing_knife_fly.png"
+    }
+   ]
+  },
+  {
+   "name": "hit_spark",
+   "category": "impacts",
+   "description": "white/yellow hit spark (play on any hit)",
+   "frame_size": [
+    16,
+    16
+   ],
+   "sheet": "Spritesheet/per_effect/hit_spark_16x16.png",
+   "combined_sheet": "Spritesheet/larchrow_fx_combined_16x16.png",
+   "animations": [
+    {
+     "name": "burst",
+     "direction": "none",
+     "frames": 4,
+     "fps": 14,
+     "loop": false,
+     "row": 0,
+     "frame_rects": [
+      [
+       0,
+       0,
+       16,
+       16
+      ],
+      [
+       16,
+       0,
+       16,
+       16
+      ],
+      [
+       32,
+       0,
+       16,
+       16
+      ],
+      [
+       48,
+       0,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       560,
+       16,
+       16
+      ],
+      [
+       16,
+       560,
+       16,
+       16
+      ],
+      [
+       32,
+       560,
+       16,
+       16
+      ],
+      [
+       48,
+       560,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/impacts/hit_spark/hit_spark_burst.png"
+    }
+   ]
+  },
+  {
+   "name": "fire_burst",
+   "category": "impacts",
+   "description": "fireball impact with embers",
+   "frame_size": [
+    16,
+    16
+   ],
+   "sheet": "Spritesheet/per_effect/fire_burst_16x16.png",
+   "combined_sheet": "Spritesheet/larchrow_fx_combined_16x16.png",
+   "animations": [
+    {
+     "name": "burst",
+     "direction": "none",
+     "frames": 5,
+     "fps": 12,
+     "loop": false,
+     "row": 0,
+     "frame_rects": [
+      [
+       0,
+       0,
+       16,
+       16
+      ],
+      [
+       16,
+       0,
+       16,
+       16
+      ],
+      [
+       32,
+       0,
+       16,
+       16
+      ],
+      [
+       48,
+       0,
+       16,
+       16
+      ],
+      [
+       64,
+       0,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       576,
+       16,
+       16
+      ],
+      [
+       16,
+       576,
+       16,
+       16
+      ],
+      [
+       32,
+       576,
+       16,
+       16
+      ],
+      [
+       48,
+       576,
+       16,
+       16
+      ],
+      [
+       64,
+       576,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/impacts/fire_burst/fire_burst_burst.png"
+    }
+   ]
+  },
+  {
+   "name": "ice_shatter",
+   "category": "impacts",
+   "description": "ice shard impact: crystal cracks and shards fly",
+   "frame_size": [
+    16,
+    16
+   ],
+   "sheet": "Spritesheet/per_effect/ice_shatter_16x16.png",
+   "combined_sheet": "Spritesheet/larchrow_fx_combined_16x16.png",
+   "animations": [
+    {
+     "name": "burst",
+     "direction": "none",
+     "frames": 5,
+     "fps": 12,
+     "loop": false,
+     "row": 0,
+     "frame_rects": [
+      [
+       0,
+       0,
+       16,
+       16
+      ],
+      [
+       16,
+       0,
+       16,
+       16
+      ],
+      [
+       32,
+       0,
+       16,
+       16
+      ],
+      [
+       48,
+       0,
+       16,
+       16
+      ],
+      [
+       64,
+       0,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       592,
+       16,
+       16
+      ],
+      [
+       16,
+       592,
+       16,
+       16
+      ],
+      [
+       32,
+       592,
+       16,
+       16
+      ],
+      [
+       48,
+       592,
+       16,
+       16
+      ],
+      [
+       64,
+       592,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/impacts/ice_shatter/ice_shatter_burst.png"
+    }
+   ]
+  },
+  {
+   "name": "magic_burst",
+   "category": "impacts",
+   "description": "magic impact: ring and sparkles",
+   "frame_size": [
+    16,
+    16
+   ],
+   "sheet": "Spritesheet/per_effect/magic_burst_16x16.png",
+   "combined_sheet": "Spritesheet/larchrow_fx_combined_16x16.png",
+   "animations": [
+    {
+     "name": "burst",
+     "direction": "none",
+     "frames": 5,
+     "fps": 12,
+     "loop": false,
+     "row": 0,
+     "frame_rects": [
+      [
+       0,
+       0,
+       16,
+       16
+      ],
+      [
+       16,
+       0,
+       16,
+       16
+      ],
+      [
+       32,
+       0,
+       16,
+       16
+      ],
+      [
+       48,
+       0,
+       16,
+       16
+      ],
+      [
+       64,
+       0,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       608,
+       16,
+       16
+      ],
+      [
+       16,
+       608,
+       16,
+       16
+      ],
+      [
+       32,
+       608,
+       16,
+       16
+      ],
+      [
+       48,
+       608,
+       16,
+       16
+      ],
+      [
+       64,
+       608,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/impacts/magic_burst/magic_burst_burst.png"
+    }
+   ]
+  },
+  {
+   "name": "explosion_small",
+   "category": "impacts",
+   "description": "small explosion with smoke",
+   "frame_size": [
+    16,
+    16
+   ],
+   "sheet": "Spritesheet/per_effect/explosion_small_16x16.png",
+   "combined_sheet": "Spritesheet/larchrow_fx_combined_16x16.png",
+   "animations": [
+    {
+     "name": "explode",
+     "direction": "none",
+     "frames": 6,
+     "fps": 12,
+     "loop": false,
+     "row": 0,
+     "frame_rects": [
+      [
+       0,
+       0,
+       16,
+       16
+      ],
+      [
+       16,
+       0,
+       16,
+       16
+      ],
+      [
+       32,
+       0,
+       16,
+       16
+      ],
+      [
+       48,
+       0,
+       16,
+       16
+      ],
+      [
+       64,
+       0,
+       16,
+       16
+      ],
+      [
+       80,
+       0,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       624,
+       16,
+       16
+      ],
+      [
+       16,
+       624,
+       16,
+       16
+      ],
+      [
+       32,
+       624,
+       16,
+       16
+      ],
+      [
+       48,
+       624,
+       16,
+       16
+      ],
+      [
+       64,
+       624,
+       16,
+       16
+      ],
+      [
+       80,
+       624,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/impacts/explosion_small/explosion_small_explode.png"
+    }
+   ]
+  },
+  {
+   "name": "explosion_medium",
+   "category": "impacts",
+   "description": "medium explosion that fills the tile",
+   "frame_size": [
+    16,
+    16
+   ],
+   "sheet": "Spritesheet/per_effect/explosion_medium_16x16.png",
+   "combined_sheet": "Spritesheet/larchrow_fx_combined_16x16.png",
+   "animations": [
+    {
+     "name": "explode",
+     "direction": "none",
+     "frames": 7,
+     "fps": 12,
+     "loop": false,
+     "row": 0,
+     "frame_rects": [
+      [
+       0,
+       0,
+       16,
+       16
+      ],
+      [
+       16,
+       0,
+       16,
+       16
+      ],
+      [
+       32,
+       0,
+       16,
+       16
+      ],
+      [
+       48,
+       0,
+       16,
+       16
+      ],
+      [
+       64,
+       0,
+       16,
+       16
+      ],
+      [
+       80,
+       0,
+       16,
+       16
+      ],
+      [
+       96,
+       0,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       640,
+       16,
+       16
+      ],
+      [
+       16,
+       640,
+       16,
+       16
+      ],
+      [
+       32,
+       640,
+       16,
+       16
+      ],
+      [
+       48,
+       640,
+       16,
+       16
+      ],
+      [
+       64,
+       640,
+       16,
+       16
+      ],
+      [
+       80,
+       640,
+       16,
+       16
+      ],
+      [
+       96,
+       640,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/impacts/explosion_medium/explosion_medium_explode.png"
+    }
+   ]
+  },
+  {
+   "name": "explosion_large",
+   "category": "impacts",
+   "description": "large 32x32 explosion with smoke and debris",
+   "frame_size": [
+    32,
+    32
+   ],
+   "sheet": "Spritesheet/per_effect/explosion_large_32x32.png",
+   "combined_sheet": "Spritesheet/larchrow_fx_combined_32x32.png",
+   "animations": [
+    {
+     "name": "explode",
+     "direction": "none",
+     "frames": 8,
+     "fps": 12,
+     "loop": false,
+     "row": 0,
+     "frame_rects": [
+      [
+       0,
+       0,
+       32,
+       32
+      ],
+      [
+       32,
+       0,
+       32,
+       32
+      ],
+      [
+       64,
+       0,
+       32,
+       32
+      ],
+      [
+       96,
+       0,
+       32,
+       32
+      ],
+      [
+       128,
+       0,
+       32,
+       32
+      ],
+      [
+       160,
+       0,
+       32,
+       32
+      ],
+      [
+       192,
+       0,
+       32,
+       32
+      ],
+      [
+       224,
+       0,
+       32,
+       32
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       0,
+       32,
+       32
+      ],
+      [
+       32,
+       0,
+       32,
+       32
+      ],
+      [
+       64,
+       0,
+       32,
+       32
+      ],
+      [
+       96,
+       0,
+       32,
+       32
+      ],
+      [
+       128,
+       0,
+       32,
+       32
+      ],
+      [
+       160,
+       0,
+       32,
+       32
+      ],
+      [
+       192,
+       0,
+       32,
+       32
+      ],
+      [
+       224,
+       0,
+       32,
+       32
+      ]
+     ],
+     "strip": "PNG/impacts/explosion_large/explosion_large_explode.png"
+    }
+   ]
+  },
+  {
+   "name": "lightning_strike",
+   "category": "impacts",
+   "description": "lightning bolt from above with ground flash",
+   "frame_size": [
+    16,
+    16
+   ],
+   "sheet": "Spritesheet/per_effect/lightning_strike_16x16.png",
+   "combined_sheet": "Spritesheet/larchrow_fx_combined_16x16.png",
+   "animations": [
+    {
+     "name": "strike",
+     "direction": "none",
+     "frames": 5,
+     "fps": 14,
+     "loop": false,
+     "row": 0,
+     "frame_rects": [
+      [
+       0,
+       0,
+       16,
+       16
+      ],
+      [
+       16,
+       0,
+       16,
+       16
+      ],
+      [
+       32,
+       0,
+       16,
+       16
+      ],
+      [
+       48,
+       0,
+       16,
+       16
+      ],
+      [
+       64,
+       0,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       656,
+       16,
+       16
+      ],
+      [
+       16,
+       656,
+       16,
+       16
+      ],
+      [
+       32,
+       656,
+       16,
+       16
+      ],
+      [
+       48,
+       656,
+       16,
+       16
+      ],
+      [
+       64,
+       656,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/impacts/lightning_strike/lightning_strike_strike.png"
+    }
+   ]
+  },
+  {
+   "name": "slash",
+   "category": "melee",
+   "description": "sword slash arc",
+   "frame_size": [
+    16,
+    16
+   ],
+   "sheet": "Spritesheet/per_effect/slash_16x16.png",
+   "combined_sheet": "Spritesheet/larchrow_fx_combined_16x16.png",
+   "animations": [
+    {
+     "name": "slash_right",
+     "direction": "right",
+     "frames": 4,
+     "fps": 18,
+     "loop": false,
+     "row": 0,
+     "frame_rects": [
+      [
+       0,
+       0,
+       16,
+       16
+      ],
+      [
+       16,
+       0,
+       16,
+       16
+      ],
+      [
+       32,
+       0,
+       16,
+       16
+      ],
+      [
+       48,
+       0,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       672,
+       16,
+       16
+      ],
+      [
+       16,
+       672,
+       16,
+       16
+      ],
+      [
+       32,
+       672,
+       16,
+       16
+      ],
+      [
+       48,
+       672,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/melee/slash/slash_slash_right.png"
+    },
+    {
+     "name": "slash_left",
+     "direction": "left",
+     "frames": 4,
+     "fps": 18,
+     "loop": false,
+     "row": 1,
+     "frame_rects": [
+      [
+       0,
+       16,
+       16,
+       16
+      ],
+      [
+       16,
+       16,
+       16,
+       16
+      ],
+      [
+       32,
+       16,
+       16,
+       16
+      ],
+      [
+       48,
+       16,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       688,
+       16,
+       16
+      ],
+      [
+       16,
+       688,
+       16,
+       16
+      ],
+      [
+       32,
+       688,
+       16,
+       16
+      ],
+      [
+       48,
+       688,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/melee/slash/slash_slash_left.png"
+    },
+    {
+     "name": "slash_up",
+     "direction": "up",
+     "frames": 4,
+     "fps": 18,
+     "loop": false,
+     "row": 2,
+     "frame_rects": [
+      [
+       0,
+       32,
+       16,
+       16
+      ],
+      [
+       16,
+       32,
+       16,
+       16
+      ],
+      [
+       32,
+       32,
+       16,
+       16
+      ],
+      [
+       48,
+       32,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       704,
+       16,
+       16
+      ],
+      [
+       16,
+       704,
+       16,
+       16
+      ],
+      [
+       32,
+       704,
+       16,
+       16
+      ],
+      [
+       48,
+       704,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/melee/slash/slash_slash_up.png"
+    },
+    {
+     "name": "slash_down",
+     "direction": "down",
+     "frames": 4,
+     "fps": 18,
+     "loop": false,
+     "row": 3,
+     "frame_rects": [
+      [
+       0,
+       48,
+       16,
+       16
+      ],
+      [
+       16,
+       48,
+       16,
+       16
+      ],
+      [
+       32,
+       48,
+       16,
+       16
+      ],
+      [
+       48,
+       48,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       720,
+       16,
+       16
+      ],
+      [
+       16,
+       720,
+       16,
+       16
+      ],
+      [
+       32,
+       720,
+       16,
+       16
+      ],
+      [
+       48,
+       720,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/melee/slash/slash_slash_down.png"
+    }
+   ]
+  },
+  {
+   "name": "claw_swipe",
+   "category": "melee",
+   "description": "three-claw swipe",
+   "frame_size": [
+    16,
+    16
+   ],
+   "sheet": "Spritesheet/per_effect/claw_swipe_16x16.png",
+   "combined_sheet": "Spritesheet/larchrow_fx_combined_16x16.png",
+   "animations": [
+    {
+     "name": "swipe",
+     "direction": "none",
+     "frames": 4,
+     "fps": 14,
+     "loop": false,
+     "row": 0,
+     "frame_rects": [
+      [
+       0,
+       0,
+       16,
+       16
+      ],
+      [
+       16,
+       0,
+       16,
+       16
+      ],
+      [
+       32,
+       0,
+       16,
+       16
+      ],
+      [
+       48,
+       0,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       736,
+       16,
+       16
+      ],
+      [
+       16,
+       736,
+       16,
+       16
+      ],
+      [
+       32,
+       736,
+       16,
+       16
+      ],
+      [
+       48,
+       736,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/melee/claw_swipe/claw_swipe_swipe.png"
+    }
+   ]
+  },
+  {
+   "name": "heal_sparkle",
+   "category": "magic",
+   "description": "green healing crosses rising (loop over a character)",
+   "frame_size": [
+    16,
+    16
+   ],
+   "sheet": "Spritesheet/per_effect/heal_sparkle_16x16.png",
+   "combined_sheet": "Spritesheet/larchrow_fx_combined_16x16.png",
+   "animations": [
+    {
+     "name": "loop",
+     "direction": "none",
+     "frames": 6,
+     "fps": 8,
+     "loop": true,
+     "row": 0,
+     "frame_rects": [
+      [
+       0,
+       0,
+       16,
+       16
+      ],
+      [
+       16,
+       0,
+       16,
+       16
+      ],
+      [
+       32,
+       0,
+       16,
+       16
+      ],
+      [
+       48,
+       0,
+       16,
+       16
+      ],
+      [
+       64,
+       0,
+       16,
+       16
+      ],
+      [
+       80,
+       0,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       752,
+       16,
+       16
+      ],
+      [
+       16,
+       752,
+       16,
+       16
+      ],
+      [
+       32,
+       752,
+       16,
+       16
+      ],
+      [
+       48,
+       752,
+       16,
+       16
+      ],
+      [
+       64,
+       752,
+       16,
+       16
+      ],
+      [
+       80,
+       752,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/magic/heal_sparkle/heal_sparkle_loop.png"
+    }
+   ]
+  },
+  {
+   "name": "magic_aura",
+   "category": "magic",
+   "description": "glowing ring at the feet with rising motes (loop, draw behind the character)",
+   "frame_size": [
+    16,
+    16
+   ],
+   "sheet": "Spritesheet/per_effect/magic_aura_16x16.png",
+   "combined_sheet": "Spritesheet/larchrow_fx_combined_16x16.png",
+   "animations": [
+    {
+     "name": "loop",
+     "direction": "none",
+     "frames": 4,
+     "fps": 8,
+     "loop": true,
+     "row": 0,
+     "frame_rects": [
+      [
+       0,
+       0,
+       16,
+       16
+      ],
+      [
+       16,
+       0,
+       16,
+       16
+      ],
+      [
+       32,
+       0,
+       16,
+       16
+      ],
+      [
+       48,
+       0,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       768,
+       16,
+       16
+      ],
+      [
+       16,
+       768,
+       16,
+       16
+      ],
+      [
+       32,
+       768,
+       16,
+       16
+      ],
+      [
+       48,
+       768,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/magic/magic_aura/magic_aura_loop.png"
+    }
+   ]
+  },
+  {
+   "name": "shield_bubble",
+   "category": "magic",
+   "description": "protective bubble with a shimmer running round (loop, draw over the character)",
+   "frame_size": [
+    16,
+    16
+   ],
+   "sheet": "Spritesheet/per_effect/shield_bubble_16x16.png",
+   "combined_sheet": "Spritesheet/larchrow_fx_combined_16x16.png",
+   "animations": [
+    {
+     "name": "loop",
+     "direction": "none",
+     "frames": 4,
+     "fps": 8,
+     "loop": true,
+     "row": 0,
+     "frame_rects": [
+      [
+       0,
+       0,
+       16,
+       16
+      ],
+      [
+       16,
+       0,
+       16,
+       16
+      ],
+      [
+       32,
+       0,
+       16,
+       16
+      ],
+      [
+       48,
+       0,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       784,
+       16,
+       16
+      ],
+      [
+       16,
+       784,
+       16,
+       16
+      ],
+      [
+       32,
+       784,
+       16,
+       16
+      ],
+      [
+       48,
+       784,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/magic/shield_bubble/shield_bubble_loop.png"
+    }
+   ]
+  },
+  {
+   "name": "teleport",
+   "category": "magic",
+   "description": "teleport beam: out = vanish, in = appear (same frames reversed)",
+   "frame_size": [
+    16,
+    16
+   ],
+   "sheet": "Spritesheet/per_effect/teleport_16x16.png",
+   "combined_sheet": "Spritesheet/larchrow_fx_combined_16x16.png",
+   "animations": [
+    {
+     "name": "out",
+     "direction": "none",
+     "frames": 6,
+     "fps": 12,
+     "loop": false,
+     "row": 0,
+     "frame_rects": [
+      [
+       0,
+       0,
+       16,
+       16
+      ],
+      [
+       16,
+       0,
+       16,
+       16
+      ],
+      [
+       32,
+       0,
+       16,
+       16
+      ],
+      [
+       48,
+       0,
+       16,
+       16
+      ],
+      [
+       64,
+       0,
+       16,
+       16
+      ],
+      [
+       80,
+       0,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       800,
+       16,
+       16
+      ],
+      [
+       16,
+       800,
+       16,
+       16
+      ],
+      [
+       32,
+       800,
+       16,
+       16
+      ],
+      [
+       48,
+       800,
+       16,
+       16
+      ],
+      [
+       64,
+       800,
+       16,
+       16
+      ],
+      [
+       80,
+       800,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/magic/teleport/teleport_out.png"
+    },
+    {
+     "name": "in",
+     "direction": "none",
+     "frames": 6,
+     "fps": 12,
+     "loop": false,
+     "row": 1,
+     "frame_rects": [
+      [
+       0,
+       16,
+       16,
+       16
+      ],
+      [
+       16,
+       16,
+       16,
+       16
+      ],
+      [
+       32,
+       16,
+       16,
+       16
+      ],
+      [
+       48,
+       16,
+       16,
+       16
+      ],
+      [
+       64,
+       16,
+       16,
+       16
+      ],
+      [
+       80,
+       16,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       816,
+       16,
+       16
+      ],
+      [
+       16,
+       816,
+       16,
+       16
+      ],
+      [
+       32,
+       816,
+       16,
+       16
+      ],
+      [
+       48,
+       816,
+       16,
+       16
+      ],
+      [
+       64,
+       816,
+       16,
+       16
+      ],
+      [
+       80,
+       816,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/magic/teleport/teleport_in.png"
+    }
+   ]
+  },
+  {
+   "name": "level_up",
+   "category": "magic",
+   "description": "32x32 golden level-up: ring, rising streaks and arrows, star burst",
+   "frame_size": [
+    32,
+    32
+   ],
+   "sheet": "Spritesheet/per_effect/level_up_32x32.png",
+   "combined_sheet": "Spritesheet/larchrow_fx_combined_32x32.png",
+   "animations": [
+    {
+     "name": "burst",
+     "direction": "none",
+     "frames": 8,
+     "fps": 12,
+     "loop": false,
+     "row": 0,
+     "frame_rects": [
+      [
+       0,
+       0,
+       32,
+       32
+      ],
+      [
+       32,
+       0,
+       32,
+       32
+      ],
+      [
+       64,
+       0,
+       32,
+       32
+      ],
+      [
+       96,
+       0,
+       32,
+       32
+      ],
+      [
+       128,
+       0,
+       32,
+       32
+      ],
+      [
+       160,
+       0,
+       32,
+       32
+      ],
+      [
+       192,
+       0,
+       32,
+       32
+      ],
+      [
+       224,
+       0,
+       32,
+       32
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       32,
+       32,
+       32
+      ],
+      [
+       32,
+       32,
+       32,
+       32
+      ],
+      [
+       64,
+       32,
+       32,
+       32
+      ],
+      [
+       96,
+       32,
+       32,
+       32
+      ],
+      [
+       128,
+       32,
+       32,
+       32
+      ],
+      [
+       160,
+       32,
+       32,
+       32
+      ],
+      [
+       192,
+       32,
+       32,
+       32
+      ],
+      [
+       224,
+       32,
+       32,
+       32
+      ]
+     ],
+     "strip": "PNG/magic/level_up/level_up_burst.png"
+    }
+   ]
+  },
+  {
+   "name": "status_poison",
+   "category": "status",
+   "description": "poison status: green bubbles rise and pop (loop)",
+   "frame_size": [
+    16,
+    16
+   ],
+   "sheet": "Spritesheet/per_effect/status_poison_16x16.png",
+   "combined_sheet": "Spritesheet/larchrow_fx_combined_16x16.png",
+   "animations": [
+    {
+     "name": "loop",
+     "direction": "none",
+     "frames": 4,
+     "fps": 6,
+     "loop": true,
+     "row": 0,
+     "frame_rects": [
+      [
+       0,
+       0,
+       16,
+       16
+      ],
+      [
+       16,
+       0,
+       16,
+       16
+      ],
+      [
+       32,
+       0,
+       16,
+       16
+      ],
+      [
+       48,
+       0,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       832,
+       16,
+       16
+      ],
+      [
+       16,
+       832,
+       16,
+       16
+      ],
+      [
+       32,
+       832,
+       16,
+       16
+      ],
+      [
+       48,
+       832,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/status/status_poison/status_poison_loop.png"
+    }
+   ]
+  },
+  {
+   "name": "status_burn",
+   "category": "status",
+   "description": "burning status: flickering flames (loop)",
+   "frame_size": [
+    16,
+    16
+   ],
+   "sheet": "Spritesheet/per_effect/status_burn_16x16.png",
+   "combined_sheet": "Spritesheet/larchrow_fx_combined_16x16.png",
+   "animations": [
+    {
+     "name": "loop",
+     "direction": "none",
+     "frames": 4,
+     "fps": 10,
+     "loop": true,
+     "row": 0,
+     "frame_rects": [
+      [
+       0,
+       0,
+       16,
+       16
+      ],
+      [
+       16,
+       0,
+       16,
+       16
+      ],
+      [
+       32,
+       0,
+       16,
+       16
+      ],
+      [
+       48,
+       0,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       848,
+       16,
+       16
+      ],
+      [
+       16,
+       848,
+       16,
+       16
+      ],
+      [
+       32,
+       848,
+       16,
+       16
+      ],
+      [
+       48,
+       848,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/status/status_burn/status_burn_loop.png"
+    }
+   ]
+  },
+  {
+   "name": "status_freeze",
+   "category": "status",
+   "description": "frozen status: glinting ice crystals (loop)",
+   "frame_size": [
+    16,
+    16
+   ],
+   "sheet": "Spritesheet/per_effect/status_freeze_16x16.png",
+   "combined_sheet": "Spritesheet/larchrow_fx_combined_16x16.png",
+   "animations": [
+    {
+     "name": "loop",
+     "direction": "none",
+     "frames": 4,
+     "fps": 6,
+     "loop": true,
+     "row": 0,
+     "frame_rects": [
+      [
+       0,
+       0,
+       16,
+       16
+      ],
+      [
+       16,
+       0,
+       16,
+       16
+      ],
+      [
+       32,
+       0,
+       16,
+       16
+      ],
+      [
+       48,
+       0,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       864,
+       16,
+       16
+      ],
+      [
+       16,
+       864,
+       16,
+       16
+      ],
+      [
+       32,
+       864,
+       16,
+       16
+      ],
+      [
+       48,
+       864,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/status/status_freeze/status_freeze_loop.png"
+    }
+   ]
+  },
+  {
+   "name": "status_stun",
+   "category": "status",
+   "description": "stunned status: stars circling above the head (loop)",
+   "frame_size": [
+    16,
+    16
+   ],
+   "sheet": "Spritesheet/per_effect/status_stun_16x16.png",
+   "combined_sheet": "Spritesheet/larchrow_fx_combined_16x16.png",
+   "animations": [
+    {
+     "name": "loop",
+     "direction": "none",
+     "frames": 4,
+     "fps": 8,
+     "loop": true,
+     "row": 0,
+     "frame_rects": [
+      [
+       0,
+       0,
+       16,
+       16
+      ],
+      [
+       16,
+       0,
+       16,
+       16
+      ],
+      [
+       32,
+       0,
+       16,
+       16
+      ],
+      [
+       48,
+       0,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       880,
+       16,
+       16
+      ],
+      [
+       16,
+       880,
+       16,
+       16
+      ],
+      [
+       32,
+       880,
+       16,
+       16
+      ],
+      [
+       48,
+       880,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/status/status_stun/status_stun_loop.png"
+    }
+   ]
+  },
+  {
+   "name": "smoke_puff",
+   "category": "ambient",
+   "description": "smoke puff that rises and thins out",
+   "frame_size": [
+    16,
+    16
+   ],
+   "sheet": "Spritesheet/per_effect/smoke_puff_16x16.png",
+   "combined_sheet": "Spritesheet/larchrow_fx_combined_16x16.png",
+   "animations": [
+    {
+     "name": "puff",
+     "direction": "none",
+     "frames": 6,
+     "fps": 10,
+     "loop": false,
+     "row": 0,
+     "frame_rects": [
+      [
+       0,
+       0,
+       16,
+       16
+      ],
+      [
+       16,
+       0,
+       16,
+       16
+      ],
+      [
+       32,
+       0,
+       16,
+       16
+      ],
+      [
+       48,
+       0,
+       16,
+       16
+      ],
+      [
+       64,
+       0,
+       16,
+       16
+      ],
+      [
+       80,
+       0,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       896,
+       16,
+       16
+      ],
+      [
+       16,
+       896,
+       16,
+       16
+      ],
+      [
+       32,
+       896,
+       16,
+       16
+      ],
+      [
+       48,
+       896,
+       16,
+       16
+      ],
+      [
+       64,
+       896,
+       16,
+       16
+      ],
+      [
+       80,
+       896,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/ambient/smoke_puff/smoke_puff_puff.png"
+    }
+   ]
+  },
+  {
+   "name": "dust_step",
+   "category": "ambient",
+   "description": "small dust puff for footsteps and landings",
+   "frame_size": [
+    16,
+    16
+   ],
+   "sheet": "Spritesheet/per_effect/dust_step_16x16.png",
+   "combined_sheet": "Spritesheet/larchrow_fx_combined_16x16.png",
+   "animations": [
+    {
+     "name": "puff",
+     "direction": "none",
+     "frames": 4,
+     "fps": 12,
+     "loop": false,
+     "row": 0,
+     "frame_rects": [
+      [
+       0,
+       0,
+       16,
+       16
+      ],
+      [
+       16,
+       0,
+       16,
+       16
+      ],
+      [
+       32,
+       0,
+       16,
+       16
+      ],
+      [
+       48,
+       0,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       912,
+       16,
+       16
+      ],
+      [
+       16,
+       912,
+       16,
+       16
+      ],
+      [
+       32,
+       912,
+       16,
+       16
+      ],
+      [
+       48,
+       912,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/ambient/dust_step/dust_step_puff.png"
+    }
+   ]
+  },
+  {
+   "name": "water_splash",
+   "category": "ambient",
+   "description": "water splash with droplets and ripple",
+   "frame_size": [
+    16,
+    16
+   ],
+   "sheet": "Spritesheet/per_effect/water_splash_16x16.png",
+   "combined_sheet": "Spritesheet/larchrow_fx_combined_16x16.png",
+   "animations": [
+    {
+     "name": "splash",
+     "direction": "none",
+     "frames": 5,
+     "fps": 12,
+     "loop": false,
+     "row": 0,
+     "frame_rects": [
+      [
+       0,
+       0,
+       16,
+       16
+      ],
+      [
+       16,
+       0,
+       16,
+       16
+      ],
+      [
+       32,
+       0,
+       16,
+       16
+      ],
+      [
+       48,
+       0,
+       16,
+       16
+      ],
+      [
+       64,
+       0,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       928,
+       16,
+       16
+      ],
+      [
+       16,
+       928,
+       16,
+       16
+      ],
+      [
+       32,
+       928,
+       16,
+       16
+      ],
+      [
+       48,
+       928,
+       16,
+       16
+      ],
+      [
+       64,
+       928,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/ambient/water_splash/water_splash_splash.png"
+    }
+   ]
+  },
+  {
+   "name": "pickup_sparkle",
+   "category": "ambient",
+   "description": "twinkling sparkles for pickups and secrets (loop)",
+   "frame_size": [
+    16,
+    16
+   ],
+   "sheet": "Spritesheet/per_effect/pickup_sparkle_16x16.png",
+   "combined_sheet": "Spritesheet/larchrow_fx_combined_16x16.png",
+   "animations": [
+    {
+     "name": "loop",
+     "direction": "none",
+     "frames": 6,
+     "fps": 10,
+     "loop": true,
+     "row": 0,
+     "frame_rects": [
+      [
+       0,
+       0,
+       16,
+       16
+      ],
+      [
+       16,
+       0,
+       16,
+       16
+      ],
+      [
+       32,
+       0,
+       16,
+       16
+      ],
+      [
+       48,
+       0,
+       16,
+       16
+      ],
+      [
+       64,
+       0,
+       16,
+       16
+      ],
+      [
+       80,
+       0,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       944,
+       16,
+       16
+      ],
+      [
+       16,
+       944,
+       16,
+       16
+      ],
+      [
+       32,
+       944,
+       16,
+       16
+      ],
+      [
+       48,
+       944,
+       16,
+       16
+      ],
+      [
+       64,
+       944,
+       16,
+       16
+      ],
+      [
+       80,
+       944,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/ambient/pickup_sparkle/pickup_sparkle_loop.png"
+    }
+   ]
+  },
+  {
+   "name": "coin_glint",
+   "category": "ambient",
+   "description": "gold coin with a glint sweeping across (loop)",
+   "frame_size": [
+    16,
+    16
+   ],
+   "sheet": "Spritesheet/per_effect/coin_glint_16x16.png",
+   "combined_sheet": "Spritesheet/larchrow_fx_combined_16x16.png",
+   "animations": [
+    {
+     "name": "loop",
+     "direction": "none",
+     "frames": 6,
+     "fps": 10,
+     "loop": true,
+     "row": 0,
+     "frame_rects": [
+      [
+       0,
+       0,
+       16,
+       16
+      ],
+      [
+       16,
+       0,
+       16,
+       16
+      ],
+      [
+       32,
+       0,
+       16,
+       16
+      ],
+      [
+       48,
+       0,
+       16,
+       16
+      ],
+      [
+       64,
+       0,
+       16,
+       16
+      ],
+      [
+       80,
+       0,
+       16,
+       16
+      ]
+     ],
+     "combined_rects": [
+      [
+       0,
+       960,
+       16,
+       16
+      ],
+      [
+       16,
+       960,
+       16,
+       16
+      ],
+      [
+       32,
+       960,
+       16,
+       16
+      ],
+      [
+       48,
+       960,
+       16,
+       16
+      ],
+      [
+       64,
+       960,
+       16,
+       16
+      ],
+      [
+       80,
+       960,
+       16,
+       16
+      ]
+     ],
+     "strip": "PNG/ambient/coin_glint/coin_glint_loop.png"
+    }
+   ]
+  }
+ ]
+}
