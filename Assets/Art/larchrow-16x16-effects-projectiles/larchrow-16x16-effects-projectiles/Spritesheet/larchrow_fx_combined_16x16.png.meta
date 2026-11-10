@@ -1,0 +1,7449 @@
+fileFormatVersion: 2
+guid: bea2ca12f8419ca48927188f47d13133
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3003844461700845277
+    second: larchrow_fx_combined_16x16_0
+  - first:
+      213: -8277833634854150785
+    second: larchrow_fx_combined_16x16_1
+  - first:
+      213: -2931067453420147895
+    second: larchrow_fx_combined_16x16_2
+  - first:
+      213: 5413511761450510795
+    second: larchrow_fx_combined_16x16_3
+  - first:
+      213: -5990342244861090770
+    second: larchrow_fx_combined_16x16_4
+  - first:
+      213: 5932974505940989251
+    second: larchrow_fx_combined_16x16_5
+  - first:
+      213: 5455218137964262005
+    second: larchrow_fx_combined_16x16_6
+  - first:
+      213: 8756173282265657787
+    second: larchrow_fx_combined_16x16_7
+  - first:
+      213: 3788916958482280014
+    second: larchrow_fx_combined_16x16_8
+  - first:
+      213: -4142814780349151209
+    second: larchrow_fx_combined_16x16_9
+  - first:
+      213: 826629573774618009
+    second: larchrow_fx_combined_16x16_10
+  - first:
+      213: -36334968330668388
+    second: larchrow_fx_combined_16x16_11
+  - first:
+      213: -7510081934685318879
+    second: larchrow_fx_combined_16x16_12
+  - first:
+      213: 5722747693888163635
+    second: larchrow_fx_combined_16x16_13
+  - first:
+      213: -7271727540447802071
+    second: larchrow_fx_combined_16x16_14
+  - first:
+      213: 639354628608047788
+    second: larchrow_fx_combined_16x16_15
+  - first:
+      213: 7034302304322910379
+    second: larchrow_fx_combined_16x16_16
+  - first:
+      213: -4590829004889880316
+    second: larchrow_fx_combined_16x16_17
+  - first:
+      213: -3001371719374789150
+    second: larchrow_fx_combined_16x16_18
+  - first:
+      213: 3030026264694758255
+    second: larchrow_fx_combined_16x16_19
+  - first:
+      213: -4879837999544656536
+    second: larchrow_fx_combined_16x16_20
+  - first:
+      213: -5669496507590212976
+    second: larchrow_fx_combined_16x16_21
+  - first:
+      213: -11195772163153064
+    second: larchrow_fx_combined_16x16_22
+  - first:
+      213: -3505031874858522756
+    second: larchrow_fx_combined_16x16_23
+  - first:
+      213: -669803420495295824
+    second: larchrow_fx_combined_16x16_24
+  - first:
+      213: -4048317955002201968
+    second: larchrow_fx_combined_16x16_25
+  - first:
+      213: -1805538380339583787
+    second: larchrow_fx_combined_16x16_26
+  - first:
+      213: 5756054784327083085
+    second: larchrow_fx_combined_16x16_27
+  - first:
+      213: 7894642750500624621
+    second: larchrow_fx_combined_16x16_28
+  - first:
+      213: 4663772351639623077
+    second: larchrow_fx_combined_16x16_29
+  - first:
+      213: -2938785638346538735
+    second: larchrow_fx_combined_16x16_30
+  - first:
+      213: 6217345028255898708
+    second: larchrow_fx_combined_16x16_31
+  - first:
+      213: 7858898496003315569
+    second: larchrow_fx_combined_16x16_32
+  - first:
+      213: -1370463495377123888
+    second: larchrow_fx_combined_16x16_33
+  - first:
+      213: 8452062296373700095
+    second: larchrow_fx_combined_16x16_34
+  - first:
+      213: -2667953593128152671
+    second: larchrow_fx_combined_16x16_35
+  - first:
+      213: -7006373649451235027
+    second: larchrow_fx_combined_16x16_36
+  - first:
+      213: 7605465032283802245
+    second: larchrow_fx_combined_16x16_37
+  - first:
+      213: -6127860658457083750
+    second: larchrow_fx_combined_16x16_38
+  - first:
+      213: 98678917438369
+    second: larchrow_fx_combined_16x16_39
+  - first:
+      213: -8525833837687978357
+    second: larchrow_fx_combined_16x16_40
+  - first:
+      213: 3510174424451892932
+    second: larchrow_fx_combined_16x16_41
+  - first:
+      213: 461347186494591608
+    second: larchrow_fx_combined_16x16_42
+  - first:
+      213: -5142312825783235233
+    second: larchrow_fx_combined_16x16_43
+  - first:
+      213: 8385329568048444511
+    second: larchrow_fx_combined_16x16_44
+  - first:
+      213: -9125721674659159158
+    second: larchrow_fx_combined_16x16_45
+  - first:
+      213: -3141583932610999285
+    second: larchrow_fx_combined_16x16_46
+  - first:
+      213: 3810613454214380436
+    second: larchrow_fx_combined_16x16_47
+  - first:
+      213: -9026042373088147324
+    second: larchrow_fx_combined_16x16_48
+  - first:
+      213: -3870026760063633791
+    second: larchrow_fx_combined_16x16_49
+  - first:
+      213: 3603737917193871341
+    second: larchrow_fx_combined_16x16_50
+  - first:
+      213: 57097755868538875
+    second: larchrow_fx_combined_16x16_51
+  - first:
+      213: -4912002807115496003
+    second: larchrow_fx_combined_16x16_52
+  - first:
+      213: 366912373109452087
+    second: larchrow_fx_combined_16x16_53
+  - first:
+      213: -4715343643996260439
+    second: larchrow_fx_combined_16x16_54
+  - first:
+      213: 1791901640505443224
+    second: larchrow_fx_combined_16x16_55
+  - first:
+      213: -981723713515988000
+    second: larchrow_fx_combined_16x16_56
+  - first:
+      213: -2791498290447192833
+    second: larchrow_fx_combined_16x16_57
+  - first:
+      213: 1436021796343940688
+    second: larchrow_fx_combined_16x16_58
+  - first:
+      213: 5818135361465878843
+    second: larchrow_fx_combined_16x16_59
+  - first:
+      213: -8714536120901919791
+    second: larchrow_fx_combined_16x16_60
+  - first:
+      213: 8240371266117016278
+    second: larchrow_fx_combined_16x16_61
+  - first:
+      213: 629251870260359191
+    second: larchrow_fx_combined_16x16_62
+  - first:
+      213: -7092305365602587399
+    second: larchrow_fx_combined_16x16_63
+  - first:
+      213: 8279939033446486107
+    second: larchrow_fx_combined_16x16_64
+  - first:
+      213: 5634846254843514421
+    second: larchrow_fx_combined_16x16_65
+  - first:
+      213: -3459981578135703763
+    second: larchrow_fx_combined_16x16_66
+  - first:
+      213: 1849875338650890730
+    second: larchrow_fx_combined_16x16_67
+  - first:
+      213: 7152317967408872356
+    second: larchrow_fx_combined_16x16_68
+  - first:
+      213: 8229303073060274540
+    second: larchrow_fx_combined_16x16_69
+  - first:
+      213: -2399419920678480603
+    second: larchrow_fx_combined_16x16_70
+  - first:
+      213: 8063043985280322459
+    second: larchrow_fx_combined_16x16_71
+  - first:
+      213: 995757424549587557
+    second: larchrow_fx_combined_16x16_72
+  - first:
+      213: 4636399973807276232
+    second: larchrow_fx_combined_16x16_73
+  - first:
+      213: -3995106445323015405
+    second: larchrow_fx_combined_16x16_74
+  - first:
+      213: 3033263007993884233
+    second: larchrow_fx_combined_16x16_75
+  - first:
+      213: -798847132606326371
+    second: larchrow_fx_combined_16x16_76
+  - first:
+      213: 4310073532078206962
+    second: larchrow_fx_combined_16x16_77
+  - first:
+      213: 3269162732037233733
+    second: larchrow_fx_combined_16x16_78
+  - first:
+      213: 1173784276023989598
+    second: larchrow_fx_combined_16x16_79
+  - first:
+      213: -9194795048582872539
+    second: larchrow_fx_combined_16x16_80
+  - first:
+      213: 5708122103318093226
+    second: larchrow_fx_combined_16x16_81
+  - first:
+      213: -6926459762852995419
+    second: larchrow_fx_combined_16x16_82
+  - first:
+      213: 5192833983053544774
+    second: larchrow_fx_combined_16x16_83
+  - first:
+      213: -3594754654926651790
+    second: larchrow_fx_combined_16x16_84
+  - first:
+      213: 2297906407459556312
+    second: larchrow_fx_combined_16x16_85
+  - first:
+      213: -9159678451869769447
+    second: larchrow_fx_combined_16x16_86
+  - first:
+      213: 7175006465570775911
+    second: larchrow_fx_combined_16x16_87
+  - first:
+      213: -8762264275332835341
+    second: larchrow_fx_combined_16x16_88
+  - first:
+      213: -1744569475937584486
+    second: larchrow_fx_combined_16x16_89
+  - first:
+      213: -4229636723386132987
+    second: larchrow_fx_combined_16x16_90
+  - first:
+      213: 6606899487590105640
+    second: larchrow_fx_combined_16x16_91
+  - first:
+      213: -419355937433809190
+    second: larchrow_fx_combined_16x16_92
+  - first:
+      213: 598186094031678464
+    second: larchrow_fx_combined_16x16_93
+  - first:
+      213: -4484019504500543844
+    second: larchrow_fx_combined_16x16_94
+  - first:
+      213: 723078667296531500
+    second: larchrow_fx_combined_16x16_95
+  - first:
+      213: -3696805570664607464
+    second: larchrow_fx_combined_16x16_96
+  - first:
+      213: -2362070197734022253
+    second: larchrow_fx_combined_16x16_97
+  - first:
+      213: -2275824465510543017
+    second: larchrow_fx_combined_16x16_98
+  - first:
+      213: -5351028582682480778
+    second: larchrow_fx_combined_16x16_99
+  - first:
+      213: -2331796823471394167
+    second: larchrow_fx_combined_16x16_100
+  - first:
+      213: -6429555107811561575
+    second: larchrow_fx_combined_16x16_101
+  - first:
+      213: -2801212483704709999
+    second: larchrow_fx_combined_16x16_102
+  - first:
+      213: -3360219379844280125
+    second: larchrow_fx_combined_16x16_103
+  - first:
+      213: 5191839197096114195
+    second: larchrow_fx_combined_16x16_104
+  - first:
+      213: 522290277115457051
+    second: larchrow_fx_combined_16x16_105
+  - first:
+      213: 7775735688047024731
+    second: larchrow_fx_combined_16x16_106
+  - first:
+      213: -6473928367402154561
+    second: larchrow_fx_combined_16x16_107
+  - first:
+      213: 9099730892395270973
+    second: larchrow_fx_combined_16x16_108
+  - first:
+      213: 7601839613427072647
+    second: larchrow_fx_combined_16x16_109
+  - first:
+      213: -8817002410499951445
+    second: larchrow_fx_combined_16x16_110
+  - first:
+      213: -802860421171565847
+    second: larchrow_fx_combined_16x16_111
+  - first:
+      213: -6149299687870459658
+    second: larchrow_fx_combined_16x16_112
+  - first:
+      213: -8620558963852137591
+    second: larchrow_fx_combined_16x16_113
+  - first:
+      213: 7426436003401802022
+    second: larchrow_fx_combined_16x16_114
+  - first:
+      213: -5391139378348883883
+    second: larchrow_fx_combined_16x16_115
+  - first:
+      213: -9145194449184844967
+    second: larchrow_fx_combined_16x16_116
+  - first:
+      213: 4219618008582985403
+    second: larchrow_fx_combined_16x16_117
+  - first:
+      213: -7274778366812117799
+    second: larchrow_fx_combined_16x16_118
+  - first:
+      213: -5077268148487435978
+    second: larchrow_fx_combined_16x16_119
+  - first:
+      213: -8611233110056596922
+    second: larchrow_fx_combined_16x16_120
+  - first:
+      213: -4743293336205446676
+    second: larchrow_fx_combined_16x16_121
+  - first:
+      213: -4149665102535411155
+    second: larchrow_fx_combined_16x16_122
+  - first:
+      213: -1692539689434503291
+    second: larchrow_fx_combined_16x16_123
+  - first:
+      213: 6310683451881254490
+    second: larchrow_fx_combined_16x16_124
+  - first:
+      213: 6285850157252000799
+    second: larchrow_fx_combined_16x16_125
+  - first:
+      213: -7036222558762346079
+    second: larchrow_fx_combined_16x16_126
+  - first:
+      213: 7426330231938242486
+    second: larchrow_fx_combined_16x16_127
+  - first:
+      213: -7628066164262923650
+    second: larchrow_fx_combined_16x16_128
+  - first:
+      213: -2365483439149123278
+    second: larchrow_fx_combined_16x16_129
+  - first:
+      213: -7558560895185884378
+    second: larchrow_fx_combined_16x16_130
+  - first:
+      213: 8982556570097039154
+    second: larchrow_fx_combined_16x16_131
+  - first:
+      213: 4560784487524190138
+    second: larchrow_fx_combined_16x16_132
+  - first:
+      213: -8838438975649250480
+    second: larchrow_fx_combined_16x16_133
+  - first:
+      213: -6346592217944532460
+    second: larchrow_fx_combined_16x16_134
+  - first:
+      213: 6098004381624102919
+    second: larchrow_fx_combined_16x16_135
+  - first:
+      213: 7040081913182556386
+    second: larchrow_fx_combined_16x16_136
+  - first:
+      213: -14107917035014176
+    second: larchrow_fx_combined_16x16_137
+  - first:
+      213: 9184192402024305305
+    second: larchrow_fx_combined_16x16_138
+  - first:
+      213: -8620172575329555593
+    second: larchrow_fx_combined_16x16_139
+  - first:
+      213: 4106318702888699168
+    second: larchrow_fx_combined_16x16_140
+  - first:
+      213: -5894536468266431381
+    second: larchrow_fx_combined_16x16_141
+  - first:
+      213: -8737161794093596636
+    second: larchrow_fx_combined_16x16_142
+  - first:
+      213: -2119670606486028786
+    second: larchrow_fx_combined_16x16_143
+  - first:
+      213: 5224749025213721537
+    second: larchrow_fx_combined_16x16_144
+  - first:
+      213: -1443207306002088964
+    second: larchrow_fx_combined_16x16_145
+  - first:
+      213: 6185628506421306767
+    second: larchrow_fx_combined_16x16_146
+  - first:
+      213: -2191878265812304176
+    second: larchrow_fx_combined_16x16_147
+  - first:
+      213: -1147157419401909559
+    second: larchrow_fx_combined_16x16_148
+  - first:
+      213: -2492764544247016060
+    second: larchrow_fx_combined_16x16_149
+  - first:
+      213: 7941555542728463977
+    second: larchrow_fx_combined_16x16_150
+  - first:
+      213: -1456970468299362400
+    second: larchrow_fx_combined_16x16_151
+  - first:
+      213: 4298946346971189916
+    second: larchrow_fx_combined_16x16_152
+  - first:
+      213: -8583156504430094127
+    second: larchrow_fx_combined_16x16_153
+  - first:
+      213: 8546586822899561744
+    second: larchrow_fx_combined_16x16_154
+  - first:
+      213: 5117832164212032588
+    second: larchrow_fx_combined_16x16_155
+  - first:
+      213: -7223869544616799616
+    second: larchrow_fx_combined_16x16_156
+  - first:
+      213: -5229884143359056345
+    second: larchrow_fx_combined_16x16_157
+  - first:
+      213: 2333617793273799488
+    second: larchrow_fx_combined_16x16_158
+  - first:
+      213: 364526420804590117
+    second: larchrow_fx_combined_16x16_159
+  - first:
+      213: -8721195011119941599
+    second: larchrow_fx_combined_16x16_160
+  - first:
+      213: 763207217670225328
+    second: larchrow_fx_combined_16x16_161
+  - first:
+      213: -6087714341058638541
+    second: larchrow_fx_combined_16x16_162
+  - first:
+      213: -6332344336144780151
+    second: larchrow_fx_combined_16x16_163
+  - first:
+      213: 1125561895700513951
+    second: larchrow_fx_combined_16x16_164
+  - first:
+      213: 2155883120944832326
+    second: larchrow_fx_combined_16x16_165
+  - first:
+      213: -4857577375077708398
+    second: larchrow_fx_combined_16x16_166
+  - first:
+      213: -1489567240419840785
+    second: larchrow_fx_combined_16x16_167
+  - first:
+      213: -9070590488963124778
+    second: larchrow_fx_combined_16x16_168
+  - first:
+      213: 1030047805010041705
+    second: larchrow_fx_combined_16x16_169
+  - first:
+      213: 933073812766869306
+    second: larchrow_fx_combined_16x16_170
+  - first:
+      213: 5387319398872034949
+    second: larchrow_fx_combined_16x16_171
+  - first:
+      213: 186913383749777640
+    second: larchrow_fx_combined_16x16_172
+  - first:
+      213: 1492894079027580847
+    second: larchrow_fx_combined_16x16_173
+  - first:
+      213: -4589941214869206618
+    second: larchrow_fx_combined_16x16_174
+  - first:
+      213: -8487509408976123776
+    second: larchrow_fx_combined_16x16_175
+  - first:
+      213: 3028768611954605900
+    second: larchrow_fx_combined_16x16_176
+  - first:
+      213: 488404563684749144
+    second: larchrow_fx_combined_16x16_177
+  - first:
+      213: 3932420088602982805
+    second: larchrow_fx_combined_16x16_178
+  - first:
+      213: -2116595281454168311
+    second: larchrow_fx_combined_16x16_179
+  - first:
+      213: -3997748873447423010
+    second: larchrow_fx_combined_16x16_180
+  - first:
+      213: 1541577916583128991
+    second: larchrow_fx_combined_16x16_181
+  - first:
+      213: 7692775664847837020
+    second: larchrow_fx_combined_16x16_182
+  - first:
+      213: -623711563360202346
+    second: larchrow_fx_combined_16x16_183
+  - first:
+      213: 6360168290516423196
+    second: larchrow_fx_combined_16x16_184
+  - first:
+      213: -6980363927649435811
+    second: larchrow_fx_combined_16x16_185
+  - first:
+      213: -9001341484566859752
+    second: larchrow_fx_combined_16x16_186
+  - first:
+      213: 2190353447104240794
+    second: larchrow_fx_combined_16x16_187
+  - first:
+      213: -1300382239158912424
+    second: larchrow_fx_combined_16x16_188
+  - first:
+      213: -7228736698179830839
+    second: larchrow_fx_combined_16x16_189
+  - first:
+      213: -6783884040326475013
+    second: larchrow_fx_combined_16x16_190
+  - first:
+      213: 1705928604353391129
+    second: larchrow_fx_combined_16x16_191
+  - first:
+      213: -400305774126082965
+    second: larchrow_fx_combined_16x16_192
+  - first:
+      213: -6285677054258125435
+    second: larchrow_fx_combined_16x16_193
+  - first:
+      213: 526852122401073294
+    second: larchrow_fx_combined_16x16_194
+  - first:
+      213: -1588290016177913642
+    second: larchrow_fx_combined_16x16_195
+  - first:
+      213: 8170890228790786949
+    second: larchrow_fx_combined_16x16_196
+  - first:
+      213: -2773819924989993920
+    second: larchrow_fx_combined_16x16_197
+  - first:
+      213: 2754632109408433742
+    second: larchrow_fx_combined_16x16_198
+  - first:
+      213: 2119786197897125627
+    second: larchrow_fx_combined_16x16_199
+  - first:
+      213: 6540991482572358842
+    second: larchrow_fx_combined_16x16_200
+  - first:
+      213: -7620101898066772750
+    second: larchrow_fx_combined_16x16_201
+  - first:
+      213: 6361441560718503639
+    second: larchrow_fx_combined_16x16_202
+  - first:
+      213: -1724075955178161221
+    second: larchrow_fx_combined_16x16_203
+  - first:
+      213: 62772043165499215
+    second: larchrow_fx_combined_16x16_204
+  - first:
+      213: -5705944218548841624
+    second: larchrow_fx_combined_16x16_205
+  - first:
+      213: 7216633413297423323
+    second: larchrow_fx_combined_16x16_206
+  - first:
+      213: -8311724110180133144
+    second: larchrow_fx_combined_16x16_207
+  - first:
+      213: 2184413179715608203
+    second: larchrow_fx_combined_16x16_208
+  - first:
+      213: 6945783113080428668
+    second: larchrow_fx_combined_16x16_209
+  - first:
+      213: -5120503127563957138
+    second: larchrow_fx_combined_16x16_210
+  - first:
+      213: 97086718420441876
+    second: larchrow_fx_combined_16x16_211
+  - first:
+      213: -8466048192160652320
+    second: larchrow_fx_combined_16x16_212
+  - first:
+      213: -1391599245502059567
+    second: larchrow_fx_combined_16x16_213
+  - first:
+      213: -4846894059175190676
+    second: larchrow_fx_combined_16x16_214
+  - first:
+      213: 2806059542689619353
+    second: larchrow_fx_combined_16x16_215
+  - first:
+      213: -6330961536504626034
+    second: larchrow_fx_combined_16x16_216
+  - first:
+      213: -5839692789058626031
+    second: larchrow_fx_combined_16x16_217
+  - first:
+      213: -3802345067088523134
+    second: larchrow_fx_combined_16x16_218
+  - first:
+      213: -6369839764082431012
+    second: larchrow_fx_combined_16x16_219
+  - first:
+      213: -369172370497009725
+    second: larchrow_fx_combined_16x16_220
+  - first:
+      213: -3627101618182475912
+    second: larchrow_fx_combined_16x16_221
+  - first:
+      213: -4413890337065764476
+    second: larchrow_fx_combined_16x16_222
+  - first:
+      213: -8003139086336761470
+    second: larchrow_fx_combined_16x16_223
+  - first:
+      213: -6151463380046312415
+    second: larchrow_fx_combined_16x16_224
+  - first:
+      213: -3959458629408569141
+    second: larchrow_fx_combined_16x16_225
+  - first:
+      213: 2378349003460509093
+    second: larchrow_fx_combined_16x16_226
+  - first:
+      213: 3217970427745391193
+    second: larchrow_fx_combined_16x16_227
+  - first:
+      213: 6517968546042302262
+    second: larchrow_fx_combined_16x16_228
+  - first:
+      213: 4794437055490248615
+    second: larchrow_fx_combined_16x16_229
+  - first:
+      213: -6894839357988979307
+    second: larchrow_fx_combined_16x16_230
+  - first:
+      213: -3556134963158601939
+    second: larchrow_fx_combined_16x16_231
+  - first:
+      213: -1598446186711930426
+    second: larchrow_fx_combined_16x16_232
+  - first:
+      213: -6281269575969202503
+    second: larchrow_fx_combined_16x16_233
+  - first:
+      213: -985422866062269333
+    second: larchrow_fx_combined_16x16_234
+  - first:
+      213: 8694609877511865122
+    second: larchrow_fx_combined_16x16_235
+  - first:
+      213: -1327038770377325314
+    second: larchrow_fx_combined_16x16_236
+  - first:
+      213: -1697015141151462608
+    second: larchrow_fx_combined_16x16_237
+  - first:
+      213: -6115576209446945353
+    second: larchrow_fx_combined_16x16_238
+  - first:
+      213: 6934705108466558431
+    second: larchrow_fx_combined_16x16_239
+  - first:
+      213: 505574280646475476
+    second: larchrow_fx_combined_16x16_240
+  - first:
+      213: 6710143697049125179
+    second: larchrow_fx_combined_16x16_241
+  - first:
+      213: 4159725689733186395
+    second: larchrow_fx_combined_16x16_242
+  - first:
+      213: 5238379816641266000
+    second: larchrow_fx_combined_16x16_243
+  - first:
+      213: -8919561314618628026
+    second: larchrow_fx_combined_16x16_244
+  - first:
+      213: -1798310827401052067
+    second: larchrow_fx_combined_16x16_245
+  - first:
+      213: -5889339192589174037
+    second: larchrow_fx_combined_16x16_246
+  - first:
+      213: -732929516749435847
+    second: larchrow_fx_combined_16x16_247
+  - first:
+      213: 1199728552339127048
+    second: larchrow_fx_combined_16x16_248
+  - first:
+      213: 5033480951834314499
+    second: larchrow_fx_combined_16x16_249
+  - first:
+      213: 686902955217913015
+    second: larchrow_fx_combined_16x16_250
+  - first:
+      213: 3509944626114934179
+    second: larchrow_fx_combined_16x16_251
+  - first:
+      213: 5489536309398773538
+    second: larchrow_fx_combined_16x16_252
+  - first:
+      213: 1264564152813474140
+    second: larchrow_fx_combined_16x16_253
+  - first:
+      213: -6822815909389552094
+    second: larchrow_fx_combined_16x16_254
+  - first:
+      213: 7648603074464423518
+    second: larchrow_fx_combined_16x16_255
+  - first:
+      213: -3098124650476892799
+    second: larchrow_fx_combined_16x16_256
+  - first:
+      213: -7717129180034914735
+    second: larchrow_fx_combined_16x16_257
+  - first:
+      213: -2275811879988917749
+    second: larchrow_fx_combined_16x16_258
+  - first:
+      213: 3691418968928094639
+    second: larchrow_fx_combined_16x16_259
+  - first:
+      213: 6813865647929860995
+    second: larchrow_fx_combined_16x16_260
+  - first:
+      213: -4319739222387158302
+    second: larchrow_fx_combined_16x16_261
+  - first:
+      213: 5965356625435808945
+    second: larchrow_fx_combined_16x16_262
+  - first:
+      213: -4825250596981351690
+    second: larchrow_fx_combined_16x16_263
+  - first:
+      213: -9084759062412873015
+    second: larchrow_fx_combined_16x16_264
+  - first:
+      213: 5093862423654439551
+    second: larchrow_fx_combined_16x16_265
+  - first:
+      213: -4678796640031644465
+    second: larchrow_fx_combined_16x16_266
+  - first:
+      213: -8771872237699717323
+    second: larchrow_fx_combined_16x16_267
+  - first:
+      213: 894385497445359102
+    second: larchrow_fx_combined_16x16_268
+  - first:
+      213: -2648852064922708054
+    second: larchrow_fx_combined_16x16_269
+  - first:
+      213: 3087694865153571348
+    second: larchrow_fx_combined_16x16_270
+  - first:
+      213: 8102188679880056938
+    second: larchrow_fx_combined_16x16_271
+  - first:
+      213: -2315386357127444483
+    second: larchrow_fx_combined_16x16_272
+  - first:
+      213: 1844083516776628192
+    second: larchrow_fx_combined_16x16_273
+  - first:
+      213: -4929119006146698312
+    second: larchrow_fx_combined_16x16_274
+  - first:
+      213: -3532304585551167079
+    second: larchrow_fx_combined_16x16_275
+  - first:
+      213: -6401605101866029527
+    second: larchrow_fx_combined_16x16_276
+  - first:
+      213: -4114995646256093986
+    second: larchrow_fx_combined_16x16_277
+  - first:
+      213: -2595813009338588310
+    second: larchrow_fx_combined_16x16_278
+  - first:
+      213: -9129425664746403433
+    second: larchrow_fx_combined_16x16_279
+  - first:
+      213: -4942160136310556397
+    second: larchrow_fx_combined_16x16_280
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 965
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 321fbcb80633056d0800000000000000
+      internalID: -3003844461700845277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_1
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 965
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7ddcbcba2a3f1d80800000000000000
+      internalID: -8277833634854150785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 945
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94bee2a3ea1c257d0800000000000000
+      internalID: -2931067453420147895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_3
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 945
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc928a8d348a02b40800000000000000
+      internalID: 5413511761450510795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_4
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 928
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e24e90c67770edca0800000000000000
+      internalID: -5990342244861090770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 913
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 345bf0001e8265250800000000000000
+      internalID: 5932974505940989251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_6
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 928
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 572b0a55ef3d4bb40800000000000000
+      internalID: 5455218137964262005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_7
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 913
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb1f531453d248970800000000000000
+      internalID: 8756173282265657787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 900
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4e2ac136efe49430800000000000000
+      internalID: 3788916958482280014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_9
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 900
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7180d0728e3c186c0800000000000000
+      internalID: -4142814780349151209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 880
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99d2ba9b737c87b00800000000000000
+      internalID: 826629573774618009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_11
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 881
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c96b9bfe989ee7ff0800000000000000
+      internalID: -36334968330668388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 864
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 121d0014544d6c790800000000000000
+      internalID: -7510081934685318879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_13
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 863
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33fc36905b84b6f40800000000000000
+      internalID: 5722747693888163635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 848
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92d0f284452a51b90800000000000000
+      internalID: -7271727540447802071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_15
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 849
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa3fa3b5a17fd800800000000000000
+      internalID: 639354628608047788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 835
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba8f0eb2dacde9160800000000000000
+      internalID: 7034302304322910379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_17
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 835
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4098af2e7591a40c0800000000000000
+      internalID: -4590829004889880316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_18
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 835
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e523cbb25cf856d0800000000000000
+      internalID: -3001371719374789150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_19
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 835
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6b1c3f75d0dc0a20800000000000000
+      internalID: 3030026264694758255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 817
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86d10b3a135574cb0800000000000000
+      internalID: -4879837999544656536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_21
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 801
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09284c1f6f6e151b0800000000000000
+      internalID: -5669496507590212976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_22
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 817
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 853aa39218938dff0800000000000000
+      internalID: -11195772163153064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_23
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 801
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c77e2ac8410ab5fc0800000000000000
+      internalID: -3505031874858522756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_24
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 817
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ba490c765164b6f0800000000000000
+      internalID: -669803420495295824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_25
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 801
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0980242d44c71d7c0800000000000000
+      internalID: -4048317955002201968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_26
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 817
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d46683c86071f6e0800000000000000
+      internalID: -1805538380339583787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_27
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 801
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d44e087545d91ef40800000000000000
+      internalID: 5756054784327083085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_28
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 785
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de8d33401c76f8d60800000000000000
+      internalID: 7894642750500624621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_29
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 785
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a594cc7e3c09b040800000000000000
+      internalID: 4663772351639623077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_30
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 785
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 111c55348065737d0800000000000000
+      internalID: -2938785638346538735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_31
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 785
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45cdb3fbc52784650800000000000000
+      internalID: 6217345028255898708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_32
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 771
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 177112c3b8a601d60800000000000000
+      internalID: 7858898496003315569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_33
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 771
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d5086446b22bfce0800000000000000
+      internalID: -1370463495377123888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_34
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 771
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff5a3daa0e1cb4570800000000000000
+      internalID: 8452062296373700095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_35
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 771
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a19e5ca75689fad0800000000000000
+      internalID: -2667953593128152671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_36
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 752
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d294dc4894c54ce90800000000000000
+      internalID: -7006373649451235027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_37
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 751
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58a4ee0c62a0c8960800000000000000
+      internalID: 7605465032283802245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_38
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 752
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a90039ba23775faa0800000000000000
+      internalID: -6127860658457083750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_39
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 752
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ab12d97fb9500000800000000000000
+      internalID: 98678917438369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 721
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b864a92eb472ea980800000000000000
+      internalID: -8525833837687978357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_41
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 735
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c6cd159a05a6b030800000000000000
+      internalID: 3510174424451892932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_42
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 721
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 872d22162d8076600800000000000000
+      internalID: 461347186494591608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_43
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 735
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5d4147eab5d2a8b0800000000000000
+      internalID: -5142312825783235233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_44
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 720
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f547b1490dcae5470800000000000000
+      internalID: 8385329568048444511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_45
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 735
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a83abdeac7cea5180800000000000000
+      internalID: -9125721674659159158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_46
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 720
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0c85a0ee0ad664d0800000000000000
+      internalID: -3141583932610999285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_47
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 735
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49bb5c24fb402e430800000000000000
+      internalID: 3810613454214380436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 708
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4880570a84e0db280800000000000000
+      internalID: -9026042373088147324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_49
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 708
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 186b62f7a27ea4ac0800000000000000
+      internalID: -3870026760063633791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_50
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 708
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: def52f1da8c030230800000000000000
+      internalID: 3603737917193871341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_51
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 708
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf724004b1adac000800000000000000
+      internalID: 57097755868538875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_52
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 689
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db5c82ac87f05dbb0800000000000000
+      internalID: -4912002807115496003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_53
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 673
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73d62eefbd8871500800000000000000
+      internalID: 366912373109452087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_54
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 689
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a7f4b150fbbf8eb0800000000000000
+      internalID: -4715343643996260439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_55
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 689
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89344c25c0d1ed810800000000000000
+      internalID: 1791901640505443224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_56
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 673
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eb5d44eb773062f0800000000000000
+      internalID: -981723713515988000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_57
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 689
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffce8c6481b9249d0800000000000000
+      internalID: -2791498290447192833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_58
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 673
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0568cc42736cde310800000000000000
+      internalID: 1436021796343940688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_59
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 673
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b390053194b2eb050800000000000000
+      internalID: 5818135361465878843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_60
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 657
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1db9453d19fbf0780800000000000000
+      internalID: -8714536120901919791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_61
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 657
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6da9d36d10eab5270800000000000000
+      internalID: 8240371266117016278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_62
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 657
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7107e19fd3d8bb800800000000000000
+      internalID: 629251870260359191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_63
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 657
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fc29acb8d1139d90800000000000000
+      internalID: -7092305365602587399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_64
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 644
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5018729ea048e270800000000000000
+      internalID: 8279939033446486107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_65
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 644
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53e43e760def23e40800000000000000
+      internalID: 5634846254843514421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_66
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 644
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2f63d1261dabffc0800000000000000
+      internalID: -3459981578135703763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_67
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 644
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae1ba07c1d31ca910800000000000000
+      internalID: 1849875338650890730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_68
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 624
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4abbc08fb43224360800000000000000
+      internalID: 7152317967408872356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_69
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 625
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c61c9c25b8b543270800000000000000
+      internalID: 8229303073060274540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_70
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 624
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52596f87b4c83bed0800000000000000
+      internalID: -2399419920678480603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_71
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 625
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9bcbf6e8cfa5ef60800000000000000
+      internalID: 8063043985280322459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_72
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 607
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56a6cb41a14a1dd00800000000000000
+      internalID: 995757424549587557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_73
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 608
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c0c963263dc75040800000000000000
+      internalID: 4636399973807276232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_74
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 607
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31be5aedad78e88c0800000000000000
+      internalID: -3995106445323015405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_75
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 608
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94eeec582a0581a20800000000000000
+      internalID: 3033263007993884233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_76
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 593
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d99192fe3cce9e4f0800000000000000
+      internalID: -798847132606326371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_77
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 593
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ffa55baa0570db30800000000000000
+      internalID: 4310073532078206962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_78
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 593
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54c560c1f266e5d20800000000000000
+      internalID: 3269162732037233733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_79
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 593
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e55595f749e1a4010800000000000000
+      internalID: 1173784276023989598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 579
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52282b29e96856080800000000000000
+      internalID: -9194795048582872539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_81
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 579
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aad94de5fc2573f40800000000000000
+      internalID: 5708122103318093226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_82
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 579
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ae5c1c2b8540ef90800000000000000
+      internalID: -6926459762852995419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_83
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 579
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64dbb79aef6a01840800000000000000
+      internalID: 5192833983053544774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_84
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 561
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e3a6aefaddc1ec0800000000000000
+      internalID: -3594754654926651790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_85
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 561
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8db88b7e3bdc3ef10800000000000000
+      internalID: 2297906407459556312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_86
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 561
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 911a0836af842e080800000000000000
+      internalID: -9159678451869769447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_87
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 561
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7632a799d5eb29360800000000000000
+      internalID: 7175006465570775911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_88
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 545
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f7d0b8e01f266680800000000000000
+      internalID: -8762264275332835341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_89
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 545
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9a30c40e4b0ac7e0800000000000000
+      internalID: -1744569475937584486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_90
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 545
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5065f954fcf4d45c0800000000000000
+      internalID: -4229636723386132987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_91
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 545
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 822c480441c60bb50800000000000000
+      internalID: 6606899487590105640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_92
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 529
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ade8eca2ff52e2af0800000000000000
+      internalID: -419355937433809190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_93
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 529
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00c265c451f2d4800800000000000000
+      internalID: 598186094031678464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_94
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 529
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9e625c940095c1c0800000000000000
+      internalID: -4484019504500543844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_95
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 529
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c246fd48734e80a00800000000000000
+      internalID: 723078667296531500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_96
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 515
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 811d9d48bee42bcc0800000000000000
+      internalID: -3696805570664607464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_97
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 515
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 393e6818bad383fd0800000000000000
+      internalID: -2362070197734022253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_98
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 515
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 751d91ad4b5aa60e0800000000000000
+      internalID: -2275824465510543017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_99
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 515
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67faf32ead35db5b0800000000000000
+      internalID: -5351028582682480778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_100
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 497
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9827a98b42bc3afd0800000000000000
+      internalID: -2331796823471394167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_101
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 497
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99fe717d1b1a5c6a0800000000000000
+      internalID: -6429555107811561575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_102
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 497
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19c146866181029d0800000000000000
+      internalID: -2801212483704709999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_103
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 497
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c09ff8f64a1e51d0800000000000000
+      internalID: -3360219379844280125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_104
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 480
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 318fcd10e3e1d0840800000000000000
+      internalID: 5191839197096114195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_105
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 480
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1e6b156d3c8f3700800000000000000
+      internalID: 522290277115457051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_106
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 480
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ade512966f8eb60800000000000000
+      internalID: 7775735688047024731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_107
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 480
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb58baf337cf726a0800000000000000
+      internalID: -6473928367402154561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_108
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 465
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d335ed0c80db84e70800000000000000
+      internalID: 9099730892395270973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_109
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 465
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78e30d52ad82f7960800000000000000
+      internalID: 7601839613427072647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_110
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 465
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba4336aa507b3a580800000000000000
+      internalID: -8817002410499951445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_111
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 465
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ea29df53baabd4f0800000000000000
+      internalID: -802860421171565847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_112
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 451
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f09f07a38c49aaa0800000000000000
+      internalID: -6149299687870459658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_113
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 450
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98ba84acb4f9d5880800000000000000
+      internalID: -8620558963852137591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_114
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 450
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 621afe9b230001760800000000000000
+      internalID: 7426436003401802022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_115
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 451
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55005e28c43de25b0800000000000000
+      internalID: -5391139378348883883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_116
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 435
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 953967e0a1eb51180800000000000000
+      internalID: -9145194449184844967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_117
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 434
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb61e69e8381f8a30800000000000000
+      internalID: 4219618008582985403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_118
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 434
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d4a77a6e9bca0b90800000000000000
+      internalID: -7274778366812117799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_119
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 434
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 639400cf48be989b0800000000000000
+      internalID: -5077268148487435978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 421
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64a8ef45c11ce7880800000000000000
+      internalID: -8611233110056596922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_121
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 418
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce13ffd77df6c2eb0800000000000000
+      internalID: -4743293336205446676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_122
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 417
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2aba8a339d6966c0800000000000000
+      internalID: -4149665102535411155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_123
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 394
+        width: 18
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 587a103be14e288e0800000000000000
+      internalID: -1692539689434503291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_124
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 420
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5e615ff92d049750800000000000000
+      internalID: 6310683451881254490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_125
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 417
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1cb6560a63db3750800000000000000
+      internalID: 6285850157252000799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_126
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 416
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a95160ccd05a5e90800000000000000
+      internalID: -7036222558762346079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_127
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 417
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b75c63efff9f0760800000000000000
+      internalID: 7426330231938242486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_128
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 404
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e729ee32d3aa32690800000000000000
+      internalID: -7628066164262923650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_129
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 401
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 239727f485d1c2fd0800000000000000
+      internalID: -2365483439149123278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_130
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 400
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62b694da9e89a1790800000000000000
+      internalID: -7558560895185884378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_131
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 386
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2373c7fdb9378ac70800000000000000
+      internalID: 8982556570097039154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_132
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 384
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab7cdfbc3592b4f30800000000000000
+      internalID: 4560784487524190138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_133
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 383
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0538577649e875580800000000000000
+      internalID: -8838438975649250480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_134
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 383
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a5823e0006ce7a0800000000000000
+      internalID: -6346592217944532460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_135
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 367
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 700fa7d2da670a450800000000000000
+      internalID: 6098004381624102919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_136
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 371
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e016e8333563b160800000000000000
+      internalID: 7040081913182556386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_137
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 369
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e77b989ce0edcff0800000000000000
+      internalID: -14107917035014176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_138
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 370
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9921087645ec47f70800000000000000
+      internalID: 9184192402024305305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_139
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 375
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77beae0e6befe5880800000000000000
+      internalID: -8620172575329555593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_140
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 368
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0254934aa139cf830800000000000000
+      internalID: 4106318702888699168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_141
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 376
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6cc46d0056623ea0800000000000000
+      internalID: -5894536468266431381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_142
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 371
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 420cfe5c3ad5fb680800000000000000
+      internalID: -8737161794093596636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_143
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 356
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0e309b50da6592e0800000000000000
+      internalID: -2119670606486028786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_144
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 354
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cbae687e89028840800000000000000
+      internalID: 5224749025213721537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_145
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 353
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb3f740a92b8fbe0800000000000000
+      internalID: -1443207306002088964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_146
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 358
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f85a5cd8a54c7d550800000000000000
+      internalID: 6185628506421306767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_147
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 361
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0debb5f8452e491e0800000000000000
+      internalID: -2191878265812304176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_148
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 356
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ca681ba76a7410f0800000000000000
+      internalID: -1147157419401909559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_149
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 351
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 485d77faadbe76dd0800000000000000
+      internalID: -2492764544247016060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_150
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 360
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9665d50a0b2163e60800000000000000
+      internalID: 7941555542728463977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_151
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 358
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0af28c4141dc7cbe0800000000000000
+      internalID: -1456970468299362400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_152
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 338
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c925eaffcece8ab30800000000000000
+      internalID: 4298946346971189916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_153
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 352
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d85cdd72a082e880800000000000000
+      internalID: -8583156504430094127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_154
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 338
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01576f40f639b9670800000000000000
+      internalID: 8546586822899561744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_155
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 339
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c444de7ec31360740800000000000000
+      internalID: 5117832164212032588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_156
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 340
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0825a514ce8afbb90800000000000000
+      internalID: -7223869544616799616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_157
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 339
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 726a2aaa418bb67b0800000000000000
+      internalID: -5229884143359056345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_158
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 338
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 043ad99d40da26020800000000000000
+      internalID: 2333617793273799488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_159
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 323
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52a5d4f29de0f0500800000000000000
+      internalID: 364526420804590117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_160
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 321
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1287941285718f680800000000000000
+      internalID: -8721195011119941599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_161
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 321
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bd7f3bbbe4779a00800000000000000
+      internalID: 763207217670225328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_162
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 320
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33d06279f08148ba0800000000000000
+      internalID: -6087714341058638541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_163
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98432a0606efe18a0800000000000000
+      internalID: -6332344336144780151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_164
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 320
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f94c1f5a49cce9f00800000000000000
+      internalID: 1125561895700513951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_165
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 323
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64f5d21b64c3bed10800000000000000
+      internalID: 2155883120944832326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_166
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 310
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29dc4892d1b669cb0800000000000000
+      internalID: -4857577375077708398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_167
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 290
+        width: 12
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fec67b5ac7ef35be0800000000000000
+      internalID: -1489567240419840785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_168
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 303
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d1f052220ace1280800000000000000
+      internalID: -9070590488963124778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_169
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 305
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96b5b4f65077b4e00800000000000000
+      internalID: 1030047805010041705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_170
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 305
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a37403760b1f2fc00800000000000000
+      internalID: 933073812766869306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_171
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 304
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58ea655337a93ca40800000000000000
+      internalID: 5387319398872034949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_172
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 297
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e8fb227bbc089200800000000000000
+      internalID: 186913383749777640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_173
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 287
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faf09b35143d7b410800000000000000
+      internalID: 1492894079027580847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_174
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 281
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a9cbcb98c04d40c0800000000000000
+      internalID: -4589941214869206618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_175
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 274
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 088413a492f463a80800000000000000
+      internalID: -8487509408976123776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_176
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 271
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4f38666109580a20800000000000000
+      internalID: 3028768611954605900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_177
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 287
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85feb1dec5927c600800000000000000
+      internalID: 488404563684749144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_178
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 271
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5997ac85c33c29630800000000000000
+      internalID: 3932420088602982805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_179
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 259
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90708a34ec750a2e0800000000000000
+      internalID: -2116595281454168311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_180
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 259
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed3c2f0a4942588c0800000000000000
+      internalID: -3997748873447423010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_181
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 259
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9f268f82f8c46510800000000000000
+      internalID: 1541577916583128991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_182
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 259
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c57560885ba32ca60800000000000000
+      internalID: 7692775664847837020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_183
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 244
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6919c9f33a12857f0800000000000000
+      internalID: -623711563360202346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_184
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 242
+        width: 30
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c125fe3dc5bd34850800000000000000
+      internalID: 6360168290516423196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_185
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 244
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5f3189cdf3c02f90800000000000000
+      internalID: -6980363927649435811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_186
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 229
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 810b7666c9fc41380800000000000000
+      internalID: -9001341484566859752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_187
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 223
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9c533bead2b56e10800000000000000
+      internalID: 2190353447104240794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_188
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 223
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85ab4b24e3d14fde0800000000000000
+      internalID: -1300382239158912424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_189
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 223
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cb3922c54e5eab90800000000000000
+      internalID: -7228736698179830839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_190
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 208
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf216ea686dcad1a0800000000000000
+      internalID: -6783884040326475013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_191
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 209
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91a69aaf60daca710800000000000000
+      internalID: 1705928604353391129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_192
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 213
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b645da3f404d17af0800000000000000
+      internalID: -400305774126082965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_193
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 208
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 585ee18a50ac4c8a0800000000000000
+      internalID: -6285677054258125435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_194
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 215
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8860e4c631cf4700800000000000000
+      internalID: 526852122401073294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_195
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 213
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d08a6935a245f9e0800000000000000
+      internalID: -1588290016177913642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_196
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 209
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58bf8c13f55d46170800000000000000
+      internalID: 8170890228790786949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_197
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 215
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04c121c79796189d0800000000000000
+      internalID: -2773819924989993920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_198
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 208
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e46bc201f4b6a3620800000000000000
+      internalID: 2754632109408433742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_199
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 213
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe1f6dd05efa6d10800000000000000
+      internalID: 2119786197897125627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_200
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 209
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab4c495091546ca50800000000000000
+      internalID: 6540991482572358842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_201
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 175
+        width: 65
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fc337d52b5ff3690800000000000000
+      internalID: -7620101898066772750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_202
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 145
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7de68062561684850800000000000000
+      internalID: 6361441560718503639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_203
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 159
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb30d5ad0ad218e0800000000000000
+      internalID: -1724075955178161221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_204
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 159
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4f74b637d20fd000800000000000000
+      internalID: 62772043165499215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_205
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 168
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 863d331f6f960d0b0800000000000000
+      internalID: -5705944218548841624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_206
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 161
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd3cec1aad1a62460800000000000000
+      internalID: 7216633413297423323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_207
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 167
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e6d9ad85f2d6ac80800000000000000
+      internalID: -8311724110180133144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_208
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 169
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8e51a3a638905e10800000000000000
+      internalID: 2184413179715608203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_209
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 153
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c78d016e0f0646060800000000000000
+      internalID: 6945783113080428668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_210
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 152
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6c064af88150f8b0800000000000000
+      internalID: -5120503127563957138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_211
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 151
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41bdbd32bdbe85100800000000000000
+      internalID: 97086718420441876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_212
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 143
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e32de6360e828a80800000000000000
+      internalID: -8466048192160652320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_213
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 143
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dbe526fbdb00bce0800000000000000
+      internalID: -1391599245502059567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_214
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 143
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6f59ea788f5cbcb0800000000000000
+      internalID: -4846894059175190676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_215
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 143
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99d1c94794021f620800000000000000
+      internalID: 2806059542689619353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_216
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 131
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e840bf18608e328a0800000000000000
+      internalID: -6330961536504626034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_217
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 130
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11e10ce295e35fea0800000000000000
+      internalID: -5839692789058626031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_218
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 133
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 280dab2ae4b5b3bc0800000000000000
+      internalID: -3802345067088523134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_219
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 133
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdb65b1cb78c997a0800000000000000
+      internalID: -6369839764082431012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_220
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 135
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c703ab5faf60eaf0800000000000000
+      internalID: -369172370497009725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_221
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 128
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87f2df3ab42f9adc0800000000000000
+      internalID: -3627101618182475912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_222
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 128
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4897aadcf16beb2c0800000000000000
+      internalID: -4413890337065764476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_223
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 111
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2816ad647632fe090800000000000000
+      internalID: -8003139086336761470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_224
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 128
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12c048fc5ac91aaa0800000000000000
+      internalID: -6151463380046312415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_225
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 104
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc84f3bca5d2d09c0800000000000000
+      internalID: -3959458629408569141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_226
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 105
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5adfa2f41d7910120800000000000000
+      internalID: 2378349003460509093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_227
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 111
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 952d973fd0788ac20800000000000000
+      internalID: 3217970427745391193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_228
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 103
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63f4504ebd9747a50800000000000000
+      internalID: 6517968546042302262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_229
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 105
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7af47769913498240800000000000000
+      internalID: 4794437055490248615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_230
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 103
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d3fa3622c9050a0800000000000000
+      internalID: -6894839357988979307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_231
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 105
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2fa59b971216aec0800000000000000
+      internalID: -3556134963158601939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_232
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 111
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c9257089ad21d9e0800000000000000
+      internalID: -1598446186711930426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_233
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 104
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9be13e9a99274d8a0800000000000000
+      internalID: -6281269575969202503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_234
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 96
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b64afc2df131352f0800000000000000
+      internalID: -985422866062269333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_235
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 87
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22382b91e9579a870800000000000000
+      internalID: 8694609877511865122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_236
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 96
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef40d70f449659de0800000000000000
+      internalID: -1327038770377325314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_237
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 89
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03b253568bdf278e0800000000000000
+      internalID: -1697015141151462608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_238
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 88
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bdb517d6db112ba0800000000000000
+      internalID: -6115576209446945353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_239
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 96
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd56c34fd850d3060800000000000000
+      internalID: 6934705108466558431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_240
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 96
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4deb18d2129240700800000000000000
+      internalID: 505574280646475476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_241
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 89
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b31807ef3283f1d50800000000000000
+      internalID: 6710143697049125179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_242
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 95
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b530d93c9705ab930800000000000000
+      internalID: 4159725689733186395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_243
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 87
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0518a7960b672b840800000000000000
+      internalID: 5238379816641266000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_244
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 96
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64827d10e3a573480800000000000000
+      internalID: -8919561314618628026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_245
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 96
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d50850194dd1b07e0800000000000000
+      internalID: -1798310827401052067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_246
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 87
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beabfe7153dd44ea0800000000000000
+      internalID: -5889339192589174037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_247
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 95
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93c40ccdc7c14d5f0800000000000000
+      internalID: -732929516749435847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_248
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 88
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80b311d03ca46a010800000000000000
+      internalID: 1199728552339127048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_249
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 66
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30787c5d1448ad540800000000000000
+      internalID: 5033480951834314499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_250
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 64
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b40ee0399e588900800000000000000
+      internalID: 686902955217913015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_251
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 64
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a53fdc7a04d5b030800000000000000
+      internalID: 3509944626114934179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_252
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 65
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22f92574030ce2c40800000000000000
+      internalID: 5489536309398773538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_253
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 66
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c51d324a562ac8110800000000000000
+      internalID: 1264564152813474140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_254
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 69
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 226b3f8441d7051a0800000000000000
+      internalID: -6822815909389552094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_255
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 73
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5e9961e8fb452a60800000000000000
+      internalID: 7648603074464423518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_256
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 47
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18d81728b004105d0800000000000000
+      internalID: -3098124650476892799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_257
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 47
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 156a73ad5ef37e490800000000000000
+      internalID: -7717129180034914735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_258
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0a85a52721ba60e0800000000000000
+      internalID: -2275811879988917749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_259
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 49
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa909188efd8a3330800000000000000
+      internalID: 3691418968928094639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_260
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 32
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 383a81494b6bf8e50800000000000000
+      internalID: 6813865647929860995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_261
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 31
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e29a4f60143d04c0800000000000000
+      internalID: -4319739222387158302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_262
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 37
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b4df99be3439c250800000000000000
+      internalID: 5965356625435808945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_263
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 31
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fa5fa6b524490db0800000000000000
+      internalID: -4825250596981351690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_264
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 31
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c2bede04c37ce180800000000000000
+      internalID: -9084759062412873015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_265
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 31
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7a12a8c2e801b640800000000000000
+      internalID: 5093862423654439551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_266
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 18
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc46f96ce33911fb0800000000000000
+      internalID: -4678796640031644465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_267
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 23
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5372cc8dcac044680800000000000000
+      internalID: -8771872237699717323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_268
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 24
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efddd7b0fde796c00800000000000000
+      internalID: 894385497445359102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_269
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 18
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa7d8b7c4136d3bd0800000000000000
+      internalID: -2648852064922708054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_270
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 23
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41ab64cde12b9da20800000000000000
+      internalID: 3087694865153571348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_271
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 17
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6021775da1c07070800000000000000
+      internalID: 8102188679880056938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_272
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 16
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df702a920681edfd0800000000000000
+      internalID: -2315386357127444483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_273
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 17
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0efbf992030879910800000000000000
+      internalID: 1844083516776628192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_274
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 24
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b3eff62160489bb0800000000000000
+      internalID: -4929119006146698312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_275
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9914db3c1bbbafec0800000000000000
+      internalID: -3532304585551167079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_276
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e62f6b31ee827a0800000000000000
+      internalID: -6401605101866029527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_277
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed460ac034994e6c0800000000000000
+      internalID: -4114995646256093986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_278
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a63290b32d1d9fbd0800000000000000
+      internalID: -2595813009338588310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_279
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 799c4794ab3cd4180800000000000000
+      internalID: -9129425664746403433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: larchrow_fx_combined_16x16_280
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319fc1c6a8be96bb0800000000000000
+      internalID: -4942160136310556397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      larchrow_fx_combined_16x16_0: -3003844461700845277
+      larchrow_fx_combined_16x16_1: -8277833634854150785
+      larchrow_fx_combined_16x16_10: 826629573774618009
+      larchrow_fx_combined_16x16_100: -2331796823471394167
+      larchrow_fx_combined_16x16_101: -6429555107811561575
+      larchrow_fx_combined_16x16_102: -2801212483704709999
+      larchrow_fx_combined_16x16_103: -3360219379844280125
+      larchrow_fx_combined_16x16_104: 5191839197096114195
+      larchrow_fx_combined_16x16_105: 522290277115457051
+      larchrow_fx_combined_16x16_106: 7775735688047024731
+      larchrow_fx_combined_16x16_107: -6473928367402154561
+      larchrow_fx_combined_16x16_108: 9099730892395270973
+      larchrow_fx_combined_16x16_109: 7601839613427072647
+      larchrow_fx_combined_16x16_11: -36334968330668388
+      larchrow_fx_combined_16x16_110: -8817002410499951445
+      larchrow_fx_combined_16x16_111: -802860421171565847
+      larchrow_fx_combined_16x16_112: -6149299687870459658
+      larchrow_fx_combined_16x16_113: -8620558963852137591
+      larchrow_fx_combined_16x16_114: 7426436003401802022
+      larchrow_fx_combined_16x16_115: -5391139378348883883
+      larchrow_fx_combined_16x16_116: -9145194449184844967
+      larchrow_fx_combined_16x16_117: 4219618008582985403
+      larchrow_fx_combined_16x16_118: -7274778366812117799
+      larchrow_fx_combined_16x16_119: -5077268148487435978
+      larchrow_fx_combined_16x16_12: -7510081934685318879
+      larchrow_fx_combined_16x16_120: -8611233110056596922
+      larchrow_fx_combined_16x16_121: -4743293336205446676
+      larchrow_fx_combined_16x16_122: -4149665102535411155
+      larchrow_fx_combined_16x16_123: -1692539689434503291
+      larchrow_fx_combined_16x16_124: 6310683451881254490
+      larchrow_fx_combined_16x16_125: 6285850157252000799
+      larchrow_fx_combined_16x16_126: -7036222558762346079
+      larchrow_fx_combined_16x16_127: 7426330231938242486
+      larchrow_fx_combined_16x16_128: -7628066164262923650
+      larchrow_fx_combined_16x16_129: -2365483439149123278
+      larchrow_fx_combined_16x16_13: 5722747693888163635
+      larchrow_fx_combined_16x16_130: -7558560895185884378
+      larchrow_fx_combined_16x16_131: 8982556570097039154
+      larchrow_fx_combined_16x16_132: 4560784487524190138
+      larchrow_fx_combined_16x16_133: -8838438975649250480
+      larchrow_fx_combined_16x16_134: -6346592217944532460
+      larchrow_fx_combined_16x16_135: 6098004381624102919
+      larchrow_fx_combined_16x16_136: 7040081913182556386
+      larchrow_fx_combined_16x16_137: -14107917035014176
+      larchrow_fx_combined_16x16_138: 9184192402024305305
+      larchrow_fx_combined_16x16_139: -8620172575329555593
+      larchrow_fx_combined_16x16_14: -7271727540447802071
+      larchrow_fx_combined_16x16_140: 4106318702888699168
+      larchrow_fx_combined_16x16_141: -5894536468266431381
+      larchrow_fx_combined_16x16_142: -8737161794093596636
+      larchrow_fx_combined_16x16_143: -2119670606486028786
+      larchrow_fx_combined_16x16_144: 5224749025213721537
+      larchrow_fx_combined_16x16_145: -1443207306002088964
+      larchrow_fx_combined_16x16_146: 6185628506421306767
+      larchrow_fx_combined_16x16_147: -2191878265812304176
+      larchrow_fx_combined_16x16_148: -1147157419401909559
+      larchrow_fx_combined_16x16_149: -2492764544247016060
+      larchrow_fx_combined_16x16_15: 639354628608047788
+      larchrow_fx_combined_16x16_150: 7941555542728463977
+      larchrow_fx_combined_16x16_151: -1456970468299362400
+      larchrow_fx_combined_16x16_152: 4298946346971189916
+      larchrow_fx_combined_16x16_153: -8583156504430094127
+      larchrow_fx_combined_16x16_154: 8546586822899561744
+      larchrow_fx_combined_16x16_155: 5117832164212032588
+      larchrow_fx_combined_16x16_156: -7223869544616799616
+      larchrow_fx_combined_16x16_157: -5229884143359056345
+      larchrow_fx_combined_16x16_158: 2333617793273799488
+      larchrow_fx_combined_16x16_159: 364526420804590117
+      larchrow_fx_combined_16x16_16: 7034302304322910379
+      larchrow_fx_combined_16x16_160: -8721195011119941599
+      larchrow_fx_combined_16x16_161: 763207217670225328
+      larchrow_fx_combined_16x16_162: -6087714341058638541
+      larchrow_fx_combined_16x16_163: -6332344336144780151
+      larchrow_fx_combined_16x16_164: 1125561895700513951
+      larchrow_fx_combined_16x16_165: 2155883120944832326
+      larchrow_fx_combined_16x16_166: -4857577375077708398
+      larchrow_fx_combined_16x16_167: -1489567240419840785
+      larchrow_fx_combined_16x16_168: -9070590488963124778
+      larchrow_fx_combined_16x16_169: 1030047805010041705
+      larchrow_fx_combined_16x16_17: -4590829004889880316
+      larchrow_fx_combined_16x16_170: 933073812766869306
+      larchrow_fx_combined_16x16_171: 5387319398872034949
+      larchrow_fx_combined_16x16_172: 186913383749777640
+      larchrow_fx_combined_16x16_173: 1492894079027580847
+      larchrow_fx_combined_16x16_174: -4589941214869206618
+      larchrow_fx_combined_16x16_175: -8487509408976123776
+      larchrow_fx_combined_16x16_176: 3028768611954605900
+      larchrow_fx_combined_16x16_177: 488404563684749144
+      larchrow_fx_combined_16x16_178: 3932420088602982805
+      larchrow_fx_combined_16x16_179: -2116595281454168311
+      larchrow_fx_combined_16x16_18: -3001371719374789150
+      larchrow_fx_combined_16x16_180: -3997748873447423010
+      larchrow_fx_combined_16x16_181: 1541577916583128991
+      larchrow_fx_combined_16x16_182: 7692775664847837020
+      larchrow_fx_combined_16x16_183: -623711563360202346
+      larchrow_fx_combined_16x16_184: 6360168290516423196
+      larchrow_fx_combined_16x16_185: -6980363927649435811
+      larchrow_fx_combined_16x16_186: -9001341484566859752
+      larchrow_fx_combined_16x16_187: 2190353447104240794
+      larchrow_fx_combined_16x16_188: -1300382239158912424
+      larchrow_fx_combined_16x16_189: -7228736698179830839
+      larchrow_fx_combined_16x16_19: 3030026264694758255
+      larchrow_fx_combined_16x16_190: -6783884040326475013
+      larchrow_fx_combined_16x16_191: 1705928604353391129
+      larchrow_fx_combined_16x16_192: -400305774126082965
+      larchrow_fx_combined_16x16_193: -6285677054258125435
+      larchrow_fx_combined_16x16_194: 526852122401073294
+      larchrow_fx_combined_16x16_195: -1588290016177913642
+      larchrow_fx_combined_16x16_196: 8170890228790786949
+      larchrow_fx_combined_16x16_197: -2773819924989993920
+      larchrow_fx_combined_16x16_198: 2754632109408433742
+      larchrow_fx_combined_16x16_199: 2119786197897125627
+      larchrow_fx_combined_16x16_2: -2931067453420147895
+      larchrow_fx_combined_16x16_20: -4879837999544656536
+      larchrow_fx_combined_16x16_200: 6540991482572358842
+      larchrow_fx_combined_16x16_201: -7620101898066772750
+      larchrow_fx_combined_16x16_202: 6361441560718503639
+      larchrow_fx_combined_16x16_203: -1724075955178161221
+      larchrow_fx_combined_16x16_204: 62772043165499215
+      larchrow_fx_combined_16x16_205: -5705944218548841624
+      larchrow_fx_combined_16x16_206: 7216633413297423323
+      larchrow_fx_combined_16x16_207: -8311724110180133144
+      larchrow_fx_combined_16x16_208: 2184413179715608203
+      larchrow_fx_combined_16x16_209: 6945783113080428668
+      larchrow_fx_combined_16x16_21: -5669496507590212976
+      larchrow_fx_combined_16x16_210: -5120503127563957138
+      larchrow_fx_combined_16x16_211: 97086718420441876
+      larchrow_fx_combined_16x16_212: -8466048192160652320
+      larchrow_fx_combined_16x16_213: -1391599245502059567
+      larchrow_fx_combined_16x16_214: -4846894059175190676
+      larchrow_fx_combined_16x16_215: 2806059542689619353
+      larchrow_fx_combined_16x16_216: -6330961536504626034
+      larchrow_fx_combined_16x16_217: -5839692789058626031
+      larchrow_fx_combined_16x16_218: -3802345067088523134
+      larchrow_fx_combined_16x16_219: -6369839764082431012
+      larchrow_fx_combined_16x16_22: -11195772163153064
+      larchrow_fx_combined_16x16_220: -369172370497009725
+      larchrow_fx_combined_16x16_221: -3627101618182475912
+      larchrow_fx_combined_16x16_222: -4413890337065764476
+      larchrow_fx_combined_16x16_223: -8003139086336761470
+      larchrow_fx_combined_16x16_224: -6151463380046312415
+      larchrow_fx_combined_16x16_225: -3959458629408569141
+      larchrow_fx_combined_16x16_226: 2378349003460509093
+      larchrow_fx_combined_16x16_227: 3217970427745391193
+      larchrow_fx_combined_16x16_228: 6517968546042302262
+      larchrow_fx_combined_16x16_229: 4794437055490248615
+      larchrow_fx_combined_16x16_23: -3505031874858522756
+      larchrow_fx_combined_16x16_230: -6894839357988979307
+      larchrow_fx_combined_16x16_231: -3556134963158601939
+      larchrow_fx_combined_16x16_232: -1598446186711930426
+      larchrow_fx_combined_16x16_233: -6281269575969202503
+      larchrow_fx_combined_16x16_234: -985422866062269333
+      larchrow_fx_combined_16x16_235: 8694609877511865122
+      larchrow_fx_combined_16x16_236: -1327038770377325314
+      larchrow_fx_combined_16x16_237: -1697015141151462608
+      larchrow_fx_combined_16x16_238: -6115576209446945353
+      larchrow_fx_combined_16x16_239: 6934705108466558431
+      larchrow_fx_combined_16x16_24: -669803420495295824
+      larchrow_fx_combined_16x16_240: 505574280646475476
+      larchrow_fx_combined_16x16_241: 6710143697049125179
+      larchrow_fx_combined_16x16_242: 4159725689733186395
+      larchrow_fx_combined_16x16_243: 5238379816641266000
+      larchrow_fx_combined_16x16_244: -8919561314618628026
+      larchrow_fx_combined_16x16_245: -1798310827401052067
+      larchrow_fx_combined_16x16_246: -5889339192589174037
+      larchrow_fx_combined_16x16_247: -732929516749435847
+      larchrow_fx_combined_16x16_248: 1199728552339127048
+      larchrow_fx_combined_16x16_249: 5033480951834314499
+      larchrow_fx_combined_16x16_25: -4048317955002201968
+      larchrow_fx_combined_16x16_250: 686902955217913015
+      larchrow_fx_combined_16x16_251: 3509944626114934179
+      larchrow_fx_combined_16x16_252: 5489536309398773538
+      larchrow_fx_combined_16x16_253: 1264564152813474140
+      larchrow_fx_combined_16x16_254: -6822815909389552094
+      larchrow_fx_combined_16x16_255: 7648603074464423518
+      larchrow_fx_combined_16x16_256: -3098124650476892799
+      larchrow_fx_combined_16x16_257: -7717129180034914735
+      larchrow_fx_combined_16x16_258: -2275811879988917749
+      larchrow_fx_combined_16x16_259: 3691418968928094639
+      larchrow_fx_combined_16x16_26: -1805538380339583787
+      larchrow_fx_combined_16x16_260: 6813865647929860995
+      larchrow_fx_combined_16x16_261: -4319739222387158302
+      larchrow_fx_combined_16x16_262: 5965356625435808945
+      larchrow_fx_combined_16x16_263: -4825250596981351690
+      larchrow_fx_combined_16x16_264: -9084759062412873015
+      larchrow_fx_combined_16x16_265: 5093862423654439551
+      larchrow_fx_combined_16x16_266: -4678796640031644465
+      larchrow_fx_combined_16x16_267: -8771872237699717323
+      larchrow_fx_combined_16x16_268: 894385497445359102
+      larchrow_fx_combined_16x16_269: -2648852064922708054
+      larchrow_fx_combined_16x16_27: 5756054784327083085
+      larchrow_fx_combined_16x16_270: 3087694865153571348
+      larchrow_fx_combined_16x16_271: 8102188679880056938
+      larchrow_fx_combined_16x16_272: -2315386357127444483
+      larchrow_fx_combined_16x16_273: 1844083516776628192
+      larchrow_fx_combined_16x16_274: -4929119006146698312
+      larchrow_fx_combined_16x16_275: -3532304585551167079
+      larchrow_fx_combined_16x16_276: -6401605101866029527
+      larchrow_fx_combined_16x16_277: -4114995646256093986
+      larchrow_fx_combined_16x16_278: -2595813009338588310
+      larchrow_fx_combined_16x16_279: -9129425664746403433
+      larchrow_fx_combined_16x16_28: 7894642750500624621
+      larchrow_fx_combined_16x16_280: -4942160136310556397
+      larchrow_fx_combined_16x16_29: 4663772351639623077
+      larchrow_fx_combined_16x16_3: 5413511761450510795
+      larchrow_fx_combined_16x16_30: -2938785638346538735
+      larchrow_fx_combined_16x16_31: 6217345028255898708
+      larchrow_fx_combined_16x16_32: 7858898496003315569
+      larchrow_fx_combined_16x16_33: -1370463495377123888
+      larchrow_fx_combined_16x16_34: 8452062296373700095
+      larchrow_fx_combined_16x16_35: -2667953593128152671
+      larchrow_fx_combined_16x16_36: -7006373649451235027
+      larchrow_fx_combined_16x16_37: 7605465032283802245
+      larchrow_fx_combined_16x16_38: -6127860658457083750
+      larchrow_fx_combined_16x16_39: 98678917438369
+      larchrow_fx_combined_16x16_4: -5990342244861090770
+      larchrow_fx_combined_16x16_40: -8525833837687978357
+      larchrow_fx_combined_16x16_41: 3510174424451892932
+      larchrow_fx_combined_16x16_42: 461347186494591608
+      larchrow_fx_combined_16x16_43: -5142312825783235233
+      larchrow_fx_combined_16x16_44: 8385329568048444511
+      larchrow_fx_combined_16x16_45: -9125721674659159158
+      larchrow_fx_combined_16x16_46: -3141583932610999285
+      larchrow_fx_combined_16x16_47: 3810613454214380436
+      larchrow_fx_combined_16x16_48: -9026042373088147324
+      larchrow_fx_combined_16x16_49: -3870026760063633791
+      larchrow_fx_combined_16x16_5: 5932974505940989251
+      larchrow_fx_combined_16x16_50: 3603737917193871341
+      larchrow_fx_combined_16x16_51: 57097755868538875
+      larchrow_fx_combined_16x16_52: -4912002807115496003
+      larchrow_fx_combined_16x16_53: 366912373109452087
+      larchrow_fx_combined_16x16_54: -4715343643996260439
+      larchrow_fx_combined_16x16_55: 1791901640505443224
+      larchrow_fx_combined_16x16_56: -981723713515988000
+      larchrow_fx_combined_16x16_57: -2791498290447192833
+      larchrow_fx_combined_16x16_58: 1436021796343940688
+      larchrow_fx_combined_16x16_59: 5818135361465878843
+      larchrow_fx_combined_16x16_6: 5455218137964262005
+      larchrow_fx_combined_16x16_60: -8714536120901919791
+      larchrow_fx_combined_16x16_61: 8240371266117016278
+      larchrow_fx_combined_16x16_62: 629251870260359191
+      larchrow_fx_combined_16x16_63: -7092305365602587399
+      larchrow_fx_combined_16x16_64: 8279939033446486107
+      larchrow_fx_combined_16x16_65: 5634846254843514421
+      larchrow_fx_combined_16x16_66: -3459981578135703763
+      larchrow_fx_combined_16x16_67: 1849875338650890730
+      larchrow_fx_combined_16x16_68: 7152317967408872356
+      larchrow_fx_combined_16x16_69: 8229303073060274540
+      larchrow_fx_combined_16x16_7: 8756173282265657787
+      larchrow_fx_combined_16x16_70: -2399419920678480603
+      larchrow_fx_combined_16x16_71: 8063043985280322459
+      larchrow_fx_combined_16x16_72: 995757424549587557
+      larchrow_fx_combined_16x16_73: 4636399973807276232
+      larchrow_fx_combined_16x16_74: -3995106445323015405
+      larchrow_fx_combined_16x16_75: 3033263007993884233
+      larchrow_fx_combined_16x16_76: -798847132606326371
+      larchrow_fx_combined_16x16_77: 4310073532078206962
+      larchrow_fx_combined_16x16_78: 3269162732037233733
+      larchrow_fx_combined_16x16_79: 1173784276023989598
+      larchrow_fx_combined_16x16_8: 3788916958482280014
+      larchrow_fx_combined_16x16_80: -9194795048582872539
+      larchrow_fx_combined_16x16_81: 5708122103318093226
+      larchrow_fx_combined_16x16_82: -6926459762852995419
+      larchrow_fx_combined_16x16_83: 5192833983053544774
+      larchrow_fx_combined_16x16_84: -3594754654926651790
+      larchrow_fx_combined_16x16_85: 2297906407459556312
+      larchrow_fx_combined_16x16_86: -9159678451869769447
+      larchrow_fx_combined_16x16_87: 7175006465570775911
+      larchrow_fx_combined_16x16_88: -8762264275332835341
+      larchrow_fx_combined_16x16_89: -1744569475937584486
+      larchrow_fx_combined_16x16_9: -4142814780349151209
+      larchrow_fx_combined_16x16_90: -4229636723386132987
+      larchrow_fx_combined_16x16_91: 6606899487590105640
+      larchrow_fx_combined_16x16_92: -419355937433809190
+      larchrow_fx_combined_16x16_93: 598186094031678464
+      larchrow_fx_combined_16x16_94: -4484019504500543844
+      larchrow_fx_combined_16x16_95: 723078667296531500
+      larchrow_fx_combined_16x16_96: -3696805570664607464
+      larchrow_fx_combined_16x16_97: -2362070197734022253
+      larchrow_fx_combined_16x16_98: -2275824465510543017
+      larchrow_fx_combined_16x16_99: -5351028582682480778
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 81e5404b3b8a37347aa71c47298298ba
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4683894050693026850
+    second: ice_shatter_48x48_3x_0
+  - first:
+      213: -1680515457225767381
+    second: ice_shatter_48x48_3x_1
+  - first:
+      213: -1284376054492715317
+    second: ice_shatter_48x48_3x_2
+  - first:
+      213: -3965479321053082423
+    second: ice_shatter_48x48_3x_3
+  - first:
+      213: -6263614471598966952
+    second: ice_shatter_48x48_3x_4
+  - first:
+      213: -122671011353070804
+    second: ice_shatter_48x48_3x_5
+  - first:
+      213: 8338639930884942676
+    second: ice_shatter_48x48_3x_6
+  - first:
+      213: 2111987094332301801
+    second: ice_shatter_48x48_3x_7
+  - first:
+      213: 379720524145782857
+    second: ice_shatter_48x48_3x_8
+  - first:
+      213: 3686327834204341015
+    second: ice_shatter_48x48_3x_9
+  - first:
+      213: -7801663349352426679
+    second: ice_shatter_48x48_3x_10
+  - first:
+      213: -1286241409684812727
+    second: ice_shatter_48x48_3x_11
+  - first:
+      213: -5574461090665917952
+    second: ice_shatter_48x48_3x_12
+  - first:
+      213: 659085634905683811
+    second: ice_shatter_48x48_3x_13
+  - first:
+      213: -9155198019513049711
+    second: ice_shatter_48x48_3x_14
+  - first:
+      213: -2196713293694650753
+    second: ice_shatter_48x48_3x_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ice_shatter_48x48_3x_0
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 5
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edb60ee5d277ffeb0800000000000000
+      internalID: -4683894050693026850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_shatter_48x48_3x_1
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 8
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b26418c681c9da8e0800000000000000
+      internalID: -1680515457225767381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_shatter_48x48_3x_2
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 32
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc6a1f988cafc2ee0800000000000000
+      internalID: -1284376054492715317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_shatter_48x48_3x_3
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 26
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cc49784199c7f8c0800000000000000
+      internalID: -3965479321053082423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_shatter_48x48_3x_4
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 38
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 857f85af2db2319a0800000000000000
+      internalID: -6263614471598966952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_shatter_48x48_3x_5
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 29
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c23ff087d5f2c4ef0800000000000000
+      internalID: -122671011353070804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_shatter_48x48_3x_6
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 11
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45be84e46dcc8b370800000000000000
+      internalID: 8338639930884942676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_shatter_48x48_3x_7
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 23
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e1e2ef82194f4d10800000000000000
+      internalID: 2111987094332301801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_shatter_48x48_3x_8
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 20
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94072ab0ec9054500800000000000000
+      internalID: 379720524145782857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_shatter_48x48_3x_9
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 26
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 713826b52a7782330800000000000000
+      internalID: 3686327834204341015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_shatter_48x48_3x_10
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 8
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9431aacc48ceab390800000000000000
+      internalID: -7801663349352426679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_shatter_48x48_3x_11
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 2
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94cc650b04a562ee0800000000000000
+      internalID: -1286241409684812727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_shatter_48x48_3x_12
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 11
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0021f9c3c2983a2b0800000000000000
+      internalID: -5574461090665917952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_shatter_48x48_3x_13
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 8
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 367bd1994ea852900800000000000000
+      internalID: 659085634905683811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_shatter_48x48_3x_14
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 11
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19d909658e332f080800000000000000
+      internalID: -9155198019513049711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_shatter_48x48_3x_15
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 0
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f76b3f7e5e4b381e0800000000000000
+      internalID: -2196713293694650753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ice_shatter_48x48_3x_0: -4683894050693026850
+      ice_shatter_48x48_3x_1: -1680515457225767381
+      ice_shatter_48x48_3x_10: -7801663349352426679
+      ice_shatter_48x48_3x_11: -1286241409684812727
+      ice_shatter_48x48_3x_12: -5574461090665917952
+      ice_shatter_48x48_3x_13: 659085634905683811
+      ice_shatter_48x48_3x_14: -9155198019513049711
+      ice_shatter_48x48_3x_15: -2196713293694650753
+      ice_shatter_48x48_3x_2: -1284376054492715317
+      ice_shatter_48x48_3x_3: -3965479321053082423
+      ice_shatter_48x48_3x_4: -6263614471598966952
+      ice_shatter_48x48_3x_5: -122671011353070804
+      ice_shatter_48x48_3x_6: 8338639930884942676
+      ice_shatter_48x48_3x_7: 2111987094332301801
+      ice_shatter_48x48_3x_8: 379720524145782857
+      ice_shatter_48x48_3x_9: 3686327834204341015
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
