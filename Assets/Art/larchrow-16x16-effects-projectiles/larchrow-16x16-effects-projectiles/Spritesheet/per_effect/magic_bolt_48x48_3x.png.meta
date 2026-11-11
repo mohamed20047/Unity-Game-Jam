@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: 77839460147b9c54b9368c67e2196ff1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4164192485781868654
+    second: magic_bolt_48x48_3x_0
+  - first:
+      213: -4441148008548298515
+    second: magic_bolt_48x48_3x_1
+  - first:
+      213: -3930829703491122078
+    second: magic_bolt_48x48_3x_2
+  - first:
+      213: 5233921687061259282
+    second: magic_bolt_48x48_3x_3
+  - first:
+      213: 1224888147980630514
+    second: magic_bolt_48x48_3x_4
+  - first:
+      213: -3529922886047817829
+    second: magic_bolt_48x48_3x_5
+  - first:
+      213: -1171360022892935917
+    second: magic_bolt_48x48_3x_6
+  - first:
+      213: 3495613109711914256
+    second: magic_bolt_48x48_3x_7
+  - first:
+      213: 6501007291022332789
+    second: magic_bolt_48x48_3x_8
+  - first:
+      213: 4856255933952372683
+    second: magic_bolt_48x48_3x_9
+  - first:
+      213: 2926969962582449301
+    second: magic_bolt_48x48_3x_10
+  - first:
+      213: -3792757557310922811
+    second: magic_bolt_48x48_3x_11
+  - first:
+      213: 3230707452941440463
+    second: magic_bolt_48x48_3x_12
+  - first:
+      213: -1745661149814066684
+    second: magic_bolt_48x48_3x_13
+  - first:
+      213: 1494990891649272349
+    second: magic_bolt_48x48_3x_14
+  - first:
+      213: 3522286892838190690
+    second: magic_bolt_48x48_3x_15
+  - first:
+      213: 8317689797269834023
+    second: magic_bolt_48x48_3x_16
+  - first:
+      213: -2561182621504115524
+    second: magic_bolt_48x48_3x_17
+  - first:
+      213: 302617199993680670
+    second: magic_bolt_48x48_3x_18
+  - first:
+      213: 6298475489032099246
+    second: magic_bolt_48x48_3x_19
+  - first:
+      213: 1018614260218956571
+    second: magic_bolt_48x48_3x_20
+  - first:
+      213: 7455420435755007994
+    second: magic_bolt_48x48_3x_21
+  - first:
+      213: 5973620327665022549
+    second: magic_bolt_48x48_3x_22
+  - first:
+      213: 2754389611755808430
+    second: magic_bolt_48x48_3x_23
+  - first:
+      213: -8550776006025738672
+    second: magic_bolt_48x48_3x_24
+  - first:
+      213: -1855529836673945943
+    second: magic_bolt_48x48_3x_25
+  - first:
+      213: 3160089668917262686
+    second: magic_bolt_48x48_3x_26
+  - first:
+      213: -9020539263597299297
+    second: magic_bolt_48x48_3x_27
+  - first:
+      213: 258859505263394489
+    second: magic_bolt_48x48_3x_28
+  - first:
+      213: 5451958267362170408
+    second: magic_bolt_48x48_3x_29
+  - first:
+      213: 603479190927120060
+    second: magic_bolt_48x48_3x_30
+  - first:
+      213: -3311419130726211598
+    second: magic_bolt_48x48_3x_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: magic_bolt_48x48_3x_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 347
+        width: 41
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e601163c00f2ac930800000000000000
+      internalID: 4164192485781868654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic_bolt_48x48_3x_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 347
+        width: 41
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de09b8b9a6fdd52c0800000000000000
+      internalID: -4441148008548298515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic_bolt_48x48_3x_2
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 347
+        width: 41
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26c8bda0633e279c0800000000000000
+      internalID: -3930829703491122078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic_bolt_48x48_3x_3
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 347
+        width: 41
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 214ef7b3b00a2a840800000000000000
+      internalID: 5233921687061259282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic_bolt_48x48_3x_4
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 293
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f9b8f5e74daff010800000000000000
+      internalID: 1224888147980630514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic_bolt_48x48_3x_5
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 293
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9f199466d1330fc0800000000000000
+      internalID: -3529922886047817829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic_bolt_48x48_3x_6
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 293
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3158f5be34e7ebfe0800000000000000
+      internalID: -1171360022892935917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic_bolt_48x48_3x_7
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 293
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 015c39c4a99e28030800000000000000
+      internalID: 3495613109711914256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic_bolt_48x48_3x_8
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 245
+        width: 26
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5735c97ffa7383a50800000000000000
+      internalID: 6501007291022332789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic_bolt_48x48_3x_9
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 245
+        width: 26
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcf2d99da03e46340800000000000000
+      internalID: 4856255933952372683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic_bolt_48x48_3x_10
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 245
+        width: 26
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59c17f75cafae9820800000000000000
+      internalID: 2926969962582449301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic_bolt_48x48_3x_11
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 245
+        width: 26
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cfdd45b81b6d5bc0800000000000000
+      internalID: -3792757557310922811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic_bolt_48x48_3x_12
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 197
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc518c9bf47c5dc20800000000000000
+      internalID: 3230707452941440463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic_bolt_48x48_3x_13
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 197
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 402f123ee6a26c7e0800000000000000
+      internalID: -1745661149814066684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic_bolt_48x48_3x_14
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 197
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1a033f8b464fb410800000000000000
+      internalID: 1494990891649272349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic_bolt_48x48_3x_15
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 197
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26e72a4644da1e030800000000000000
+      internalID: 3522286892838190690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic_bolt_48x48_3x_16
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 155
+        width: 41
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 729c8263dce5e6370800000000000000
+      internalID: 8317689797269834023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic_bolt_48x48_3x_17
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 155
+        width: 41
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbce758b9f9d47cd0800000000000000
+      internalID: -2561182621504115524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic_bolt_48x48_3x_18
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 155
+        width: 41
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e13fb847dbc133400800000000000000
+      internalID: 302617199993680670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic_bolt_48x48_3x_19
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 155
+        width: 41
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea55346261ea86750800000000000000
+      internalID: 6298475489032099246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic_bolt_48x48_3x_20
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 101
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1b8f77d548d22e00800000000000000
+      internalID: 1018614260218956571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic_bolt_48x48_3x_21
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 101
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aff7d54c269f67760800000000000000
+      internalID: 7455420435755007994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic_bolt_48x48_3x_22
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 101
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 556b685d90096e250800000000000000
+      internalID: 5973620327665022549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic_bolt_48x48_3x_23
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 101
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea62bbd22ce893620800000000000000
+      internalID: 2754389611755808430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic_bolt_48x48_3x_24
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 50
+        width: 26
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05607e6c68a855980800000000000000
+      internalID: -8550776006025738672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic_bolt_48x48_3x_25
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 50
+        width: 26
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ae29eec175df36e0800000000000000
+      internalID: -1855529836673945943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic_bolt_48x48_3x_26
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 50
+        width: 26
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e59f13e9fc4eadb20800000000000000
+      internalID: 3160089668917262686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic_bolt_48x48_3x_27
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 50
+        width: 26
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f99b1d6255b90d280800000000000000
+      internalID: -9020539263597299297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic_bolt_48x48_3x_28
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 5
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9be35f93957a79300800000000000000
+      internalID: 258859505263394489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic_bolt_48x48_3x_29
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 5
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8265060982f39ab40800000000000000
+      internalID: 5451958267362170408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic_bolt_48x48_3x_30
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 5
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb61d84702dff5800800000000000000
+      internalID: 603479190927120060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic_bolt_48x48_3x_31
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 5
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ff91a268d97b02d0800000000000000
+      internalID: -3311419130726211598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      magic_bolt_48x48_3x_0: 4164192485781868654
+      magic_bolt_48x48_3x_1: -4441148008548298515
+      magic_bolt_48x48_3x_10: 2926969962582449301
+      magic_bolt_48x48_3x_11: -3792757557310922811
+      magic_bolt_48x48_3x_12: 3230707452941440463
+      magic_bolt_48x48_3x_13: -1745661149814066684
+      magic_bolt_48x48_3x_14: 1494990891649272349
+      magic_bolt_48x48_3x_15: 3522286892838190690
+      magic_bolt_48x48_3x_16: 8317689797269834023
+      magic_bolt_48x48_3x_17: -2561182621504115524
+      magic_bolt_48x48_3x_18: 302617199993680670
+      magic_bolt_48x48_3x_19: 6298475489032099246
+      magic_bolt_48x48_3x_2: -3930829703491122078
+      magic_bolt_48x48_3x_20: 1018614260218956571
+      magic_bolt_48x48_3x_21: 7455420435755007994
+      magic_bolt_48x48_3x_22: 5973620327665022549
+      magic_bolt_48x48_3x_23: 2754389611755808430
+      magic_bolt_48x48_3x_24: -8550776006025738672
+      magic_bolt_48x48_3x_25: -1855529836673945943
+      magic_bolt_48x48_3x_26: 3160089668917262686
+      magic_bolt_48x48_3x_27: -9020539263597299297
+      magic_bolt_48x48_3x_28: 258859505263394489
+      magic_bolt_48x48_3x_29: 5451958267362170408
+      magic_bolt_48x48_3x_3: 5233921687061259282
+      magic_bolt_48x48_3x_30: 603479190927120060
+      magic_bolt_48x48_3x_31: -3311419130726211598
+      magic_bolt_48x48_3x_4: 1224888147980630514
+      magic_bolt_48x48_3x_5: -3529922886047817829
+      magic_bolt_48x48_3x_6: -1171360022892935917
+      magic_bolt_48x48_3x_7: 3495613109711914256
+      magic_bolt_48x48_3x_8: 6501007291022332789
+      magic_bolt_48x48_3x_9: 4856255933952372683
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

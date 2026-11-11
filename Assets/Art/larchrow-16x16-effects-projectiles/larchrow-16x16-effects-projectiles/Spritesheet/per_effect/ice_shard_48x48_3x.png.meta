@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: d0a19029c1144944b8e13897bdf048b9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8360241801873901532
+    second: ice_shard_48x48_3x_0
+  - first:
+      213: 3114749519540955295
+    second: ice_shard_48x48_3x_1
+  - first:
+      213: -7526894741710697075
+    second: ice_shard_48x48_3x_2
+  - first:
+      213: -7153651890741583800
+    second: ice_shard_48x48_3x_3
+  - first:
+      213: 3826623165360000401
+    second: ice_shard_48x48_3x_4
+  - first:
+      213: -5079680902257950981
+    second: ice_shard_48x48_3x_5
+  - first:
+      213: 5359095199857880026
+    second: ice_shard_48x48_3x_6
+  - first:
+      213: 4679459851174486943
+    second: ice_shard_48x48_3x_7
+  - first:
+      213: 1823023956038912825
+    second: ice_shard_48x48_3x_8
+  - first:
+      213: 5397783181873887344
+    second: ice_shard_48x48_3x_9
+  - first:
+      213: 4077113098628680519
+    second: ice_shard_48x48_3x_10
+  - first:
+      213: -6618286773241413134
+    second: ice_shard_48x48_3x_11
+  - first:
+      213: -7048351822366840078
+    second: ice_shard_48x48_3x_12
+  - first:
+      213: 5195768894174647321
+    second: ice_shard_48x48_3x_13
+  - first:
+      213: 2930985934886354444
+    second: ice_shard_48x48_3x_14
+  - first:
+      213: -7837908421523483726
+    second: ice_shard_48x48_3x_15
+  - first:
+      213: -3180345781323987604
+    second: ice_shard_48x48_3x_16
+  - first:
+      213: 1391117191142328463
+    second: ice_shard_48x48_3x_17
+  - first:
+      213: -1695208713812048376
+    second: ice_shard_48x48_3x_18
+  - first:
+      213: 3135280201457685561
+    second: ice_shard_48x48_3x_19
+  - first:
+      213: 718147385141423560
+    second: ice_shard_48x48_3x_20
+  - first:
+      213: 7254175699259341576
+    second: ice_shard_48x48_3x_21
+  - first:
+      213: 614768133577127813
+    second: ice_shard_48x48_3x_22
+  - first:
+      213: -3145823137605656462
+    second: ice_shard_48x48_3x_23
+  - first:
+      213: 2270679835283063130
+    second: ice_shard_48x48_3x_24
+  - first:
+      213: 4563678111774267723
+    second: ice_shard_48x48_3x_25
+  - first:
+      213: 8111351815655353302
+    second: ice_shard_48x48_3x_26
+  - first:
+      213: -7971031333725460393
+    second: ice_shard_48x48_3x_27
+  - first:
+      213: 2428503391103582976
+    second: ice_shard_48x48_3x_28
+  - first:
+      213: 1523425739342310995
+    second: ice_shard_48x48_3x_29
+  - first:
+      213: 3714065407735130401
+    second: ice_shard_48x48_3x_30
+  - first:
+      213: 8237091654243920669
+    second: ice_shard_48x48_3x_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ice_shard_48x48_3x_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 350
+        width: 43
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd7c015df9b850470800000000000000
+      internalID: 8360241801873901532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_shard_48x48_3x_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 350
+        width: 41
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f98ae847f20d93b20800000000000000
+      internalID: 3114749519540955295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_shard_48x48_3x_2
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 350
+        width: 44
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8d04929c191b8790800000000000000
+      internalID: -7526894741710697075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_shard_48x48_3x_3
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 350
+        width: 41
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 840eb8dc18f19bc90800000000000000
+      internalID: -7153651890741583800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_shard_48x48_3x_4
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 293
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19d409c9e75ea1530800000000000000
+      internalID: 3826623165360000401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_shard_48x48_3x_5
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 293
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe3498f1295189b0800000000000000
+      internalID: -5079680902257950981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_shard_48x48_3x_6
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 293
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adba709c0b45f5a40800000000000000
+      internalID: 5359095199857880026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_shard_48x48_3x_7
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 293
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9325f911f7c0f040800000000000000
+      internalID: 4679459851174486943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_shard_48x48_3x_8
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 245
+        width: 20
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93b0ab411aeac4910800000000000000
+      internalID: 1823023956038912825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_shard_48x48_3x_9
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 245
+        width: 20
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 078bb2a8437c8ea40800000000000000
+      internalID: 5397783181873887344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_shard_48x48_3x_10
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 245
+        width: 20
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74bcad003c0d49830800000000000000
+      internalID: 4077113098628680519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_shard_48x48_3x_11
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 245
+        width: 20
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f18743be3f1724a0800000000000000
+      internalID: -6618286773241413134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_shard_48x48_3x_12
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 197
+        width: 41
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fae8df7c593f2e90800000000000000
+      internalID: -7048351822366840078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_shard_48x48_3x_13
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 197
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 914dd48e7441b1840800000000000000
+      internalID: 5195768894174647321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_shard_48x48_3x_14
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 197
+        width: 41
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0e3192cd24fca820800000000000000
+      internalID: 2930985934886354444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_shard_48x48_3x_15
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 197
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b3dc0151d72a3390800000000000000
+      internalID: -7837908421523483726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_shard_48x48_3x_16
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 158
+        width: 44
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c658541bc542dd3d0800000000000000
+      internalID: -3180345781323987604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_shard_48x48_3x_17
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 158
+        width: 41
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f884af207bd3e4310800000000000000
+      internalID: 1391117191142328463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_shard_48x48_3x_18
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 158
+        width: 44
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 806061908a86978e0800000000000000
+      internalID: -1695208713812048376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_shard_48x48_3x_19
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 158
+        width: 41
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93453375bb0c28b20800000000000000
+      internalID: 3135280201457685561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_shard_48x48_3x_20
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 98
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cdeabbed3f57f900800000000000000
+      internalID: 718147385141423560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_shard_48x48_3x_21
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 101
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80bbf9c3d520ca460800000000000000
+      internalID: 7254175699259341576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_shard_48x48_3x_22
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 98
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 587381d3c58188800800000000000000
+      internalID: 614768133577127813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_shard_48x48_3x_23
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 101
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2706fcc068ac754d0800000000000000
+      internalID: -3145823137605656462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_shard_48x48_3x_24
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 47
+        width: 20
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5180b49743138f10800000000000000
+      internalID: 2270679835283063130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_shard_48x48_3x_25
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 50
+        width: 20
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b49d7813011755f30800000000000000
+      internalID: 4563678111774267723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_shard_48x48_3x_26
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 47
+        width: 20
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6db6b54208f419070800000000000000
+      internalID: 8111351815655353302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_shard_48x48_3x_27
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 50
+        width: 20
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75829cbfb35316190800000000000000
+      internalID: -7971031333725460393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_shard_48x48_3x_28
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 5
+        width: 41
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0038f8aa7f6c3b120800000000000000
+      internalID: 2428503391103582976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_shard_48x48_3x_29
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 5
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35e6f2373ab442510800000000000000
+      internalID: 1523425739342310995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_shard_48x48_3x_30
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 5
+        width: 41
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1296e947fc20b8330800000000000000
+      internalID: 3714065407735130401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_shard_48x48_3x_31
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 5
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1b2b81b737005270800000000000000
+      internalID: 8237091654243920669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ice_shard_48x48_3x_0: 8360241801873901532
+      ice_shard_48x48_3x_1: 3114749519540955295
+      ice_shard_48x48_3x_10: 4077113098628680519
+      ice_shard_48x48_3x_11: -6618286773241413134
+      ice_shard_48x48_3x_12: -7048351822366840078
+      ice_shard_48x48_3x_13: 5195768894174647321
+      ice_shard_48x48_3x_14: 2930985934886354444
+      ice_shard_48x48_3x_15: -7837908421523483726
+      ice_shard_48x48_3x_16: -3180345781323987604
+      ice_shard_48x48_3x_17: 1391117191142328463
+      ice_shard_48x48_3x_18: -1695208713812048376
+      ice_shard_48x48_3x_19: 3135280201457685561
+      ice_shard_48x48_3x_2: -7526894741710697075
+      ice_shard_48x48_3x_20: 718147385141423560
+      ice_shard_48x48_3x_21: 7254175699259341576
+      ice_shard_48x48_3x_22: 614768133577127813
+      ice_shard_48x48_3x_23: -3145823137605656462
+      ice_shard_48x48_3x_24: 2270679835283063130
+      ice_shard_48x48_3x_25: 4563678111774267723
+      ice_shard_48x48_3x_26: 8111351815655353302
+      ice_shard_48x48_3x_27: -7971031333725460393
+      ice_shard_48x48_3x_28: 2428503391103582976
+      ice_shard_48x48_3x_29: 1523425739342310995
+      ice_shard_48x48_3x_3: -7153651890741583800
+      ice_shard_48x48_3x_30: 3714065407735130401
+      ice_shard_48x48_3x_31: 8237091654243920669
+      ice_shard_48x48_3x_4: 3826623165360000401
+      ice_shard_48x48_3x_5: -5079680902257950981
+      ice_shard_48x48_3x_6: 5359095199857880026
+      ice_shard_48x48_3x_7: 4679459851174486943
+      ice_shard_48x48_3x_8: 1823023956038912825
+      ice_shard_48x48_3x_9: 5397783181873887344
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
