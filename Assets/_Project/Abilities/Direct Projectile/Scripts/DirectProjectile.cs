@@ -2,39 +2,38 @@ using UnityEngine;
 
 public class DirectProjectile : MonoBehaviour
 {
-    [SerializeField] private float speed = 8f;
-    [SerializeField] private float damage = 10f;
-    [SerializeField] private float lifetime = 3f;
+    [SerializeField] private float _speed = 8f;
+    [SerializeField] private float _damage = 10f;
+    [SerializeField] private float _lifetime = 3f;
 
-    private Vector2 direction;
-    private Rigidbody2D rb;
+    private Vector2 _direction;
+    private Rigidbody2D _rigidbody;
 
-    // Called by the caster right after spawning.
-    public void Initialize(Vector2 dir)
+    private void Awake()
     {
-        rb = GetComponent<Rigidbody2D>();
-        
-        direction = dir.normalized;
-
-        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.Euler(0f, 0f, angle);
-
-        rb.linearVelocity = (direction * speed);
+        _rigidbody = GetComponent<Rigidbody2D>();
     }
 
     private void Start()
     {
-        Destroy(gameObject, lifetime);
+        _rigidbody.linearVelocity = _direction * _speed;
+        Destroy(gameObject, _lifetime);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Hit " + other.name);
-
-        if (other.TryGetComponent(out EnemyHealth enemy))
+        if (other.TryGetComponent(out IDamageable damageable))
         {
-            enemy.TakeDamage(damage);
+            damageable.TakeDamage(_damage);
             Destroy(gameObject);
         }
+    }
+
+    public void Initialize(Vector2 direction)
+    {
+        _direction = direction.normalized;
+
+        float angle = Mathf.Atan2(_direction.y, _direction.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Euler(0f, 0f, angle);
     }
 }

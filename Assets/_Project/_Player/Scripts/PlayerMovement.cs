@@ -16,10 +16,11 @@ public class PlayerMovement : MonoBehaviour
             Destroy(gameObject);
             return;
         }
+
         Instance = this;
     }
 
-    void Start()
+    private void Start()
     {
         _moveDirection = GetComponent<IMoveDirection>();
         _rb = GetComponent<Rigidbody2D>();
@@ -27,6 +28,6 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        _rb.linearVelocity = _moveDirection.MoveDiriction * _mainScriptableObject.PlayerMovementSpeed;
+        _rb.linearVelocity = _moveDirection.MoveDirection * _mainScriptableObject.PlayerMovementSpeed;
     }
 }

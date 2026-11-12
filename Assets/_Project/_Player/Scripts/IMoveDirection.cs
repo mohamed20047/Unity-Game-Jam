@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public interface IMoveDirection 
+public interface IMoveDirection
 {
-    public Vector2 MoveDiriction { get; set; }
+    Vector2 MoveDirection { get; set; }
 }
