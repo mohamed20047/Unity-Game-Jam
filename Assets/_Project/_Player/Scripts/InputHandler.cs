@@ -1,10 +1,11 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
-public class InputHandler : MonoBehaviour , IMoveDirection
+public class InputHandler : MonoBehaviour, IMoveDirection
 {
     private InputSystem_Actions _controls;
 
-    public Vector2 MoveDiriction {  get; set; }
+    public Vector2 MoveDirection { get; set; }
 
     private void Awake()
     {
@@ -18,13 +19,20 @@ public class InputHandler : MonoBehaviour , IMoveDirection
         _controls.Player.Move.canceled += OnMoveCanceled;
     }
 
-    private void OnMovePerformed(UnityEngine.InputSystem.InputAction.CallbackContext obj)
+    private void OnDisable()
     {
-        MoveDiriction = obj.ReadValue<Vector2>().normalized;
+        _controls.Player.Move.performed -= OnMovePerformed;
+        _controls.Player.Move.canceled -= OnMoveCanceled;
+        _controls.Player.Disable();
     }
 
-    private void OnMoveCanceled(UnityEngine.InputSystem.InputAction.CallbackContext obj)
+    private void OnMovePerformed(InputAction.CallbackContext context)
     {
-        MoveDiriction = Vector2.zero;
+        MoveDirection = context.ReadValue<Vector2>().normalized;
+    }
+
+    private void OnMoveCanceled(InputAction.CallbackContext context)
+    {
+        MoveDirection = Vector2.zero;
     }
 }
